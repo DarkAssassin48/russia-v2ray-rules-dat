@@ -7,7 +7,7 @@ from pathlib import Path, PurePosixPath
 import urllib.parse
 from build_catalog import validate_manifest
 
-def verify(directory: Path, repository: str):
+def verify(directory: Path, repository: str, pages: Path|None=None):
     manifest=json.loads((directory/'lists.json').read_text(encoding='utf-8'))
     metadata=json.loads((directory/'services.json').read_text(encoding='utf-8'))
     details=metadata['services']
@@ -33,18 +33,42 @@ def verify(directory: Path, repository: str):
             if any(s==bad or s.endswith('.'+bad) for s in rule.get(field,[]) for bad in ('huggingface.co','hf.co','hf.space')):
                 raise ValueError('Unrelated Hugging Face domain in NVIDIA App profile')
     checked=0
+    checksums={}
     for line in (directory/'SHA256SUMS.txt').read_text(encoding='utf-8').splitlines():
         digest,name=line.split('  ',1)
         relative=PurePosixPath(name)
         if relative.is_absolute() or '..' in relative.parts:raise ValueError('Unsafe checksum path')
         with directory.joinpath(*relative.parts).open('rb') as f:actual=hashlib.file_digest(f,'sha256').hexdigest()
         if actual!=digest:raise ValueError('Publication checksum mismatch: '+name)
+        checksums[name]=digest
         checked+=1
     expected={p.relative_to(directory).as_posix() for p in directory.rglob('*') if p.is_file() and p.name!='SHA256SUMS.txt'}
     listed={line.split('  ',1)[1] for line in (directory/'SHA256SUMS.txt').read_text(encoding='utf-8').splitlines()}
     if listed!=expected:raise ValueError('Checksum coverage is incomplete')
     print(f'Verified {len(details)} catalog entries and {checked} file checksums')
+    if pages is not None:
+        owner,name=repository.split('/')
+        pages_prefix=f'https://{owner.lower()}.github.io/{name}/'
+        canonical={e['id']:e for e in manifest['domain_lists']+manifest['categories']}
+        for filename,lite in (('lists.json',False),('lists-lite.json',True)):
+            compact=json.loads((pages/filename).read_text(encoding='utf-8'))
+            entries=compact['domain_lists']+compact['categories']
+            validate_manifest(compact,entries)
+            expected_ids={k for k in canonical if not lite or k.startswith('da_')}
+            if {e['id'] for e in entries}!=expected_ids:raise ValueError('Pages catalog lost entries')
+            for entry in entries:
+                if not entry['url'].startswith(pages_prefix):raise ValueError('Unexpected Pages rule host')
+                relative=urllib.parse.unquote(entry['url'][len(pages_prefix):])
+                if '..' in PurePosixPath(relative).parts:raise ValueError('Unsafe Pages rule path')
+                original=urllib.parse.unquote(canonical[entry['id']]['url'][len(prefix):])
+                if relative!=original:raise ValueError('Pages rule path changed')
+                for key in ('name_ru','source_name','format','default_on'):
+                    if entry[key]!=canonical[entry['id']][key]:raise ValueError('Pages catalog changed service metadata')
+                with (pages/relative).open('rb') as f:copy_sum=hashlib.file_digest(f,'sha256').hexdigest()
+                if copy_sum!=checksums[original]:raise ValueError('Pages SRS differs from verified original')
+            if compact['version']!=manifest['version']:raise ValueError('Pages version differs')
+            print(f'Verified Pages {filename}: {len(entries)} entries')
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('directory',type=Path);p.add_argument('--repository',required=True)
-    args=p.parse_args();verify(args.directory,args.repository)
+    p=argparse.ArgumentParser();p.add_argument('directory',type=Path);p.add_argument('--repository',required=True);p.add_argument('--pages',type=Path)
+    args=p.parse_args();verify(args.directory,args.repository,args.pages)

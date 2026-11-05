@@ -164,9 +164,42 @@ def validate_manifest(doc, details):
     if len(set(ids))!=len(ids) or len(set(native))!=len(native):raise ValueError("Catalog identifiers collide")
     for entry in entries:
         if entry.get("default_on") is not False:raise ValueError("Catalog may not auto-enable traffic")
-        if entry["format"]!="srs" or not entry["url"].startswith("https://raw.githubusercontent.com/"):raise ValueError("Unexpected rule URL")
-        if not entry.get("source_name") or not entry.get("source"):raise ValueError("Forkozz requires a provider group")
+        url=urllib.parse.urlsplit(entry["url"])
+        trusted_host=url.hostname=="raw.githubusercontent.com" or bool(re.fullmatch(r"[a-z0-9-]+\.github\.io",url.hostname or ""))
+        if entry["format"]!="srs" or url.scheme!="https" or not trusted_host or url.username or url.password:raise ValueError("Unexpected rule URL")
+        if not entry.get("source_name"):raise ValueError("Forkozz requires a provider group")
     if len(entries)!=len(details):raise ValueError("Catalog and details differ")
+
+def compact_manifest(manifest, repository, profiles_only=False):
+    """Keep native parser fields and stable IDs; move binary downloads to Pages."""
+    old_base=f"https://raw.githubusercontent.com/{repository}/release"
+    owner,name=repository.split("/")
+    new_base=f"https://{owner.lower()}.github.io/{name}"
+    result={key:manifest[key] for key in ("version","generated_at")}
+    result.update(base_url=new_base,categories=[],domain_lists=[])
+    for kind in ("categories","domain_lists"):
+        for entry in manifest[kind]:
+            if profiles_only and not entry["id"].startswith("da_"):continue
+            if not entry["url"].startswith(old_base+"/"):raise ValueError("Unexpected original rule URL")
+            slim={key:entry[key] for key in ("id","name_ru","format","source_name","default_on")}
+            slim["url"]=new_base+entry["url"][len(old_base):]
+            result[kind].append(slim)
+    validate_manifest(result,result["categories"]+result["domain_lists"])
+    return result
+
+def build_pages_distribution(source, target, repository):
+    """Publish only catalogs and SRS (~31 MB); keep large reference exports in Git."""
+    target.mkdir(parents=True,exist_ok=True)
+    if any(target.iterdir()):raise ValueError("Pages output must be empty")
+    manifest=json.loads((source/"lists.json").read_text(encoding="utf-8"))
+    for filename,profiles_only in (("lists.json",False),("lists-lite.json",True)):
+        write_json(target/filename,compact_manifest(manifest,repository,profiles_only))
+    for folder in ("sing-box","custom"):
+        shutil.copytree(source/folder,target/folder)
+    (target/".nojekyll").write_text("",encoding="utf-8")
+    info={"version":manifest["version"],"generated_at":manifest["generated_at"],"full_entries":len(manifest["categories"])+len(manifest["domain_lists"]),"lite_entries":sum(e["id"].startswith("da_") for e in manifest["domain_lists"]),"full_bytes":(target/"lists.json").stat().st_size,"lite_bytes":(target/"lists-lite.json").stat().st_size}
+    write_json(target/"build-info.json",info)
+    return info
 
 def build(args):
     if not SAFE_REPO.fullmatch(args.repository):raise ValueError("Invalid publication repository")
@@ -249,6 +282,8 @@ def build(args):
             with path.open("rb") as f:digest=hashlib.file_digest(f,"sha256").hexdigest()
             sums.append(digest+"  "+path.relative_to(output).as_posix())
     (output/"SHA256SUMS.txt").write_text("\n".join(sums)+"\n",encoding="utf-8")
+    pages_info=build_pages_distribution(output,workspace/"pages",args.repository)
+    print(json.dumps({"pages":pages_info},ensure_ascii=False),flush=True)
     print(json.dumps({"version":version,"services":len(all_details),"curated":len(curated),"manifest_bytes":(output/"lists.json").stat().st_size,"published_bytes":sum(p.stat().st_size for p in output.rglob("*") if p.is_file())},ensure_ascii=False),flush=True)
 
 if __name__=="__main__":

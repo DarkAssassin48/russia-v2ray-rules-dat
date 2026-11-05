@@ -53,11 +53,15 @@ jobs:
           --sing-box "$RUNNER_TEMP/srs-cli/sing-box"
           --jobs 4
       - name: Verify all rules, details and checksums
-        run: python scripts/verify_generated.py "$RUNNER_TEMP/publish" --repository "$GITHUB_REPOSITORY"
+        run: python scripts/verify_generated.py "$RUNNER_TEMP/publish" --repository "$GITHUB_REPOSITORY" --pages "$RUNNER_TEMP/build/pages"
       - name: Publish verified snapshot to this fork
         env:
           GH_TOKEN: ${{ github.token }}
         run: python scripts/publish_release.py "$RUNNER_TEMP/publish" --repository "$GITHUB_REPOSITORY"
+      - name: Upload compact catalogs and SRS for GitHub Pages
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: ${{ runner.temp }}/build/pages
       - name: Write build summary
         run: |
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
@@ -69,3 +73,20 @@ jobs:
           print(f"Version: {info['version']}; domain lists: {info['domain_lists']}; IP lists: {info['ip_lists']}; curated profiles: {info['curated_profiles']}.")
           print(f'\n[Catalog URL](https://raw.githubusercontent.com/{repo}/release/lists.json) · [All addresses](https://github.com/{repo}/blob/release/CATALOG.md)')
           PY
+
+  deploy:
+    needs: build
+    if: github.repository == 'DarkAssassin48/russia-v2ray-rules-dat'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish catalogs and binary rules on GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

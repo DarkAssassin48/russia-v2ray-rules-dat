@@ -42,4 +42,22 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(b.identifier('domains','geosite-nvidia'),b.identifier('domains','geosite-nvidia'))
         self.assertNotEqual(b.identifier('domains','geosite-a-b'),b.identifier('domains','geosite-a_b'))
 
+    def test_compact_catalog_keeps_every_id_group_and_default(self):
+        entry={'id':'rf_domains_x','name_ru':'X','format':'srs','source':'runetfreedom','source_name':'Services','default_on':False,'count':2,'url':'https://raw.githubusercontent.com/DarkAssassin48/russia-v2ray-rules-dat/release/sing-box/x.srs'}
+        doc={'version':'v1','generated_at':'now','domain_lists':[entry],'categories':[]}
+        compact=b.compact_manifest(doc,'DarkAssassin48/russia-v2ray-rules-dat')
+        self.assertEqual(compact['domain_lists'][0]['id'],entry['id'])
+        self.assertEqual(compact['domain_lists'][0]['source_name'],entry['source_name'])
+        self.assertEqual(compact['domain_lists'][0]['url'],'https://darkassassin48.github.io/russia-v2ray-rules-dat/sing-box/x.srs')
+        self.assertIs(compact['domain_lists'][0]['default_on'],False)
+        self.assertNotIn('count',compact['domain_lists'][0])
+        self.assertEqual(doc['domain_lists'][0],entry)
+
+    def test_lite_catalog_includes_all_profiles_and_no_other_entries(self):
+        base={'name_ru':'Service','format':'srs','source_name':'Source','default_on':False,'url':'https://raw.githubusercontent.com/DarkAssassin48/russia-v2ray-rules-dat/release/custom/a.srs'}
+        doc={'version':'v1','generated_at':'now','domain_lists':[dict(base,id='da_discord_quests'),dict(base,id='rf_domains_discord')],'categories':[dict(base,id='rf_ip_discord')]}
+        compact=b.compact_manifest(doc,'DarkAssassin48/russia-v2ray-rules-dat',profiles_only=True)
+        self.assertEqual([e['id'] for e in compact['domain_lists']],['da_discord_quests'])
+        self.assertEqual(compact['categories'],[])
+
 if __name__=='__main__':unittest.main()
