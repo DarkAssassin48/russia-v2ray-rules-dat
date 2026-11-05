@@ -1,74 +1,71 @@
-name: build.yml
+name: Build Forkozz catalog
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 3,9,15,21 * * *"
+    - cron: '17 4,10,16,22 * * *'
   push:
-    branches:
-      - master
-    paths-ignore:
-      - "**/README.md"
+    branches: [main]
+    paths:
+      - 'catalog/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/build.yml'
+      - 'README.md'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: forkozz-release
+  cancel-in-progress: false
 
 jobs:
   build:
+    if: github.repository == 'DarkAssassin48/russia-v2ray-rules-dat'
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
     steps:
-      - name: Set variables
-        run: |
-          echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          
-          echo "GEOIP_URL=https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/release/geoip.dat" >> $GITHUB_ENV
-          echo "GEOSITE_URL=https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/geosite.dat" >> $GITHUB_ENV
-        shell: bash
-
-      - name: Checkout runetfreedom/geodat2srs
-        uses: actions/checkout@v4
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
-          repository: runetfreedom/geodat2srs
-          path: geodat2srs
-
-      - name: Set up Go
-        uses: actions/setup-go@v5
+          persist-credentials: false
+          fetch-depth: 1
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
-          go-version-file: ./geodat2srs/go.mod
-
-      - name: Collect files
+          python-version: '3.13'
+      - name: Test catalog logic
+        run: python -m unittest discover -s tests -v
+      - name: Install verified official SRS compiler
+        run: python scripts/install_sing_box.py --directory "$RUNNER_TEMP/srs-cli"
+      - name: Mirror upstream and build catalog with full address documentation
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python scripts/build_catalog.py
+          --repository "$GITHUB_REPOSITORY"
+          --output "$RUNNER_TEMP/publish"
+          --work "$RUNNER_TEMP/build"
+          --cache "$RUNNER_TEMP/cache"
+          --sing-box "$RUNNER_TEMP/srs-cli/sing-box"
+          --jobs 4
+      - name: Verify all rules, details and checksums
+        run: python scripts/verify_generated.py "$RUNNER_TEMP/publish" --repository "$GITHUB_REPOSITORY"
+      - name: Publish verified snapshot to this fork
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/publish_release.py "$RUNNER_TEMP/publish" --repository "$GITHUB_REPOSITORY"
+      - name: Write build summary
         run: |
-          mkdir -p ./publish
-          curl -sSL $GEOIP_URL > ./publish/geoip.dat
-          curl -sSL $GEOIP_URL.sha256sum > ./publish/geoip.dat.sha256sum
-          
-          curl -sSL $GEOSITE_URL > ./publish/geosite.dat
-          curl -sSL $GEOSITE_URL.sha256sum > ./publish/geosite.dat.sha256sum
-
-      - name: Generate sing-box srs
-        run: |
-          go build -C geodat2srs ./
-          ./geodat2srs/geodat2srs geoip -i ./publish/geoip.dat -o ./tmp/sing-box/rule-set-geoip/
-          ./geodat2srs/geodat2srs geosite -i ./publish/geosite.dat -o ./tmp/sing-box/rule-set-geosite/
-          cd ./tmp/sing-box || exit 1
-          zip -r ../../publish/sing-box.zip *
-
-      - name: Release and upload assets
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          release_name: ${{ env.RELEASE_NAME }}
-          tag: ${{ env.TAG_NAME }}
-          file_glob: true
-          file: ./publish/*
-
-      - name: Git push assets to "release" branch
-        run: |
-          rm -rf ./publish/sing-box.zip
-          mv ./tmp/sing-box ./publish/sing-box
-          cd publish || exit 1
-          git init
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -b release
-          git add .
-          git commit -m "${{ env.RELEASE_NAME }}"
-          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-          git push -f -u origin release
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, os
+          from pathlib import Path
+          info=json.loads((Path(os.environ['RUNNER_TEMP'])/'publish/build-info.json').read_text())
+          repo=os.environ['GITHUB_REPOSITORY']
+          print('# Forkozz catalog published')
+          print(f"Version: {info['version']}; domain lists: {info['domain_lists']}; IP lists: {info['ip_lists']}; curated profiles: {info['curated_profiles']}.")
+          print(f'\n[Catalog URL](https://raw.githubusercontent.com/{repo}/release/lists.json) · [All addresses](https://github.com/{repo}/blob/release/CATALOG.md)')
+          PY

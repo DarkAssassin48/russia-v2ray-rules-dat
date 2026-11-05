@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.dat -text
+*.srs -text
+*.zip -text

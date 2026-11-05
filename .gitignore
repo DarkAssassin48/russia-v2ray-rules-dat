@@ -1,0 +1,6 @@
+__pycache__/
+.build/
+.cache/
+publish/
+publish-final/
+*.pyc

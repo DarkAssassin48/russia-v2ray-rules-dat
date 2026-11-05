@@ -1,76 +1,65 @@
-# Что это? 
+# DarkAssassin — каталог runetfreedom для Forkozz
 
-Этот репозиторий содержит автоматически обновляемые правила маршрутизации [**V2Ray**](https://github.com/v2fly/v2ray-core), основанные на данных о заблокированных доменах и адресах в России.
+Форк [runetfreedom/russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat): все исходные SRS-наборы, 22 готовых профиля и полный справочник доменов и IP-сетей. Каталог рассчитан на поле «Свой каталог списков» в Forkozz / Zapret Manager.
 
-Распространяемые здесь файлы `geoip.dat` и `geosite.dat` могут использоваться в [V2Ray](https://github.com/v2fly/v2ray-core), [v2rayN](https://github.com/2dust/v2rayN), [Xray-core](https://github.com/XTLS/Xray-core), [mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta), [hysteria](https://github.com/apernet/hysteria), [Trojan-Go](https://github.com/p4gefau1t/trojan-go), [leaf](https://github.com/eycorsican/leaf) и так далее.
+## Ссылка для вставки в Forkozz
 
-Этот репозиторий является официальным источником российских geo файлов для [v2rayN](https://github.com/2dust/v2rayN). 
+```text
+https://raw.githubusercontent.com/DarkAssassin48/russia-v2ray-rules-dat/release/lists.json
+```
 
-Репозиторий обновляется каждые 6 часов.
+Откройте «Forkozz → Сервисы → Каталог списков → Сменить источник», вставьте ссылку и подключите каталог. Название пункта может зависеть от версии панели. Затем включите только нужные сервисы и сохраните настройки. Все новые пункты выключены по умолчанию. Замена каталога сама по себе не включает все маршруты и не очищает ранее выбранные списки: проверьте их в панели.
 
-## Какие категории содержатся в файлах
+## Какие сервисы и адреса входят
 
-### geoip.dat
+- **[Полный каталог с описаниями и адресами](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/blob/release/CATALOG.md)** — все сервисы, категории и IP-наборы; для каждого доступны TXT, исходный JSON и SRS.
+- [Discord — чаты, медиа и награды заданий](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/blob/release/docs/da_discord_quests.md): категория Discord + hCaptcha, включая меняющиеся поддомены `hcaptcha.com`.
+- [NVIDIA App — вход, драйверы и обновления](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/blob/release/docs/da_nvidia_app.md): категория NVIDIA без доменов Hugging Face. Полная исходная NVIDIA также сохранена отдельно.
+- [Spotify — приложение, музыка и изображения](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/blob/release/docs/da_spotify.md): категория Spotify + известные отдельные узлы CDN Akamai/Fastly; общие зоны этих CDN целиком не добавляются.
+- [OpenAI / ChatGPT / Codex](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/blob/release/docs/da_openai.md): исходный набор + основные домены входа, ресурсов и файлов.
+- Дополнительно: YouTube, Telegram, Twitch, Steam, Blizzard / Battle.net, Epic Games, Riot, GitHub, Gemini, Claude, Instagram, WhatsApp, X / Twitter, Netflix, Signal, Google Play, Zoom и отдельная hCaptcha.
 
-`geoip.dat` генерируется в репозитории [@runetfreedom/russia-blocked-geoip](https://github.com/runetfreedom/russia-blocked-geoip)
+Группы в каталоге: «DarkAssassin · Готовые профили», «runetfreedom · Сервисы», «runetfreedom · Категории», «runetfreedom · IP-сети». Большие наборы помечены отдельно.
 
-Основные категории:
+`domain_suffix` включает домен и все его поддомены; `domain` — только точное имя; `domain_keyword` — фрагмент; `domain_regex` — регулярное выражение; `ip_cidr` — сеть. Логические комбинации и исключения сохраняются в JSON без упрощения. TXT содержит все адреса и типы правил; для сложных комбинаций JSON является точным описанием логики.
 
-- `ru-blocked` содержит `ipresolve.lst` и `subnet.lst` сервиса antifilter.download
-- `ru-blocked-community` содержит `community.lst` сервиса community.antifilter.download
-- `re-filter` содержит `ipsum.lst` из [re:filter](https://github.com/1andrevich/Re-filter-lists)
-- `ru-whitelist` содержит `cidrwhitelist.txt` из [russia-mobile-internet-whitelist](https://github.com/hxehex/russia-mobile-internet-whitelist)
+Доменные наборы не гарантируют покрытия голосового или игрового UDP-трафика по IP. Общие IP-сети могут охватывать несколько сервисов. Количество записей означает число условий в наборе, а не число всех возможных поддоменов. Покрытие меняется вместе с исходными данными.
 
-Для вашего удобства в файлы включены несколько дополнительных категорий (на основе ASN):
+## Автоматическое обновление
 
-- `geoip:cloudflare`
-- `geoip:cloudfront`
-- `geoip:facebook`
-- `geoip:fastly`
-- `geoip:google`
-- `geoip:netflix`
-- `geoip:telegram`
-- `geoip:twitter`
-- `geoip:ddos-guard`
-- `geoip:yandex`
+[GitHub Actions](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/actions/workflows/build.yml) запускает сборку каждые 6 часов: **01:17, 07:17, 13:17 и 19:17 по Москве** (UTC+3). Планировщик GitHub может задерживать запуск. Также предусмотрены ручной запуск **Run workflow** и сборка после изменения профилей или генератора в `main`.
 
-### geosite.dat
+Каждая сборка:
 
-`geosite.dat` генерируется в репозитории [@runetfreedom/russia-blocked-geosite](https://github.com/runetfreedom/russia-blocked-geosite)
+1. Берёт последний опубликованный `release` runetfreedom и фиксирует его commit SHA.
+2. Проверяет контрольные суммы DAT, декомпилирует все исходные SRS, создаёт полный справочник и обновляет дополнительные профили.
+3. Проверяет структуру каталога, уникальность идентификаторов, все ссылки на локальные файлы, состав Discord / NVIDIA и SHA-256 каждого файла.
+4. Публикует проверенный снимок в ветку `release`. При ошибке сборки последний исправный каталог остаётся доступен.
 
-Доступные категории:
+Постоянная ссылка `lists.json` не меняется. Обновление файлов на GitHub и скачивание правил самим Forkozz — отдельные процессы: период обновления на роутере определяется настройками установленной панели. Этот репозиторий не подключается к роутеру и не меняет его настройки.
 
-- Все категории из [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community/tree/master/data). Включая: `google`, `discord`, `youtube`, `twitter`, `meta`, `openai` и так далее.
-- `geosite:ru-blocked` - заблокированные в России домены (`antifilter-download-community` + `re:filter`)
-- `geosite:ru-blocked-all` - **все известные** заблокированные в России домены (из всех источников сразу). Список содержит не менее 700 тысяч доменов, употреблять с осторожностью.
-- `geosite:ru-available-only-inside` - Домены, доступные только внутри России
-- `geosite:antifilter-download` - все домены из `antifilter.download` (почти 700 тысяч, употреблять с осторожностью)
-- `geosite:antifilter-download-community` - все домены из `community.antifilter.download`
-- `geosite:refilter` - все домены из `re:filter`
-- `geosite:category-ads-all` - все рекламные домены
-- `geosite:win-spy` - домены, используемые windows для слежки и сбора аналитики
-- `geosite:win-update` - домены, используемые windows для обновлений
-- `geosite:win-extra` - прочие домены, используемые windows
+Дополнительные платные службы и секреты не требуются: workflow использует встроенный токен GitHub только для публикации в этот форк. У GitHub действуют собственные правила доступности и приостановки расписаний; состояние последнего запуска видно на вкладке Actions. Если Actions отключены, включите их там.
 
-# Cкачать 
+## Данные и проверяемость
 
-По ссылкам ниже всегда доступна последняя версия файлов.
+- [`services.json`](https://raw.githubusercontent.com/DarkAssassin48/russia-v2ray-rules-dat/release/services.json) — полный машиночитаемый справочник.
+- [`build-info.json`](https://raw.githubusercontent.com/DarkAssassin48/russia-v2ray-rules-dat/release/build-info.json) — время, исходный commit и статистика сборки.
+- [`SHA256SUMS.txt`](https://raw.githubusercontent.com/DarkAssassin48/russia-v2ray-rules-dat/release/SHA256SUMS.txt) — SHA-256 всех опубликованных файлов.
+- `geoip.dat`, `geosite.dat`, `sing-box/` и `sing-box.zip` сохраняют исходные категории runetfreedom. Дополнения находятся в `custom/`.
+- Стабильные идентификаторы существующих пунктов не меняются при обновлении содержимого.
 
-- **geoip.dat**
-    - [https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat](https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat)
-- **geosite.dat**
-    - [https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat](https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat)
+## Разработка
 
+Нужен Python 3.11+ без сторонних пакетов и официальный CLI sing-box. CLI используется только для компиляции / декомпиляции SRS; сетевой туннель не запускается. Генератор сохраняет совместимый SRS v1 для дополнительных профилей.
 
-## Cмежные проекты
+```sh
+python -m unittest discover -s tests -v
+python scripts/build_catalog.py --repository DarkAssassin48/russia-v2ray-rules-dat --output publish --work .build/run --cache .cache --sing-box /path/to/sing-box --jobs 4
+python scripts/verify_generated.py publish --repository DarkAssassin48/russia-v2ray-rules-dat
+```
 
-- [@runetfreedom/russia-blocked-geoip](https://github.com/runetfreedom/russia-blocked-geoip) - генерация geoip файлов
-- [@runetfreedom/russia-blocked-geosite](https://github.com/runetfreedom/russia-blocked-geosite) - генерация geosite файлов
-- [@runetfreedom/russia-v2ray-custom-routing-list](https://github.com/runetfreedom/russia-v2ray-custom-routing-list) - правила маршрутизации для различных клиентов
-- [@runetfreedom/geodat2srs](https://github.com/runetfreedom/geodat2srs) - конвертер geoip/geosite.dat в sing-box srs
+Выходная папка должна быть пустой. Профили задаются в [`catalog/profiles.json`](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/blob/main/catalog/profiles.json), русские названия — в [`catalog/labels.json`](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/blob/main/catalog/labels.json). Не заменяйте URL на чужие исполняемые скрипты. Публикация ограничена этим форком.
 
-## Благодарности
+## Источники и лицензия
 
-- [antifilter.download](https://antifilter.download/) - за предоставление данных о заблокированных доменах и комьюнити для их обновления
-- [re:filter](https://github.com/1andrevich/Re-filter-lists) - за предоставление отфильтрованных данных о заблокированных доменах
-- [@Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) - за идею и основу этого проекта
+Форк распространяется с исходной лицензией [GPL-3.0](LICENSE). Сохранены [исходное описание и благодарности runetfreedom](UPSTREAM.md). Правила поступают из [runetfreedom/russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat), который объединяет [russia-blocked-geosite](https://github.com/runetfreedom/russia-blocked-geosite), [russia-blocked-geoip](https://github.com/runetfreedom/russia-blocked-geoip), [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) и перечисленные там источники. Официальный компилятор — [SagerNet/sing-box](https://github.com/SagerNet/sing-box).
