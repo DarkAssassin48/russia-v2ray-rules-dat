@@ -5,7 +5,7 @@ import hashlib
 import json
 from pathlib import Path, PurePosixPath
 import urllib.parse
-from build_catalog import validate_manifest
+from build_catalog import ROOT, medium_ids, validate_manifest
 
 def verify(directory: Path, repository: str, pages: Path|None=None):
     manifest=json.loads((directory/'lists.json').read_text(encoding='utf-8'))
@@ -50,11 +50,13 @@ def verify(directory: Path, repository: str, pages: Path|None=None):
         owner,name=repository.split('/')
         pages_prefix=f'https://{owner.lower()}.github.io/{name}/'
         canonical={e['id']:e for e in manifest['domain_lists']+manifest['categories']}
-        for filename,lite in (('lists.json',False),('lists-lite.json',True)):
+        policy=json.loads((ROOT/'catalog/medium.json').read_text(encoding='utf-8'))
+        medium_expected=medium_ids(manifest,policy)
+        for filename,variant in (('lists.json','full'),('lists-lite.json','lite'),('lists-medium.json','medium')):
             compact=json.loads((pages/filename).read_text(encoding='utf-8'))
             entries=compact['domain_lists']+compact['categories']
             validate_manifest(compact,entries)
-            expected_ids={k for k in canonical if not lite or k.startswith('da_')}
+            expected_ids=medium_expected if variant=='medium' else {k for k in canonical if variant!='lite' or k.startswith('da_')}
             if {e['id'] for e in entries}!=expected_ids:raise ValueError('Pages catalog lost entries')
             for entry in entries:
                 if not entry['url'].startswith(pages_prefix):raise ValueError('Unexpected Pages rule host')
@@ -68,6 +70,8 @@ def verify(directory: Path, repository: str, pages: Path|None=None):
                 if copy_sum!=checksums[original]:raise ValueError('Pages SRS differs from verified original')
             if compact['version']!=manifest['version']:raise ValueError('Pages version differs')
             print(f'Verified Pages {filename}: {len(entries)} entries')
+        medium_details=json.loads((pages/'medium-services.json').read_text(encoding='utf-8'))
+        if {item['key'] for item in medium_details['services']}!=medium_expected:raise ValueError('Medium service documentation differs')
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('directory',type=Path);p.add_argument('--repository',required=True);p.add_argument('--pages',type=Path)

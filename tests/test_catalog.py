@@ -60,4 +60,18 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual([e['id'] for e in compact['domain_lists']],['da_discord_quests'])
         self.assertEqual(compact['categories'],[])
 
+    def test_medium_keeps_profiles_and_priorities_but_excludes_variants_and_countries(self):
+        def entry(key,path):return {'id':key,'url':'https://raw.githubusercontent.com/o/r/release/'+path}
+        doc={'domain_lists':[entry('da_discord','custom/discord.srs'),entry('steam','geosite-steam.srs'),entry('youtube','geosite-youtube.srs'),entry('rare','geosite-rare.srs'),entry('ads','geosite-youtube@ads.srs'),entry('all','geosite-geolocation-!cn.srs')],'categories':[entry('us','geoip-us.srs'),entry('telegram_ip','geoip-telegram.srs')]}
+        policy={'target_fraction':0.5,'ip_services':['telegram'],'exclude_codes':[],'priority_services':['steam'],'ranked_services':['youtube','rare']}
+        selected=b.medium_ids(doc,policy)
+        self.assertEqual(selected,{'da_discord','telegram_ip','steam','youtube'})
+        doc['domain_lists'].reverse()
+        self.assertEqual(b.medium_ids(doc,policy),selected)
+
+    def test_medium_never_drops_ready_profiles_when_input_is_small(self):
+        doc={'domain_lists':[{'id':'da_a','url':'https://example.org/custom/a.srs'},{'id':'da_b','url':'https://example.org/custom/b.srs'}],'categories':[]}
+        policy={'target_fraction':0.5,'ip_services':[],'exclude_codes':[],'priority_services':[],'ranked_services':[]}
+        self.assertEqual(b.medium_ids(doc,policy),{'da_a','da_b'})
+
 if __name__=='__main__':unittest.main()

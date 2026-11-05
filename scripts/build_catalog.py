@@ -9,6 +9,7 @@ import datetime as dt
 import hashlib
 import itertools
 import json
+import math
 import os
 from pathlib import Path, PurePosixPath
 import re
@@ -187,6 +188,40 @@ def compact_manifest(manifest, repository, profiles_only=False):
     validate_manifest(result,result["categories"]+result["domain_lists"])
     return result
 
+def medium_code(entry):
+    stem=PurePosixPath(urllib.parse.unquote(urllib.parse.urlsplit(entry['url']).path)).stem
+    return stem.removeprefix('geosite-').removeprefix('geoip-')
+
+def medium_ids(manifest, policy):
+    """Choose approximately half, keeping profiles and a reviewed service priority."""
+    entries=manifest['domain_lists']+manifest['categories']
+    profiles={entry['id'] for entry in entries if entry['id'].startswith('da_')}
+    allowed_ip=set(policy['ip_services'])
+    excluded=set(policy['exclude_codes'])
+    def eligible(entry):
+        code=medium_code(entry)
+        return '@' not in code and code not in excluded and not code.startswith(('category-','geolocation-','tld-','antifilter','ru-'))
+    domains={medium_code(entry):entry for entry in manifest['domain_lists'] if not entry['id'].startswith('da_') and eligible(entry)}
+    ip={entry['id'] for entry in manifest['categories'] if medium_code(entry) in allowed_ip}
+    fraction=policy['target_fraction']
+    if not 0<fraction<=1:raise ValueError('Invalid medium catalog fraction')
+    selected=profiles|ip
+    target=min(len(selected)+len(domains),max(len(selected),math.ceil(len(entries)*fraction)))
+    order=list(dict.fromkeys(policy['priority_services']+policy['ranked_services']+sorted(domains)))
+    for code in order:
+        if len(selected)>=target:break
+        if code in domains:selected.add(domains[code]['id'])
+    if len(selected)!=target:raise ValueError('Medium catalog cannot reach its target')
+    return selected
+
+def medium_manifest(manifest, repository, policy):
+    selected=medium_ids(manifest,policy)
+    compact=compact_manifest(manifest,repository)
+    for kind in ('categories','domain_lists'):
+        compact[kind]=[entry for entry in compact[kind] if entry['id'] in selected]
+    validate_manifest(compact,compact['categories']+compact['domain_lists'])
+    return compact
+
 def build_pages_distribution(source, target, repository):
     """Publish only catalogs and SRS (~31 MB); keep large reference exports in Git."""
     target.mkdir(parents=True,exist_ok=True)
@@ -194,10 +229,22 @@ def build_pages_distribution(source, target, repository):
     manifest=json.loads((source/"lists.json").read_text(encoding="utf-8"))
     for filename,profiles_only in (("lists.json",False),("lists-lite.json",True)):
         write_json(target/filename,compact_manifest(manifest,repository,profiles_only))
+    policy=json.loads((ROOT/'catalog/medium.json').read_text(encoding='utf-8'))
+    medium=medium_manifest(manifest,repository,policy)
+    write_json(target/'lists-medium.json',medium)
+    selected={entry['id'] for entry in medium['domain_lists']+medium['categories']}
+    details=json.loads((source/'services.json').read_text(encoding='utf-8'))['services']
+    medium_details=[item for item in details if item['key'] in selected]
+    write_json(target/'medium-services.json',{'version':manifest['version'],'selection_reviewed_on':policy['reviewed_on'],'popularity_source':policy['popularity_source'],'services':medium_details})
+    lines=['Средний каталог DarkAssassin / runetfreedom',f"Версия: {manifest['version']}",f'Наборов: {len(selected)}. Все выключены по умолчанию.',policy['description_ru'],'','Для каждого набора доступен полный состав по ссылке.','']
+    for item in medium_details:
+        lines.extend([f"{item['name_ru']} | {item['original_code']} | {item['counts']['total']} правил | {item['source_name']}",f"https://github.com/{repository}/blob/release/{item['documentation']}",''])
+    (target/'medium-services.txt').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     for folder in ("sing-box","custom"):
         shutil.copytree(source/folder,target/folder)
     (target/".nojekyll").write_text("",encoding="utf-8")
     info={"version":manifest["version"],"generated_at":manifest["generated_at"],"full_entries":len(manifest["categories"])+len(manifest["domain_lists"]),"lite_entries":sum(e["id"].startswith("da_") for e in manifest["domain_lists"]),"full_bytes":(target/"lists.json").stat().st_size,"lite_bytes":(target/"lists-lite.json").stat().st_size}
+    info.update(medium_entries=len(selected),medium_domain_entries=len(medium['domain_lists']),medium_ip_entries=len(medium['categories']),medium_bytes=(target/'lists-medium.json').stat().st_size)
     write_json(target/"build-info.json",info)
     return info
 
