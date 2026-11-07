@@ -1,0 +1,10 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	hominis.media
+rules[0]	domain_suffix	jsati.com
+rules[0]	domain_suffix	jsatmobile.com
+rules[0]	domain_suffix	skyperfectjsat.space
+rules[0]	domain_suffix	skyperfectv.co.jp
+rules[0]	domain_suffix	spcc-sp.com
+rules[0]	domain_suffix	sptvbroadcast.com

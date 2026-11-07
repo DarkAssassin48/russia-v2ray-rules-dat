@@ -1,0 +1,38 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	ads.x5.ru
+rules[0]	domain	ads.x5media.ru
+rules[0]	domain	sentry.x5.ru
+rules[0]	domain_suffix	5ka.ru
+rules[0]	domain_suffix	5post.market
+rules[0]	domain_suffix	abonementx5.ru
+rules[0]	domain_suffix	chizhik.club
+rules[0]	domain_suffix	clubx5.ru
+rules[0]	domain_suffix	dialogx5.ru
+rules[0]	domain_suffix	e5.ru
+rules[0]	domain_suffix	fivepost.ru
+rules[0]	domain_suffix	idx5.ru
+rules[0]	domain_suffix	jx5.ru
+rules[0]	domain_suffix	keyx5.ru
+rules[0]	domain_suffix	mnogolososya.ru
+rules[0]	domain_suffix	myapelsin.ru
+rules[0]	domain_suffix	okolo.app
+rules[0]	domain_suffix	perekrestok.com
+rules[0]	domain_suffix	perekrestok.ru
+rules[0]	domain_suffix	x5.ai
+rules[0]	domain_suffix	x5.com
+rules[0]	domain_suffix	x5.digital
+rules[0]	domain_suffix	x5.group
+rules[0]	domain_suffix	x5.media
+rules[0]	domain_suffix	x5.ru
+rules[0]	domain_suffix	x5.team
+rules[0]	domain_suffix	x5.tech
+rules[0]	domain_suffix	x5club.ru
+rules[0]	domain_suffix	x5id.ru
+rules[0]	domain_suffix	x5l.ru
+rules[0]	domain_suffix	x5media.ru
+rules[0]	domain_suffix	x5paket.ru
+rules[0]	domain_suffix	x5q.ru
+rules[0]	domain_suffix	x5static.net
+rules[0]	domain_suffix	x5w.ru

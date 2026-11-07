@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	blogjava.net
+rules[0]	domain_suffix	cnblogs.com
+rules[0]	domain_suffix	cnblogs.vip
+rules[0]	domain_suffix	cnitblog.com
+rules[0]	domain_suffix	cnweblog.com
+rules[0]	domain_suffix	cppblog.com
+rules[0]	domain_suffix	phpweblog.net
+rules[0]	domain_suffix	teachblog.net

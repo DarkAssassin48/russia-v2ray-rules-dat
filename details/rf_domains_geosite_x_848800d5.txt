@@ -1,0 +1,30 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ads-twitter.com
+rules[0]	domain_suffix	cms-twdigitalassets.com
+rules[0]	domain_suffix	grok.com
+rules[0]	domain_suffix	grokipedia.com
+rules[0]	domain_suffix	periscope.tv
+rules[0]	domain_suffix	pscp.tv
+rules[0]	domain_suffix	t.co
+rules[0]	domain_suffix	tellapart.com
+rules[0]	domain_suffix	tweetdeck.com
+rules[0]	domain_suffix	twimg.com
+rules[0]	domain_suffix	twitpic.com
+rules[0]	domain_suffix	twitter.biz
+rules[0]	domain_suffix	twitter.com
+rules[0]	domain_suffix	twitter.jp
+rules[0]	domain_suffix	twitter.map.fastly.net
+rules[0]	domain_suffix	twittercommunity.com
+rules[0]	domain_suffix	twitterflightschool.com
+rules[0]	domain_suffix	twitterinc.com
+rules[0]	domain_suffix	twitteroauth.com
+rules[0]	domain_suffix	twitterstat.us
+rules[0]	domain_suffix	twtrdns.net
+rules[0]	domain_suffix	twttr.com
+rules[0]	domain_suffix	twttr.net
+rules[0]	domain_suffix	twvid.com
+rules[0]	domain_suffix	vine.co
+rules[0]	domain_suffix	x.ai
+rules[0]	domain_suffix	x.com

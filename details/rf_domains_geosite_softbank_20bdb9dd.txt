@@ -1,0 +1,23 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	.softbank
+rules[0]	domain_suffix	sb-mobile.jp
+rules[0]	domain_suffix	sb-telecom.net
+rules[0]	domain_suffix	softbank-ipo.com
+rules[0]	domain_suffix	softbank-jp.com
+rules[0]	domain_suffix	softbank-robotics.com
+rules[0]	domain_suffix	softbank-telecom.com
+rules[0]	domain_suffix	softbank-telecom.net
+rules[0]	domain_suffix	softbank.jp
+rules[0]	domain_suffix	softbank.tv
+rules[0]	domain_suffix	softbankbb.com
+rules[0]	domain_suffix	softbankbb.net
+rules[0]	domain_suffix	softbankci.com
+rules[0]	domain_suffix	softbankhawksstore.jp
+rules[0]	domain_suffix	softbankmobile.net
+rules[0]	domain_suffix	softbankrobotics.com
+rules[0]	domain_suffix	softbanktelecom.com
+rules[0]	domain_suffix	softbankusa.net
+rules[0]	domain_suffix	softbankventuresasia.com
+rules[0]	domain_suffix	softbankworld.com

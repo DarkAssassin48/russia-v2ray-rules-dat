@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	careerjournal.com
+rules[0]	domain_suffix	collegejournal.com
+rules[0]	domain_suffix	getwsj.com
+rules[0]	domain_suffix	opinionjournal.com
+rules[0]	domain_suffix	realestatejournal.com
+rules[0]	domain_suffix	startupjournal.com
+rules[0]	domain_suffix	wsj.com
+rules[0]	domain_suffix	wsj.jobs
+rules[0]	domain_suffix	wsj.net
+rules[0]	domain_suffix	wsjmediakit.com
+rules[0]	domain_suffix	wsjplus.com
+rules[0]	domain_suffix	wsjshop.com
+rules[0]	domain_suffix	wsjwine.com

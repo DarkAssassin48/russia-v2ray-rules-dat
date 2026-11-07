@@ -1,0 +1,26 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	g-technology.com
+rules[0]	domain_suffix	sandisk.ae
+rules[0]	domain_suffix	sandisk.cn
+rules[0]	domain_suffix	sandisk.co.jp
+rules[0]	domain_suffix	sandisk.co.kr
+rules[0]	domain_suffix	sandisk.co.uk
+rules[0]	domain_suffix	sandisk.com
+rules[0]	domain_suffix	sandisk.com.au
+rules[0]	domain_suffix	sandisk.com.br
+rules[0]	domain_suffix	sandisk.com.tr
+rules[0]	domain_suffix	sandisk.com.tw
+rules[0]	domain_suffix	sandisk.de
+rules[0]	domain_suffix	sandisk.es
+rules[0]	domain_suffix	sandisk.fr
+rules[0]	domain_suffix	sandisk.hk
+rules[0]	domain_suffix	sandisk.id
+rules[0]	domain_suffix	sandisk.in
+rules[0]	domain_suffix	sandisk.it
+rules[0]	domain_suffix	sandisk.nl
+rules[0]	domain_suffix	sandisk.sg
+rules[0]	domain_suffix	wd.com
+rules[0]	domain_suffix	wdc.com
+rules[0]	domain_suffix	westerndigital.com

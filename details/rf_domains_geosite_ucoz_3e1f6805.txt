@@ -1,0 +1,40 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	at.ua
+rules[0]	domain_suffix	narod.ru
+rules[0]	domain_suffix	scripts-for-ucoz.ru
+rules[0]	domain_suffix	ucoz.ae
+rules[0]	domain_suffix	ucoz.club
+rules[0]	domain_suffix	ucoz.co
+rules[0]	domain_suffix	ucoz.co.il
+rules[0]	domain_suffix	ucoz.co.uk
+rules[0]	domain_suffix	ucoz.com
+rules[0]	domain_suffix	ucoz.com.br
+rules[0]	domain_suffix	ucoz.com.ro
+rules[0]	domain_suffix	ucoz.de
+rules[0]	domain_suffix	ucoz.es
+rules[0]	domain_suffix	ucoz.fr
+rules[0]	domain_suffix	ucoz.hu
+rules[0]	domain_suffix	ucoz.kz
+rules[0]	domain_suffix	ucoz.lv
+rules[0]	domain_suffix	ucoz.md
+rules[0]	domain_suffix	ucoz.net
+rules[0]	domain_suffix	ucoz.org
+rules[0]	domain_suffix	ucoz.pl
+rules[0]	domain_suffix	ucoz.ru
+rules[0]	domain_suffix	ucoz.site
+rules[0]	domain_suffix	ucoz.ua
+rules[0]	domain_suffix	ucozmail.com
+rules[0]	domain_suffix	ucozmedia.com
+rules[0]	domain_suffix	ucozmedia.ru
+rules[0]	domain_suffix	ucoztemplates.com
+rules[0]	domain_suffix	uguide.ru
+rules[0]	domain_suffix	uguide.su
+rules[0]	domain_suffix	ukit.ai
+rules[0]	domain_suffix	ukit.com
+rules[0]	domain_suffix	ukit.group
+rules[0]	domain_suffix	ukit.me
+rules[0]	domain_suffix	ukoz.ru
+rules[0]	domain_suffix	usocial.pro
+rules[0]	domain_suffix	uweb.ru

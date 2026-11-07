@@ -1,0 +1,24 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	appldnld.apple.com
+rules[0]	domain_suffix	configuration.apple.com
+rules[0]	domain_suffix	fcs-keys-pub-prod.cdn-apple.com
+rules[0]	domain_suffix	gdmf-ados.apple.com
+rules[0]	domain_suffix	gdmf.apple.com
+rules[0]	domain_suffix	gg.apple.com
+rules[0]	domain_suffix	gs.apple.com
+rules[0]	domain_suffix	gsra.apple.com
+rules[0]	domain_suffix	ig.apple.com
+rules[0]	domain_suffix	mesu.apple.com
+rules[0]	domain_suffix	oscdn.apple.com
+rules[0]	domain_suffix	osrecovery.apple.com
+rules[0]	domain_suffix	skl.apple.com
+rules[0]	domain_suffix	swcdn.apple.com
+rules[0]	domain_suffix	swdist.apple.com
+rules[0]	domain_suffix	swdownload.apple.com
+rules[0]	domain_suffix	swscan.apple.com
+rules[0]	domain_suffix	updates-http.cdn-apple.com
+rules[0]	domain_suffix	updates.cdn-apple.com
+rules[0]	domain_suffix	wkms-public.apple.com
+rules[0]	domain_suffix	xp.apple.com

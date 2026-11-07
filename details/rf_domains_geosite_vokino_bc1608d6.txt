@@ -1,0 +1,27 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	85b6b2.ws
+rules[0]	domain_suffix	ashdi.vip
+rules[0]	domain_suffix	cdn2cdn.com
+rules[0]	domain_suffix	cdn2site.com
+rules[0]	domain_suffix	cdnsqu.com
+rules[0]	domain_suffix	cdntogo.net
+rules[0]	domain_suffix	digital-cdn.net
+rules[0]	domain_suffix	fotpro135alto.com
+rules[0]	domain_suffix	interkh.com
+rules[0]	domain_suffix	loadbox.ws
+rules[0]	domain_suffix	rstprgapipt.com
+rules[0]	domain_suffix	rtbcdn.cloud
+rules[0]	domain_suffix	showvid.ws
+rules[0]	domain_suffix	srvkp.com
+rules[0]	domain_suffix	stream-balancer-allo-1.live
+rules[0]	domain_suffix	stream-balancer-allo-1.site
+rules[0]	domain_suffix	ukrtelcdn.net
+rules[0]	domain_suffix	videobase.biz
+rules[0]	domain_suffix	vkvideo.cloud
+rules[0]	domain_suffix	voidboost.one
+rules[0]	domain_suffix	vokino.org
+rules[0]	domain_suffix	vokino.pro
+rules[0]	domain_suffix	vokino.tv
+rules[0]	domain_suffix	werkecdn.me

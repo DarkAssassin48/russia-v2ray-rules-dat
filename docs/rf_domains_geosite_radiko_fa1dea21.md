@@ -1,0 +1,27 @@
+# radiko
+
+Актуальный набор доменных правил «radiko» из runetfreedom. Полный текущий состав приведён в файлах JSON и TXT.
+
+Код: `radiko`. Тип: **domains**.
+
+Правил: **3**. Точные домены: 0; доменные зоны: 3; фрагменты: 0; regex: 0; IP-сети: 0.
+
+## Полный состав
+
+- [Все адреса в текстовом виде](../details/rf_domains_geosite_radiko_fa1dea21.txt)
+- [Полный JSON с исходной логикой](../details/rf_domains_geosite_radiko_fa1dea21.json)
+- [Готовый SRS](../sing-box/rule-set-geosite/geosite-radiko.srs)
+
+`domain_suffix` охватывает сам домен и все поддомены. Точное правило `domain` охватывает только указанное имя. IP-набор может направлять через VPN несколько сервисов, использующих одну сеть.
+
+## Первые адреса
+
+```text
+domain_suffix: radiko-cf.com
+domain_suffix: radiko.jp
+domain_suffix: smartstream.ne.jp
+```
+
+Полный перечень без сокращений доступен по ссылкам выше.
+
+По умолчанию выключен. Добавление каталога само по себе не включает маршрут.

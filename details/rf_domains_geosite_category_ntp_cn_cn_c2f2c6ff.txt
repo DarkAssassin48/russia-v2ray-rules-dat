@@ -1,0 +1,26 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	izattime.qcomgeo2.com
+rules[0]	domain	ntp.aliyun.com
+rules[0]	domain	ntp.tencent.com
+rules[0]	domain	ntp1.aliyun.com
+rules[0]	domain	ntp1.tencent.com
+rules[0]	domain	ntp2.aliyun.com
+rules[0]	domain	ntp2.tencent.com
+rules[0]	domain	ntp3.aliyun.com
+rules[0]	domain	ntp3.tencent.com
+rules[0]	domain	ntp4.aliyun.com
+rules[0]	domain	ntp4.tencent.com
+rules[0]	domain	ntp5.aliyun.com
+rules[0]	domain	ntp5.tencent.com
+rules[0]	domain	ntp6.aliyun.com
+rules[0]	domain	ntp7.aliyun.com
+rules[0]	domain	time.amazonaws.cn
+rules[0]	domain	time.izatcloud.net
+rules[0]	domain	time.xtracloud.net
+rules[0]	domain	xtratime.qcomgeo2.com
+rules[0]	domain_suffix	cn.pool.ntp.org
+rules[0]	domain_suffix	ntp.neu.edu.cn
+rules[0]	domain_suffix	ntp.ntsc.ac.cn
+rules[0]	domain_suffix	ntp.org.cn

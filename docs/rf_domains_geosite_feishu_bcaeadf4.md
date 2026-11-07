@@ -1,0 +1,67 @@
+# feishu
+
+Актуальный набор доменных правил «feishu» из runetfreedom. Полный текущий состав приведён в файлах JSON и TXT.
+
+Код: `feishu`. Тип: **domains**.
+
+Правил: **43**. Точные домены: 0; доменные зоны: 43; фрагменты: 0; regex: 0; IP-сети: 0.
+
+## Полный состав
+
+- [Все адреса в текстовом виде](../details/rf_domains_geosite_feishu_bcaeadf4.txt)
+- [Полный JSON с исходной логикой](../details/rf_domains_geosite_feishu_bcaeadf4.json)
+- [Готовый SRS](../sing-box/rule-set-geosite/geosite-feishu.srs)
+
+`domain_suffix` охватывает сам домен и все поддомены. Точное правило `domain` охватывает только указанное имя. IP-набор может направлять через VPN несколько сервисов, использующих одну сеть.
+
+## Первые адреса
+
+```text
+domain_suffix: anycross.com
+domain_suffix: blmpb.com
+domain_suffix: bytedancehermestest.com
+domain_suffix: falconsending.com
+domain_suffix: fei-shu.cn
+domain_suffix: feishu-3rd-party-services.com
+domain_suffix: feishu-boe.net
+domain_suffix: feishu-customer.cn
+domain_suffix: feishu-pre.cn
+domain_suffix: feishu-pre.net
+domain_suffix: feishu-psc.cn
+domain_suffix: feishu-staging.cn
+domain_suffix: feishu.cn
+domain_suffix: feishu.net
+domain_suffix: feishuapp-cdn.net
+domain_suffix: feishuapp.cn
+domain_suffix: feishuapp.com
+domain_suffix: feishucdn.com
+domain_suffix: feishudoc.cn
+domain_suffix: feishudoc.com
+domain_suffix: feishuhuiyi.cn
+domain_suffix: feishuhuiyi.com
+domain_suffix: feishuimg-boe.com
+domain_suffix: feishuimg-pre.com
+domain_suffix: feishuimg.com
+domain_suffix: feishukacdn.com
+domain_suffix: feishumeetings.cn
+domain_suffix: feishumeetings.com
+domain_suffix: feishuoffice.cn
+domain_suffix: feishuoffice.com
+domain_suffix: feishuopenplatformrecord.com
+domain_suffix: feishupkg.com
+domain_suffix: feishustatus.cn
+domain_suffix: feishuvc.cn
+domain_suffix: feishuvc.com
+domain_suffix: getfeishu.cn
+domain_suffix: getfeishu.com
+domain_suffix: getsays.cn
+domain_suffix: getsays.com
+domain_suffix: lackvc.cn
+domain_suffix: securityfeishu.cn
+domain_suffix: securityfs.cn
+domain_suffix: statusfeishu.cn
+```
+
+Полный перечень без сокращений доступен по ссылкам выше.
+
+По умолчанию выключен. Добавление каталога само по себе не включает маршрут.

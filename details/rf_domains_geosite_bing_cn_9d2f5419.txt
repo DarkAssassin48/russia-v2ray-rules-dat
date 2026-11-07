@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	bj1.api.bing.com
+rules[0]	domain_suffix	bing.com.cn
+rules[0]	domain_suffix	cn.bing.com
+rules[0]	domain_suffix	cn.bing.net
+rules[0]	domain_suffix	cn.mm.bing.net
+rules[0]	domain_suffix	ditu.live.com
+rules[0]	domain_suffix	r.bing.com
+rules[0]	domain_suffix	th.bing.com

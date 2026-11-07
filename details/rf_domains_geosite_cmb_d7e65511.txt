@@ -1,0 +1,25 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	8008205555.cn
+rules[0]	domain_suffix	8008205555.com
+rules[0]	domain_suffix	cignacmb-ipmi.com
+rules[0]	domain_suffix	cignacmb.com
+rules[0]	domain_suffix	cignacmbamc.com
+rules[0]	domain_suffix	cmb-leasing.com
+rules[0]	domain_suffix	cmbchina.biz
+rules[0]	domain_suffix	cmbchina.cn
+rules[0]	domain_suffix	cmbchina.com
+rules[0]	domain_suffix	cmbi.com.hk
+rules[0]	domain_suffix	cmbimg.cn
+rules[0]	domain_suffix	cmbimg.com
+rules[0]	domain_suffix	cmbt.cn
+rules[0]	domain_suffix	cmbuat.com
+rules[0]	domain_suffix	cmburl.cn
+rules[0]	domain_suffix	cmbwinglungbank.com
+rules[0]	domain_suffix	cmf.biz
+rules[0]	domain_suffix	cmf.ltd
+rules[0]	domain_suffix	cmfchina.com
+rules[0]	domain_suffix	cmfunds.cn
+rules[0]	domain_suffix	joying.com
+rules[0]	domain_suffix	test-cignacmb.com

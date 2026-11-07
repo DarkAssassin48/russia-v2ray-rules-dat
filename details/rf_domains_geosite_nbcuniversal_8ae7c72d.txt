@@ -1,0 +1,20 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	cnbc.com
+rules[0]	domain_suffix	cnbcfm.com
+rules[0]	domain_suffix	dreamworks.com
+rules[0]	domain_suffix	msnbc.com
+rules[0]	domain_suffix	nbc.co
+rules[0]	domain_suffix	nbc.com
+rules[0]	domain_suffix	nbcnews.com
+rules[0]	domain_suffix	nbcolympics.com
+rules[0]	domain_suffix	nbcsports.com
+rules[0]	domain_suffix	nbcuni.com
+rules[0]	domain_suffix	nbcuniversal.com
+rules[0]	domain_suffix	peacocktv.com
+rules[0]	domain_suffix	s-nbcnews.com
+rules[0]	domain_suffix	universalorlando.com
+rules[0]	domain_suffix	universalpictures.com
+rules[0]	domain_suffix	universalpicturesinternational.com
+rules[0]	domain_suffix	universalstudioshollywood.com

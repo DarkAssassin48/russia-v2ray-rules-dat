@@ -1,0 +1,10 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	asktug.com
+rules[0]	domain_suffix	pingcap.cn
+rules[0]	domain_suffix	pingcap.com
+rules[0]	domain_suffix	tidb.ai
+rules[0]	domain_suffix	tidb.net
+rules[0]	domain_suffix	tidbcloud.com
+rules[0]	domain_suffix	tikv.org

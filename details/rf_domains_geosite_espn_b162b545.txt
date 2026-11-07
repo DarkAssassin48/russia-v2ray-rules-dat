@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	espn.api.edge.bamgrid.com
+rules[0]	domain	espn.hb.omtrdc.net
+rules[0]	domain	espndotcom.tt.omtrdc.net
+rules[0]	domain_suffix	dtci.co
+rules[0]	domain_suffix	dtci.technology
+rules[0]	domain_suffix	espn.co.uk
+rules[0]	domain_suffix	espn.com
+rules[0]	domain_suffix	espn.net
+rules[0]	domain_suffix	espncdn.com
+rules[0]	domain_suffix	espnqa.com
+rules[0]	domain_suffix	watchespn.com

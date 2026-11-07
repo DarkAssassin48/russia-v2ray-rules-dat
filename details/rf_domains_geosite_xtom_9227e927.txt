@@ -1,0 +1,15 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	v.ps
+rules[0]	domain_suffix	vps.hosting
+rules[0]	domain_suffix	xtom.au
+rules[0]	domain_suffix	xtom.com
+rules[0]	domain_suffix	xtom.de
+rules[0]	domain_suffix	xtom.ee
+rules[0]	domain_suffix	xtom.hk
+rules[0]	domain_suffix	xtom.jp
+rules[0]	domain_suffix	xtom.nl
+rules[0]	domain_suffix	xtom.sg
+rules[0]	domain_suffix	xtom.social
+rules[0]	domain_suffix	xtom.us

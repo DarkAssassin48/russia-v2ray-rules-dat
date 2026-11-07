@@ -1,0 +1,21 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	cdnsnapptrip.com
+rules[0]	domain_suffix	snapp-box.com
+rules[0]	domain_suffix	snapp.cab
+rules[0]	domain_suffix	snapp.doctor
+rules[0]	domain_suffix	snapp.express
+rules[0]	domain_suffix	snapp.ir
+rules[0]	domain_suffix	snapp.ninja
+rules[0]	domain_suffix	snapp.site
+rules[0]	domain_suffix	snapp.supply
+rules[0]	domain_suffix	snapp.taxi
+rules[0]	domain_suffix	snapp.tech
+rules[0]	domain_suffix	snappcloud.io
+rules[0]	domain_suffix	snappfood.dev
+rules[0]	domain_suffix	snappfood.ir
+rules[0]	domain_suffix	snappmaps.ir
+rules[0]	domain_suffix	snapproom.com
+rules[0]	domain_suffix	snappshop.ir
+rules[0]	domain_suffix	snapptrip.com

@@ -1,0 +1,32 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	api.viu.now.com
+rules[0]	domain	d1k2us671qcoau.cloudfront.net
+rules[0]	domain	d2anahhhmp1ffz.cloudfront.net
+rules[0]	domain	dfp6rglgjqszk.cloudfront.net
+rules[0]	domain_suffix	1010.com.hk
+rules[0]	domain_suffix	esmarthealth.com
+rules[0]	domain_suffix	hkcsl.com
+rules[0]	domain_suffix	hkt-enterprise.com
+rules[0]	domain_suffix	hkt-eye.com
+rules[0]	domain_suffix	hkt.com
+rules[0]	domain_suffix	hkteducation.com
+rules[0]	domain_suffix	hktpremier.com
+rules[0]	domain_suffix	hktshop.com
+rules[0]	domain_suffix	moov.hk
+rules[0]	domain_suffix	netvigator.com
+rules[0]	domain_suffix	now-ashare.com
+rules[0]	domain_suffix	now-tv.com
+rules[0]	domain_suffix	now.com
+rules[0]	domain_suffix	now.com.hk
+rules[0]	domain_suffix	nowe.com
+rules[0]	domain_suffix	nowe.hk
+rules[0]	domain_suffix	pccw.com
+rules[0]	domain_suffix	pccwglobal.com
+rules[0]	domain_suffix	pccwsolutions.com
+rules[0]	domain_suffix	theclub.com.hk
+rules[0]	domain_suffix	uhub.com
+rules[0]	domain_suffix	viu.com
+rules[0]	domain_suffix	viu.tv
+rules[0]	domain_regex	^ewcdn[0-9]+\.nowe\.com$

@@ -1,0 +1,28 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	askubuntu.com
+rules[0]	domain_suffix	blogoverflow.com
+rules[0]	domain_suffix	codeforaliving.io
+rules[0]	domain_suffix	mathoverflow.net
+rules[0]	domain_suffix	serverfault.com
+rules[0]	domain_suffix	sstatic.net
+rules[0]	domain_suffix	stackapps.com
+rules[0]	domain_suffix	stackauth.com
+rules[0]	domain_suffix	stackexchange.com
+rules[0]	domain_suffix	stackmod.blog
+rules[0]	domain_suffix	stackoverflow.blog
+rules[0]	domain_suffix	stackoverflow.co
+rules[0]	domain_suffix	stackoverflow.com
+rules[0]	domain_suffix	stackoverflow.email
+rules[0]	domain_suffix	stackoverflow.help
+rules[0]	domain_suffix	stackoverflow.net
+rules[0]	domain_suffix	stackoverflowbusiness.com
+rules[0]	domain_suffix	stackoverflowcareers.com
+rules[0]	domain_suffix	stackoverflowjobs.com
+rules[0]	domain_suffix	stackoverflowsolutions.com
+rules[0]	domain_suffix	stackoverflowteams.com
+rules[0]	domain_suffix	stacksnippets.net
+rules[0]	domain_suffix	superuser.com
+rules[0]	domain_suffix	tex-talk.net
+rules[0]	domain_suffix	thesffblog.com

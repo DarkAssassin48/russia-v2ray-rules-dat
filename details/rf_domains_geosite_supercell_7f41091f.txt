@@ -1,0 +1,26 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	supercell.helpshift.com
+rules[0]	domain	supercell.zendesk.com
+rules[0]	domain_suffix	boombeach.com
+rules[0]	domain_suffix	brawlstars.com
+rules[0]	domain_suffix	brawlstarsgame.com
+rules[0]	domain_suffix	clash.com
+rules[0]	domain_suffix	clashmini.com
+rules[0]	domain_suffix	clashofclans.com
+rules[0]	domain_suffix	clashroyale.com
+rules[0]	domain_suffix	clashroyaleapp.com
+rules[0]	domain_suffix	gamesfirsthelsinki.com
+rules[0]	domain_suffix	hayday.com
+rules[0]	domain_suffix	haydaygame.com
+rules[0]	domain_suffix	mo.co
+rules[0]	domain_suffix	seeurlpcl.com
+rules[0]	domain_suffix	squadbusters.com
+rules[0]	domain_suffix	supercell.com
+rules[0]	domain_suffix	supercell.net
+rules[0]	domain_suffix	supercellcreators.com
+rules[0]	domain_suffix	supercellgames.com
+rules[0]	domain_suffix	supercellid.com
+rules[0]	domain_suffix	supercellstore.com
+rules[0]	domain_suffix	supr.cl

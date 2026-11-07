@@ -1,0 +1,44 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	appcloud.com
+rules[0]	domain_suffix	appexchange.com
+rules[0]	domain_suffix	attic.io
+rules[0]	domain_suffix	beyondcore.com
+rules[0]	domain_suffix	buddymedia.com
+rules[0]	domain_suffix	chatter.com
+rules[0]	domain_suffix	cloudcraze.com
+rules[0]	domain_suffix	cotweet.com
+rules[0]	domain_suffix	data.com
+rules[0]	domain_suffix	demandware.com
+rules[0]	domain_suffix	desk.com
+rules[0]	domain_suffix	documentforce.com
+rules[0]	domain_suffix	dreamforce.com
+rules[0]	domain_suffix	einstein.com
+rules[0]	domain_suffix	exacttarget.com
+rules[0]	domain_suffix	force.com
+rules[0]	domain_suffix	govforce.com
+rules[0]	domain_suffix	gravitytank.com
+rules[0]	domain_suffix	heywire.com
+rules[0]	domain_suffix	krux.com
+rules[0]	domain_suffix	marketingcloud.com
+rules[0]	domain_suffix	metamind.io
+rules[0]	domain_suffix	pardot.com
+rules[0]	domain_suffix	quotable.com
+rules[0]	domain_suffix	radian6.com
+rules[0]	domain_suffix	relateiq.com
+rules[0]	domain_suffix	salesforce-setup.com
+rules[0]	domain_suffix	salesforce-sites.com
+rules[0]	domain_suffix	salesforce.com
+rules[0]	domain_suffix	salesforce.org
+rules[0]	domain_suffix	salesforceiq.com
+rules[0]	domain_suffix	salesforceliveagent.com
+rules[0]	domain_suffix	salesforcemarketingcloud.com
+rules[0]	domain_suffix	sequence.com
+rules[0]	domain_suffix	sfdcstatic.com
+rules[0]	domain_suffix	sforce.com
+rules[0]	domain_suffix	site.com
+rules[0]	domain_suffix	social.com
+rules[0]	domain_suffix	steelbrick.com
+rules[0]	domain_suffix	twinprime.com
+rules[0]	domain_suffix	weinvoiceit.com

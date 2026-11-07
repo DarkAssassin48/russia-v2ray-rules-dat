@@ -1,0 +1,18 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	alt1-mtalk.google.com
+rules[0]	domain	alt2-mtalk.google.com
+rules[0]	domain	alt3-mtalk.google.com
+rules[0]	domain	alt4-mtalk.google.com
+rules[0]	domain	alt5-mtalk.google.com
+rules[0]	domain	alt6-mtalk.google.com
+rules[0]	domain	mtalk.google.com
+rules[0]	domain_suffix	alibabacloud.co.in
+rules[0]	domain_suffix	alibabacloud.com
+rules[0]	domain_suffix	alibabacloud.com.au
+rules[0]	domain_suffix	alibabacloud.com.hk
+rules[0]	domain_suffix	alibabacloud.com.my
+rules[0]	domain_suffix	alibabacloud.com.sg
+rules[0]	domain_suffix	alibabacloud.com.tw
+rules[0]	domain_suffix	alicloud.com

@@ -1,0 +1,15 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	redd.it
+rules[0]	domain_suffix	reddit.app.link
+rules[0]	domain_suffix	reddit.com
+rules[0]	domain_suffix	reddit.map.fastly.net
+rules[0]	domain_suffix	redditblog.com
+rules[0]	domain_suffix	reddithelp.com
+rules[0]	domain_suffix	redditinc.com
+rules[0]	domain_suffix	redditmail.com
+rules[0]	domain_suffix	redditmedia.com
+rules[0]	domain_suffix	redditspace.com
+rules[0]	domain_suffix	redditstatic.com
+rules[0]	domain_suffix	redditstatus.com

@@ -1,0 +1,13 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	azurecr.io
+rules[0]	domain_suffix	docker.io
+rules[0]	domain_suffix	ecr.aws
+rules[0]	domain_suffix	gcr.io
+rules[0]	domain_suffix	ghcr.io
+rules[0]	domain_suffix	mcr.microsoft.com
+rules[0]	domain_suffix	quay.io
+rules[0]	domain_suffix	registry.gitlab.com
+rules[0]	domain_suffix	registry.k8s.io
+rules[0]	domain_regex	.+\.dkr\.ecr\.[^\.]+\.amazonaws\.com$

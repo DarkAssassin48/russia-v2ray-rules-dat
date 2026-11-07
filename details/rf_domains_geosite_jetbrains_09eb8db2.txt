@@ -1,0 +1,27 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	cdn.jetbrains.com
+rules[0]	domain_suffix	datalore.io
+rules[0]	domain_suffix	grazie.ai
+rules[0]	domain_suffix	intellij.com
+rules[0]	domain_suffix	intellij.net
+rules[0]	domain_suffix	intellij.org
+rules[0]	domain_suffix	jb.gg
+rules[0]	domain_suffix	jetbrains.ai
+rules[0]	domain_suffix	jetbrains.cloud
+rules[0]	domain_suffix	jetbrains.com
+rules[0]	domain_suffix	jetbrains.com.cn
+rules[0]	domain_suffix	jetbrains.dev
+rules[0]	domain_suffix	jetbrains.net
+rules[0]	domain_suffix	jetbrains.org
+rules[0]	domain_suffix	jetbrains.ru
+rules[0]	domain_suffix	jetbrains.space
+rules[0]	domain_suffix	jetbrains.team
+rules[0]	domain_suffix	kotl.in
+rules[0]	domain_suffix	kotlinconf.com
+rules[0]	domain_suffix	kotlinlang.org
+rules[0]	domain_suffix	ktor.io
+rules[0]	domain_suffix	myjetbrains.com
+rules[0]	domain_suffix	talkingkotlin.com
+rules[0]	domain_suffix	youtrack.cloud

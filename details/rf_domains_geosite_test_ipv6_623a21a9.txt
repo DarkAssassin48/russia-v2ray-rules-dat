@@ -1,0 +1,39 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ip6.ro
+rules[0]	domain_suffix	ipv6.uz
+rules[0]	domain_suffix	ipv6ready.me
+rules[0]	domain_suffix	sixte.st
+rules[0]	domain_suffix	test-ipv6.alpinedc.ch
+rules[0]	domain_suffix	test-ipv6.amelek.net
+rules[0]	domain_suffix	test-ipv6.ams.vr.org
+rules[0]	domain_suffix	test-ipv6.arauc.br
+rules[0]	domain_suffix	test-ipv6.cgates.lt
+rules[0]	domain_suffix	test-ipv6.cl
+rules[0]	domain_suffix	test-ipv6.coloradointerlink.net
+rules[0]	domain_suffix	test-ipv6.com
+rules[0]	domain_suffix	test-ipv6.cs.umd.edu
+rules[0]	domain_suffix	test-ipv6.csclub.uwaterloo.ca
+rules[0]	domain_suffix	test-ipv6.cz
+rules[0]	domain_suffix	test-ipv6.datafiber.nl
+rules[0]	domain_suffix	test-ipv6.epic.network
+rules[0]	domain_suffix	test-ipv6.fratec.net
+rules[0]	domain_suffix	test-ipv6.freerangecloud.com
+rules[0]	domain_suffix	test-ipv6.hu
+rules[0]	domain_suffix	test-ipv6.in
+rules[0]	domain_suffix	test-ipv6.iu13.net
+rules[0]	domain_suffix	test-ipv6.jp
+rules[0]	domain_suffix	test-ipv6.karsolink.com
+rules[0]	domain_suffix	test-ipv6.nl
+rules[0]	domain_suffix	test-ipv6.noroutetohost.net
+rules[0]	domain_suffix	test-ipv6.roedu.net
+rules[0]	domain_suffix	test-ipv6.run
+rules[0]	domain_suffix	test-ipv6.se
+rules[0]	domain_suffix	test-ipv6.triplebit.us
+rules[0]	domain_suffix	test.version6.ru
+rules[0]	domain_suffix	testipv6.be
+rules[0]	domain_suffix	testipv6.ca
+rules[0]	domain_suffix	testipv6.cn
+rules[0]	domain_suffix	testipv6.de
+rules[0]	domain_suffix	testipv6.net

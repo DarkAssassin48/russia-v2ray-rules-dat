@@ -1,0 +1,35 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	appledaily.com
+rules[0]	domain_suffix	appledaily.com.hk
+rules[0]	domain_suffix	appledaily.com.tw
+rules[0]	domain_suffix	appledaily.hk
+rules[0]	domain_suffix	applefruity.com
+rules[0]	domain_suffix	applehealth.com.hk
+rules[0]	domain_suffix	atnext.com
+rules[0]	domain_suffix	bestmallawards.com
+rules[0]	domain_suffix	deluxe.com.hk
+rules[0]	domain_suffix	eracom.com.tw
+rules[0]	domain_suffix	next.hk
+rules[0]	domain_suffix	nextdigital.com.hk
+rules[0]	domain_suffix	nextdigital.com.tw
+rules[0]	domain_suffix	nextfilm.com.hk
+rules[0]	domain_suffix	nextmag.com.tw
+rules[0]	domain_suffix	nextmedia.com
+rules[0]	domain_suffix	nextmedia.com.tw
+rules[0]	domain_suffix	nextmgz.com
+rules[0]	domain_suffix	nextplus.com.hk
+rules[0]	domain_suffix	nexttv.com.tw
+rules[0]	domain_suffix	nextwork.com.hk
+rules[0]	domain_suffix	nextwork.com.tw
+rules[0]	domain_suffix	nextwork.hk
+rules[0]	domain_suffix	nextwork.tw
+rules[0]	domain_suffix	nxtdig.com.hk
+rules[0]	domain_suffix	nxtdig.com.tw
+rules[0]	domain_suffix	omoplanet.com
+rules[0]	domain_suffix	privilege.hk
+rules[0]	domain_suffix	privilege.tw
+rules[0]	domain_suffix	sharpdaily.tw
+rules[0]	domain_suffix	tomonews.net
+rules[0]	domain_suffix	twnextdigital.com

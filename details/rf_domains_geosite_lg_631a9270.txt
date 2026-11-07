@@ -1,0 +1,13 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	lgelectronics.122.2o7.net
+rules[0]	domain_suffix	lg.com
+rules[0]	domain_suffix	lgappstv.com
+rules[0]	domain_suffix	lge.co.kr
+rules[0]	domain_suffix	lge.com
+rules[0]	domain_suffix	lgecareers.com
+rules[0]	domain_suffix	lghvac.com
+rules[0]	domain_suffix	lghvacstory.com
+rules[0]	domain_suffix	lgrecyclingprogram.com
+rules[0]	domain_suffix	lgsalesportal.com

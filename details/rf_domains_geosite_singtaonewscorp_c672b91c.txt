@@ -1,0 +1,21 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bastillepost.com
+rules[0]	domain_suffix	easttouch.com.hk
+rules[0]	domain_suffix	eastweek.com.hk
+rules[0]	domain_suffix	eduplus.hk
+rules[0]	domain_suffix	headlinejobs.hk
+rules[0]	domain_suffix	hkheadline.com
+rules[0]	domain_suffix	jobmarket.com.hk
+rules[0]	domain_suffix	my-magazine.me
+rules[0]	domain_suffix	pcmarket.com.hk
+rules[0]	domain_suffix	sing68.com
+rules[0]	domain_suffix	singtao.com
+rules[0]	domain_suffix	singtaobooks.com
+rules[0]	domain_suffix	singtaola.com
+rules[0]	domain_suffix	singtaonewscorp.com
+rules[0]	domain_suffix	singtaoopo.com
+rules[0]	domain_suffix	singtaousa.com
+rules[0]	domain_suffix	stheadline.com
+rules[0]	domain_suffix	thestandard.com.hk

@@ -1,0 +1,18 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	sentry.hetzner.company
+rules[0]	domain_suffix	first-ns.de
+rules[0]	domain_suffix	hetzner-cloud.de
+rules[0]	domain_suffix	hetzner.cloud
+rules[0]	domain_suffix	hetzner.com
+rules[0]	domain_suffix	hetzner.company
+rules[0]	domain_suffix	hetzner.de
+rules[0]	domain_suffix	hetzner.social
+rules[0]	domain_suffix	htznr.li
+rules[0]	domain_suffix	second-ns.com
+rules[0]	domain_suffix	second-ns.de
+rules[0]	domain_suffix	your-objectstorage.com
+rules[0]	domain_suffix	your-server.de
+rules[0]	domain_suffix	your-storagebox.de
+rules[0]	domain_suffix	your-storageshare.de

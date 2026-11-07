@@ -1,0 +1,20 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	.citic
+rules[0]	domain_suffix	.xn--fiq64b
+rules[0]	domain_suffix	cfc108.com
+rules[0]	domain_suffix	chinaamc.com
+rules[0]	domain_suffix	citic-prudential.com.cn
+rules[0]	domain_suffix	citicbank.com
+rules[0]	domain_suffix	citiccapital.com
+rules[0]	domain_suffix	citiciam.com
+rules[0]	domain_suffix	citicifh.com
+rules[0]	domain_suffix	citicprufunds.com.cn
+rules[0]	domain_suffix	citics.com.hk
+rules[0]	domain_suffix	citicsf.com
+rules[0]	domain_suffix	clsa.com
+rules[0]	domain_suffix	cncbinternational.com
+rules[0]	domain_suffix	csc108.com
+rules[0]	domain_suffix	csci.hk
+rules[0]	domain_suffix	ecitic.com

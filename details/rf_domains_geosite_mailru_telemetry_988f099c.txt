@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	sentry-ng.g.smailru.net
+rules[0]	domain	sentry.dev-my.com
+rules[0]	domain	sentry.dev-my.games
+rules[0]	domain	sentry.rustore.ru
+rules[0]	domain	sentry.viqeo.tv
+rules[0]	domain	srch-telemeter10.g.smailru.net
+rules[0]	domain	stats.dahlmessenger.com
+rules[0]	domain	stats.dev.telega.info
+rules[0]	domain	stats.rustore.ru
+rules[0]	domain	stats.telega.info
+rules[0]	domain	stats.vk-portal.net
+rules[0]	domain_suffix	apptracer.ru
+rules[0]	domain_suffix	log.dzen.ru
+rules[0]	domain_suffix	metrics.viqeo.tv

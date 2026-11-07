@@ -1,0 +1,21 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	42r.cn
+rules[0]	domain_suffix	5566ua.com
+rules[0]	domain_suffix	aurorapush.cn
+rules[0]	domain_suffix	e0n.cn
+rules[0]	domain_suffix	easytomessage.com
+rules[0]	domain_suffix	japps.cn
+rules[0]	domain_suffix	jchat.io
+rules[0]	domain_suffix	jiguang.cn
+rules[0]	domain_suffix	jmlk.co
+rules[0]	domain_suffix	jpush.cn
+rules[0]	domain_suffix	jpush.io
+rules[0]	domain_suffix	jpushoa.com
+rules[0]	domain_suffix	jsurvey.cn
+rules[0]	domain_suffix	jvoice.cn
+rules[0]	domain_suffix	kc9.cn
+rules[0]	domain_suffix	n0q.cn
+rules[0]	domain_suffix	pushcfg.com
+rules[0]	domain_suffix	s0n.cn

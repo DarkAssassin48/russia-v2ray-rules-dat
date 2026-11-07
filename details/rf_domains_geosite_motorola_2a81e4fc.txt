@@ -1,0 +1,28 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	hellomoto.com
+rules[0]	domain_suffix	moto.com
+rules[0]	domain_suffix	motorola.ca
+rules[0]	domain_suffix	motorola.cl
+rules[0]	domain_suffix	motorola.co
+rules[0]	domain_suffix	motorola.co.id
+rules[0]	domain_suffix	motorola.co.jp
+rules[0]	domain_suffix	motorola.co.th
+rules[0]	domain_suffix	motorola.co.uk
+rules[0]	domain_suffix	motorola.com
+rules[0]	domain_suffix	motorola.com.au
+rules[0]	domain_suffix	motorola.com.co
+rules[0]	domain_suffix	motorola.com.pe
+rules[0]	domain_suffix	motorola.com.pr
+rules[0]	domain_suffix	motorola.de
+rules[0]	domain_suffix	motorola.es
+rules[0]	domain_suffix	motorola.fr
+rules[0]	domain_suffix	motorola.gr
+rules[0]	domain_suffix	motorola.in
+rules[0]	domain_suffix	motorola.it
+rules[0]	domain_suffix	motorola.net
+rules[0]	domain_suffix	motorola.vn
+rules[0]	domain_suffix	motorolacareers.com
+rules[0]	domain_suffix	motorolanews.com
+rules[0]	domain_suffix	motorolasolutions.com

@@ -1,0 +1,37 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	ip_cidr	104.28.13.16/31
+rules[0]	ip_cidr	104.28.13.18/32
+rules[0]	ip_cidr	140.248.56.198/32
+rules[0]	ip_cidr	140.248.57.198/32
+rules[0]	ip_cidr	140.248.58.198/32
+rules[0]	ip_cidr	140.248.59.198/32
+rules[0]	ip_cidr	140.248.60.198/32
+rules[0]	ip_cidr	140.248.61.198/32
+rules[0]	ip_cidr	140.248.62.198/32
+rules[0]	ip_cidr	140.248.63.198/32
+rules[0]	ip_cidr	143.246.176.201/32
+rules[0]	ip_cidr	162.120.206.15/32
+rules[0]	ip_cidr	162.120.214.14/32
+rules[0]	ip_cidr	179.64.106.0/23
+rules[0]	ip_cidr	195.10.0.0/24
+rules[0]	ip_cidr	196.249.201.0/24
+rules[0]	ip_cidr	2001:470:36:2bb::/64
+rules[0]	ip_cidr	2001:470:ed29::/48
+rules[0]	ip_cidr	2401:3620:232:c9::/64
+rules[0]	ip_cidr	2605:59c0:8700::/40
+rules[0]	ip_cidr	2606:40:21c1:e000::/54
+rules[0]	ip_cidr	2606:40:22c1:c000::/54
+rules[0]	ip_cidr	2a04:4e41:401c:6000::/52
+rules[0]	ip_cidr	2a04:4e41:402c:6000::/52
+rules[0]	ip_cidr	2a04:4e41:403c:6000::/52
+rules[0]	ip_cidr	2a04:4e41:404c:6000::/52
+rules[0]	ip_cidr	2a04:4e41:405c:6000::/52
+rules[0]	ip_cidr	2a04:4e41:406c:6000::/52
+rules[0]	ip_cidr	2a04:4e41:407c:6000::/52
+rules[0]	ip_cidr	2a04:4e41:408c:6000::/52
+rules[0]	ip_cidr	2a07:d887:c500::/40
+rules[0]	ip_cidr	2a09:bac4:628::/45
+rules[0]	ip_cidr	2a09:bac4:1628::/45
+rules[0]	ip_cidr	2a0b:4e07:3:6540::/60

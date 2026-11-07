@@ -1,0 +1,9 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	click.hunantv.com
+rules[0]	domain_suffix	da.hunantv.com
+rules[0]	domain_suffix	da.mgtv.com
+rules[0]	domain_suffix	log.hunantv.com
+rules[0]	domain_suffix	log.v2.hunantv.com
+rules[0]	domain_suffix	res.hunantv.com

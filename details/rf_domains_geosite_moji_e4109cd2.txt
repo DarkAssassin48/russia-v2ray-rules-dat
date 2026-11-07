@@ -1,0 +1,10 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ad.api.moji.com
+rules[0]	domain_suffix	airnut.com
+rules[0]	domain_suffix	moji.com
+rules[0]	domain_suffix	moji001.com
+rules[0]	domain_suffix	moji002.com
+rules[0]	domain_suffix	mojicdn.com
+rules[0]	domain_suffix	mojichina.com

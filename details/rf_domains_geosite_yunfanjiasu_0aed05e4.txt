@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	yfcache.com
+rules[0]	domain_suffix	yfcalc.com
+rules[0]	domain_suffix	yfcdn.net
+rules[0]	domain_suffix	yfcloud.com
+rules[0]	domain_suffix	yfdts.net
+rules[0]	domain_suffix	yfp2p.net
+rules[0]	domain_suffix	yfscdn.net
+rules[0]	domain_suffix	yunfancdn.com

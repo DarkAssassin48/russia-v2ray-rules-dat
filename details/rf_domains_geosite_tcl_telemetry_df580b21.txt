@@ -1,0 +1,12 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	base.api.my7v.com
+rules[0]	domain_suffix	dc-conf-o.api.leiniao.com
+rules[0]	domain_suffix	dc-conf-t.api.leiniao.com
+rules[0]	domain_suffix	dc-o.api.leiniao.com
+rules[0]	domain_suffix	dc-t.api.leiniao.com
+rules[0]	domain_suffix	dc-uo.api.leiniao.com
+rules[0]	domain_suffix	dc-ut.api.leiniao.com
+rules[0]	domain_suffix	qms-report-o.api.leiniao.com
+rules[0]	domain_suffix	qms-report-t.api.leiniao.com

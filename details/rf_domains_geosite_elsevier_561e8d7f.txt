@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	cell.com
+rules[0]	domain_suffix	clinicalkey.com
+rules[0]	domain_suffix	els-cdn.com
+rules[0]	domain_suffix	elsevier-ae.com
+rules[0]	domain_suffix	elsevier.com
+rules[0]	domain_suffix	elsevier.io
+rules[0]	domain_suffix	engineeringvillage.com
+rules[0]	domain_suffix	evise.com
+rules[0]	domain_suffix	fundinginstitutional.com
+rules[0]	domain_suffix	knovel.com
+rules[0]	domain_suffix	mendeley.com
+rules[0]	domain_suffix	reaxys.com
+rules[0]	domain_suffix	scival.com
+rules[0]	domain_suffix	scopus.com

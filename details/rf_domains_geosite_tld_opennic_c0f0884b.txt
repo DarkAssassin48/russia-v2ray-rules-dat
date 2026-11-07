@@ -1,0 +1,31 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	.bazar
+rules[0]	domain_suffix	.bbs
+rules[0]	domain_suffix	.chan
+rules[0]	domain_suffix	.coin
+rules[0]	domain_suffix	.cyb
+rules[0]	domain_suffix	.dyn
+rules[0]	domain_suffix	.emc
+rules[0]	domain_suffix	.epic
+rules[0]	domain_suffix	.free
+rules[0]	domain_suffix	.fur
+rules[0]	domain_suffix	.geek
+rules[0]	domain_suffix	.gopher
+rules[0]	domain_suffix	.indy
+rules[0]	domain_suffix	.ko
+rules[0]	domain_suffix	.ku
+rules[0]	domain_suffix	.lib
+rules[0]	domain_suffix	.libre
+rules[0]	domain_suffix	.neo
+rules[0]	domain_suffix	.null
+rules[0]	domain_suffix	.o
+rules[0]	domain_suffix	.oss
+rules[0]	domain_suffix	.oz
+rules[0]	domain_suffix	.parody
+rules[0]	domain_suffix	.pirate
+rules[0]	domain_suffix	.rm
+rules[0]	domain_suffix	.te
+rules[0]	domain_suffix	.ti
+rules[0]	domain_suffix	.uu

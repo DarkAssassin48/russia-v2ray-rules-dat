@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	115.com
+rules[0]	domain_suffix	115cdn.com
+rules[0]	domain_suffix	115cdn.net
+rules[0]	domain_suffix	115cloud.cn
+rules[0]	domain_suffix	115cloud.com
+rules[0]	domain_suffix	115cloud.net
+rules[0]	domain_suffix	115img.com
+rules[0]	domain_suffix	115meta.com
+rules[0]	domain_suffix	115vod.com
+rules[0]	domain_suffix	116cd.cn
+rules[0]	domain_suffix	116cd.com
+rules[0]	domain_suffix	116cd.net
+rules[0]	domain_suffix	anxia.com
+rules[0]	domain_suffix	sq.cc

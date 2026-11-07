@@ -1,0 +1,32 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	adeventtracker.spotify.com
+rules[0]	domain	adstudio-assets.scdn.co
+rules[0]	domain	audio-ak-spotify-com.akamaized.net
+rules[0]	domain	audio4-ak-spotify-com.akamaized.net
+rules[0]	domain	bloodhound.spotify.com
+rules[0]	domain	cdn-spotify-experiments.conductrics.com
+rules[0]	domain	heads-ak-spotify-com.akamaized.net
+rules[0]	domain	heads4-ak-spotify-com.akamaized.net
+rules[0]	domain	spotify.com.edgesuite.net
+rules[0]	domain	spotify.map.fastly.net
+rules[0]	domain	spotify.map.fastlylb.net
+rules[0]	domain_suffix	byspotify.com
+rules[0]	domain_suffix	lifeatspotify.com
+rules[0]	domain_suffix	pscdn.co
+rules[0]	domain_suffix	scdn.co
+rules[0]	domain_suffix	spoti.fi
+rules[0]	domain_suffix	spotify-everywhere.com
+rules[0]	domain_suffix	spotify.com
+rules[0]	domain_suffix	spotify.com.edgesuite.net
+rules[0]	domain_suffix	spotify.design
+rules[0]	domain_suffix	spotify.link
+rules[0]	domain_suffix	spotifycdn.com
+rules[0]	domain_suffix	spotifycdn.net
+rules[0]	domain_suffix	spotifycharts.com
+rules[0]	domain_suffix	spotifycodes.com
+rules[0]	domain_suffix	spotifyforbrands.com
+rules[0]	domain_suffix	spotifyforvendors.com
+rules[0]	domain_suffix	spotifyjobs.com
+rules[0]	domain_suffix	tospotify.com

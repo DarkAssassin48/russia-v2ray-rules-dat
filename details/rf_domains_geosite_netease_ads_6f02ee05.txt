@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	a.youdao.com
+rules[0]	domain_suffix	admusicpic.music.126.net
+rules[0]	domain_suffix	ads.music.126.net
+rules[0]	domain_suffix	analytics.163.com
+rules[0]	domain_suffix	crash.163.com
+rules[0]	domain_suffix	crashlytics.163.com
+rules[0]	domain_suffix	g.163.com
+rules[0]	domain_suffix	iadmat.nosdn.127.net
+rules[0]	domain_suffix	iadmatapk.nosdn.127.net
+rules[0]	domain_suffix	iadmusicmat.music.126.net
+rules[0]	domain_suffix	iadmusicmatvideo.music.126.net
+rules[0]	domain_suffix	sentry.music.163.com
+rules[0]	domain_suffix	youdaoads.com

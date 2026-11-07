@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	51dzt.com
+rules[0]	domain_suffix	docer.com
+rules[0]	domain_suffix	iciba.com
+rules[0]	domain_suffix	kdocs.cn
+rules[0]	domain_suffix	kimxz.com
+rules[0]	domain_suffix	papocket.com
+rules[0]	domain_suffix	qwps.cn
+rules[0]	domain_suffix	wps.cn
+rules[0]	domain_suffix	wps.com
+rules[0]	domain_suffix	wpscdn.cn
+rules[0]	domain_suffix	wpscdn.com
+rules[0]	domain_suffix	wpsmail.net
+rules[0]	domain_suffix	wpspdf.cn

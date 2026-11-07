@@ -1,0 +1,7 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	cityu.edu.hk
+rules[0]	domain_suffix	cityu.hk
+rules[0]	domain_suffix	xn----fr0b94b15d2ue8q7a1o3e.xn--wcvs22d.xn--j6w193g
+rules[0]	domain_suffix	xn--uis44a.xn--j6w193g

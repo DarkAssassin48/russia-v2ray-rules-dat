@@ -1,0 +1,32 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	acgcf.com
+rules[0]	domain_suffix	acgdg.com
+rules[0]	domain_suffix	acgdv.com
+rules[0]	domain_suffix	acgfabu.com
+rules[0]	domain_suffix	acgfbw.com
+rules[0]	domain_suffix	acgvipss.com
+rules[0]	domain_suffix	acgwr.com
+rules[0]	domain_suffix	aishegw.com
+rules[0]	domain_suffix	fabuyemian.com
+rules[0]	domain_suffix	illusion111.com
+rules[0]	domain_suffix	illusionas.com
+rules[0]	domain_suffix	illusionchn.com
+rules[0]	domain_suffix	illusiongw.com
+rules[0]	domain_suffix	illusionh.com
+rules[0]	domain_suffix	illusionl.com
+rules[0]	domain_suffix	illusionn2.com
+rules[0]	domain_suffix	illusionn3.com
+rules[0]	domain_suffix	illusionn4.com
+rules[0]	domain_suffix	illusionn5.com
+rules[0]	domain_suffix	illusionxz.com
+rules[0]	domain_suffix	illusiony.com
+rules[0]	domain_suffix	illusionze.com
+rules[0]	domain_suffix	illusnoi.com
+rules[0]	domain_suffix	isgame365.cc
+rules[0]	domain_suffix	isheppc.com
+rules[0]	domain_suffix	lliusno.com
+rules[0]	domain_suffix	noisullifb.com
+rules[0]	domain_suffix	wnoaissulli1.com
+rules[0]	domain_suffix	zzycdz.com

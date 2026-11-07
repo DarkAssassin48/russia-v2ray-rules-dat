@@ -1,0 +1,26 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bisheng.cn
+rules[0]	domain_suffix	bishengcompiler.cn
+rules[0]	domain_suffix	devui.design
+rules[0]	domain_suffix	gneec.com
+rules[0]	domain_suffix	gneec.com.cn
+rules[0]	domain_suffix	gneec3.com
+rules[0]	domain_suffix	gneec4.com
+rules[0]	domain_suffix	gneec7.com
+rules[0]	domain_suffix	harmonyos.com
+rules[0]	domain_suffix	hiascend.cn
+rules[0]	domain_suffix	hiascend.com
+rules[0]	domain_suffix	hiclc.com
+rules[0]	domain_suffix	hikunpeng.cn
+rules[0]	domain_suffix	hikunpeng.com
+rules[0]	domain_suffix	hikunpeng.com.cn
+rules[0]	domain_suffix	hikunpeng.net
+rules[0]	domain_suffix	hisilicon.com
+rules[0]	domain_suffix	hisilicon.com.cn
+rules[0]	domain_suffix	huaweiapaas.com
+rules[0]	domain_suffix	mindspore.cn
+rules[0]	domain_suffix	owsgo.com
+rules[0]	domain_suffix	saasops.tech
+rules[0]	domain_suffix	teleows.com

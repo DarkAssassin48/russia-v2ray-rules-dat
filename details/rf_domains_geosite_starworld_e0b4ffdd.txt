@@ -1,0 +1,28 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	360-api.cn
+rules[0]	domain_suffix	360-g.cn
+rules[0]	domain_suffix	360-g.net
+rules[0]	domain_suffix	360-game.net
+rules[0]	domain_suffix	360pay.cn
+rules[0]	domain_suffix	360sjyh.cn
+rules[0]	domain_suffix	gamepack.cn
+rules[0]	domain_suffix	qftexpay.cn
+rules[0]	domain_suffix	qikoo.com
+rules[0]	domain_suffix	qiku.com
+rules[0]	domain_suffix	qikucdn.com
+rules[0]	domain_suffix	starworldgames.com
+rules[0]	domain_suffix	theworld.cn
+rules[0]	domain_suffix	warsaga.cn
+rules[0]	domain_suffix	wggames.cn
+rules[0]	domain_suffix	worldofship.cn
+rules[0]	domain_suffix	worldoftank.cn
+rules[0]	domain_suffix	worldoftanks.cn
+rules[0]	domain_suffix	worldoftanks.com.cn
+rules[0]	domain_suffix	wotgame.cn
+rules[0]	domain_suffix	wowsgame.cn
+rules[0]	domain_suffix	woxihuan.com
+rules[0]	domain_suffix	wztsy.cn
+rules[0]	domain_suffix	wztsy.com
+rules[0]	domain_suffix	yiwanzhushou.com

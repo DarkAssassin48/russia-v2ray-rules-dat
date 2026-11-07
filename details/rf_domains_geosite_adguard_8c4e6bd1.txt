@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	adguard-dns.com
+rules[0]	domain_suffix	adguard-dns.io
+rules[0]	domain_suffix	adguard-mail.com
+rules[0]	domain_suffix	adguard-vpn.com
+rules[0]	domain_suffix	adguard-vpn.online
+rules[0]	domain_suffix	adguard.app
+rules[0]	domain_suffix	adguard.com
+rules[0]	domain_suffix	adguard.info
+rules[0]	domain_suffix	adguard.io
+rules[0]	domain_suffix	adguard.org
+rules[0]	domain_suffix	adguardaccount.com
+rules[0]	domain_suffix	adguardaccount.net
+rules[0]	domain_suffix	adguardcdn.com
+rules[0]	domain_suffix	adguardvpn.com
+rules[0]	domain_suffix	adtidy.net
+rules[0]	domain_suffix	adtidy.org
+rules[0]	domain_suffix	agrd.eu
+rules[0]	domain_suffix	agrd.io
+rules[0]	domain_suffix	mask.me

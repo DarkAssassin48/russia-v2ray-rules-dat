@@ -1,0 +1,36 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	cepacol.ca
+rules[0]	domain_suffix	cepacol.com
+rules[0]	domain_suffix	dobendan.de
+rules[0]	domain_suffix	graneodin.com.mx
+rules[0]	domain_suffix	repsils.no
+rules[0]	domain_suffix	strepsils.at
+rules[0]	domain_suffix	strepsils.ch
+rules[0]	domain_suffix	strepsils.cn
+rules[0]	domain_suffix	strepsils.co.kr
+rules[0]	domain_suffix	strepsils.co.nz
+rules[0]	domain_suffix	strepsils.co.za
+rules[0]	domain_suffix	strepsils.com.ar
+rules[0]	domain_suffix	strepsils.com.au
+rules[0]	domain_suffix	strepsils.com.br
+rules[0]	domain_suffix	strepsils.com.cn
+rules[0]	domain_suffix	strepsils.com.co
+rules[0]	domain_suffix	strepsils.com.hk
+rules[0]	domain_suffix	strepsils.com.ph
+rules[0]	domain_suffix	strepsils.com.tw
+rules[0]	domain_suffix	strepsils.es
+rules[0]	domain_suffix	strepsils.fi
+rules[0]	domain_suffix	strepsils.fr
+rules[0]	domain_suffix	strepsils.hr
+rules[0]	domain_suffix	strepsils.hu
+rules[0]	domain_suffix	strepsils.ie
+rules[0]	domain_suffix	strepsils.net
+rules[0]	domain_suffix	strepsils.pl
+rules[0]	domain_suffix	strepsils.pt
+rules[0]	domain_suffix	strepsils.ro
+rules[0]	domain_suffix	strepsils.ru
+rules[0]	domain_suffix	strepsils.si
+rules[0]	domain_suffix	strepsils.us
+rules[0]	domain_suffix	strepsilsarabia.com

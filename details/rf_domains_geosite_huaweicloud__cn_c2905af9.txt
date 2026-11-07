@@ -1,0 +1,47 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ae-ad-1.myhuaweicloud.com
+rules[0]	domain_suffix	af-east-201.myhuaweicloud.com
+rules[0]	domain_suffix	af-north-1.myhuaweicloud.com
+rules[0]	domain_suffix	af-south-1.myhuaweicloud.com
+rules[0]	domain_suffix	af-west-202.myhuaweicloud.com
+rules[0]	domain_suffix	ap-northeast-201.myhuaweicloud.com
+rules[0]	domain_suffix	ap-southeast-1.myhuaweicloud.com
+rules[0]	domain_suffix	ap-southeast-2.myhuaweicloud.com
+rules[0]	domain_suffix	ap-southeast-201.myhuaweicloud.com
+rules[0]	domain_suffix	ap-southeast-202.myhuaweicloud.com
+rules[0]	domain_suffix	ap-southeast-203.myhuaweicloud.com
+rules[0]	domain_suffix	ap-southeast-3.myhuaweicloud.com
+rules[0]	domain_suffix	ap-southeast-4.myhuaweicloud.com
+rules[0]	domain_suffix	ap-southeast-5.myhuaweicloud.com
+rules[0]	domain_suffix	as-south-0.myhuaweicloud.com
+rules[0]	domain_suffix	as-south-201.myhuaweicloud.com
+rules[0]	domain_suffix	as-south-205.myhuaweicloud.com
+rules[0]	domain_suffix	as-south-207.myhuaweicloud.com
+rules[0]	domain_suffix	ca-east-201.myhuaweicloud.com
+rules[0]	domain_suffix	eu-central-201.myhuaweicloud.com
+rules[0]	domain_suffix	eu-central-202.myhuaweicloud.com
+rules[0]	domain_suffix	eu-north-201.myhuaweicloud.com
+rules[0]	domain_suffix	eu-west-0.myhuaweicloud.com
+rules[0]	domain_suffix	eu-west-1.myhuaweicloud.com
+rules[0]	domain_suffix	eu-west-101.myhuaweicloud.com
+rules[0]	domain_suffix	eu-west-201.myhuaweicloud.com
+rules[0]	domain_suffix	huaweicloud-dns.net
+rules[0]	domain_suffix	huaweicloud-dns.org
+rules[0]	domain_suffix	la-north-2.myhuaweicloud.com
+rules[0]	domain_suffix	la-north-205.myhuaweicloud.com
+rules[0]	domain_suffix	la-south-2.myhuaweicloud.com
+rules[0]	domain_suffix	me-east-1.myhuaweicloud.com
+rules[0]	domain_suffix	me-east-205.myhuaweicloud.com
+rules[0]	domain_suffix	me-east-208.myhuaweicloud.com
+rules[0]	domain_suffix	me-east-209.myhuaweicloud.com
+rules[0]	domain_suffix	my-kualalumpur-1.myhuaweicloud.com
+rules[0]	domain_suffix	na-east-0.myhuaweicloud.com
+rules[0]	domain_suffix	na-mexico-1.myhuaweicloud.com
+rules[0]	domain_suffix	ru-moscow-1.myhuaweicloud.com
+rules[0]	domain_suffix	ru-northwest-2.myhuaweicloud.com
+rules[0]	domain_suffix	ru-northwest-201.myhuaweicloud.com
+rules[0]	domain_suffix	sa-brazil-1.myhuaweicloud.com
+rules[0]	domain_suffix	tr-west-1.myhuaweicloud.com
+rules[0]	domain_suffix	us-east-1.myhuaweicloud.com

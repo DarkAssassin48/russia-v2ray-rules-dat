@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	apple.www.letv.com
+rules[0]	domain_suffix	ark.letv.com
+rules[0]	domain_suffix	dc.letv.com
+rules[0]	domain_suffix	g3.letv.com
+rules[0]	domain_suffix	le.com
+rules[0]	domain_suffix	leautolink.com
+rules[0]	domain_suffix	lecloud.com
+rules[0]	domain_suffix	lecloudapi.com
+rules[0]	domain_suffix	lemall.com
+rules[0]	domain_suffix	leso.cn
+rules[0]	domain_suffix	letv.com
+rules[0]	domain_suffix	letvcdn.com
+rules[0]	domain_suffix	letvimg.com

@@ -1,0 +1,9 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	gpsonextra.net
+rules[0]	domain_suffix	izatcloud.net
+rules[0]	domain_suffix	qceventscenter.com.cn
+rules[0]	domain_suffix	qualcomm.cn
+rules[0]	domain_suffix	qualcomm.cn.cdn.cloudflare.net
+rules[0]	domain_suffix	xtracloud.cn

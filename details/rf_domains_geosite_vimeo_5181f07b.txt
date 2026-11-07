@@ -1,0 +1,20 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	livestream.com
+rules[0]	domain_suffix	vhx.tv
+rules[0]	domain_suffix	vhxqa1.com
+rules[0]	domain_suffix	vhxqa2.com
+rules[0]	domain_suffix	vhxqa3.com
+rules[0]	domain_suffix	vhxqa4.com
+rules[0]	domain_suffix	vhxqa6.com
+rules[0]	domain_suffix	vimeo-staging.com
+rules[0]	domain_suffix	vimeo-staging2.com
+rules[0]	domain_suffix	vimeo.com
+rules[0]	domain_suffix	vimeo.fr
+rules[0]	domain_suffix	vimeobusiness.com
+rules[0]	domain_suffix	vimeocdn.com
+rules[0]	domain_suffix	vimeogoods.com
+rules[0]	domain_suffix	vimeoondemand.com
+rules[0]	domain_suffix	vimeostatus.com
+rules[0]	domain_regex	^[0-9]+vod-adaptive\.akamaized\.net$

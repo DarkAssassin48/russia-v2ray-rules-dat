@@ -1,0 +1,42 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	p16-tiktok-dm-sticker-sign-sg.ibyteimg.com
+rules[0]	domain	p16-tiktokcdn-com.akamaized.net
+rules[0]	domain	roovza-launches.appsflyersdk.com
+rules[0]	domain	roovza.inapps.appsflyersdk.com
+rules[0]	domain	roovza.launches.appsflyersdk.com
+rules[0]	domain	roovza.skadsdk.appsflyersdk.com
+rules[0]	domain_suffix	bytedapm.com
+rules[0]	domain_suffix	muscdn.com
+rules[0]	domain_suffix	musical.ly
+rules[0]	domain_suffix	tik-tokapi.com
+rules[0]	domain_suffix	tiktok-minis.com
+rules[0]	domain_suffix	tiktok-row.net
+rules[0]	domain_suffix	tiktok.com
+rules[0]	domain_suffix	tiktokcdn-eu.com
+rules[0]	domain_suffix	tiktokcdn-us.com
+rules[0]	domain_suffix	tiktokcdn-us.com.edgesuite.net
+rules[0]	domain_suffix	tiktokcdn.com
+rules[0]	domain_suffix	tiktokcdn.com.akamaized.net
+rules[0]	domain_suffix	tiktokcdn.com.edgesuite.net
+rules[0]	domain_suffix	tiktokd.net
+rules[0]	domain_suffix	tiktokd.org
+rules[0]	domain_suffix	tiktokeu-cdn.com
+rules[0]	domain_suffix	tiktokglobalshopv.com
+rules[0]	domain_suffix	tiktokminis.us
+rules[0]	domain_suffix	tiktokrow-cdn.com
+rules[0]	domain_suffix	tiktokshop.com
+rules[0]	domain_suffix	tiktokstaticb.com
+rules[0]	domain_suffix	tiktokv.com
+rules[0]	domain_suffix	tiktokv.com.edgekey.net
+rules[0]	domain_suffix	tiktokv.com.edgesuite.net
+rules[0]	domain_suffix	tiktokv.eu
+rules[0]	domain_suffix	tiktokv.us
+rules[0]	domain_suffix	tiktokvapp.com
+rules[0]	domain_suffix	tiktokw.eu
+rules[0]	domain_suffix	tiktokw.us
+rules[0]	domain_suffix	ttcdn-us.com
+rules[0]	domain_suffix	ttlivecdn.com
+rules[0]	domain_suffix	ttoverseaus.net
+rules[0]	domain_suffix	ttwstatic.com

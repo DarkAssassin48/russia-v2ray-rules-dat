@@ -1,0 +1,13 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	conn1.oppomobile.com
+rules[0]	domain	conn2.oppomobile.com
+rules[0]	domain	connect.rom.miui.com
+rules[0]	domain	connectivity.samsung.com.cn
+rules[0]	domain	connectivitycheck.platform.hicloud.com
+rules[0]	domain	connectivitycheck.platform.hihonorcloud.com
+rules[0]	domain	wifi.vivo.com.cn
+rules[0]	domain	www.gstatic.com
+rules[0]	domain	www.qualcomm.cn
+rules[0]	domain_suffix	captive.apple.com

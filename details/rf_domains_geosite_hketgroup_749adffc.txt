@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	apexprint.com.hk
+rules[0]	domain_suffix	eprc.com.hk
+rules[0]	domain_suffix	etbc.com.hk
+rules[0]	domain_suffix	etnet.com.cn
+rules[0]	domain_suffix	etnet.com.hk
+rules[0]	domain_suffix	etnetchina.com.cn
+rules[0]	domain_suffix	etpress.com.hk
+rules[0]	domain_suffix	ettrade.com.hk
+rules[0]	domain_suffix	etwealth.com
+rules[0]	domain_suffix	hket.com
+rules[0]	domain_suffix	hketgroup.com
+rules[0]	domain_suffix	ulifestyle.com.hk
+rules[0]	domain_suffix	umagazine.com.hk

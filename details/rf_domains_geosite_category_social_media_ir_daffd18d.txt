@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bale.ai
+rules[0]	domain_suffix	eitaa.com
+rules[0]	domain_suffix	eitaa.ir
+rules[0]	domain_suffix	gap.im
+rules[0]	domain_suffix	gaplication.com
+rules[0]	domain_suffix	mizito.ir
+rules[0]	domain_suffix	niniban.com
+rules[0]	domain_suffix	ninisite.com
+rules[0]	domain_suffix	rubika.ir
+rules[0]	domain_suffix	splus.ir
+rules[0]	domain_suffix	virasty.com

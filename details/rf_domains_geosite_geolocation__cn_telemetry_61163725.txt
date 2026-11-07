@@ -1,0 +1,26 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	copilot-telemetry-service.githubusercontent.com
+rules[0]	domain	copilot-telemetry.githubusercontent.com
+rules[0]	domain	dc.applicationinsights.azure.com
+rules[0]	domain	dc.services.visualstudio.com
+rules[0]	domain	firebaselogging-pa.googleapis.com
+rules[0]	domain	firebaselogging.googleapis.com
+rules[0]	domain	incoming-telemetry.thunderbird.net
+rules[0]	domain	incoming.telemetry.mozilla.org
+rules[0]	domain	live.applicationinsights.azure.com
+rules[0]	domain	rt.services.visualstudio.com
+rules[0]	domain	sentry.ppy.sh
+rules[0]	domain_suffix	adobestats.io
+rules[0]	domain_suffix	akstat.io
+rules[0]	domain_suffix	applicationinsights.io
+rules[0]	domain_suffix	applicationinsights.net
+rules[0]	domain_suffix	aria.ms
+rules[0]	domain_suffix	cafe.github.com
+rules[0]	domain_suffix	cloudflareinsights.com
+rules[0]	domain_suffix	collector.github.com
+rules[0]	domain_suffix	data.microsoft.com
+rules[0]	domain_suffix	in.applicationinsights.azure.com
+rules[0]	domain_suffix	paypalbeacon.com
+rules[0]	domain_suffix	telemetry.microsoft.com

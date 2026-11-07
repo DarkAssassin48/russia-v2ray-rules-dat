@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	a.mts.ru
+rules[0]	domain_suffix	dbo-dengi.online
+rules[0]	domain_suffix	kion.ru
+rules[0]	domain_suffix	mts-link.ru
+rules[0]	domain_suffix	mts-ws.net
+rules[0]	domain_suffix	mts.ru
+rules[0]	domain_suffix	mtsbank.ru
+rules[0]	domain_suffix	mtsdengi.ru
+rules[0]	domain_suffix	mtsmedia.ru
+rules[0]	domain_suffix	mymts.ru
+rules[0]	domain_suffix	obs.mts.ru
+rules[0]	domain_suffix	on-media.ru
+rules[0]	domain_suffix	tvoyodbo.online

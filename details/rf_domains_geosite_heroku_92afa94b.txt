@@ -1,0 +1,15 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	codei.sh
+rules[0]	domain_suffix	codeish.co
+rules[0]	domain_suffix	codeish.io
+rules[0]	domain_suffix	heroku-app.com
+rules[0]	domain_suffix	heroku-charge.com
+rules[0]	domain_suffix	heroku.co
+rules[0]	domain_suffix	heroku.com
+rules[0]	domain_suffix	heroku.me
+rules[0]	domain_suffix	herokuapp.com
+rules[0]	domain_suffix	herokucdn.com
+rules[0]	domain_suffix	herokucharge.com
+rules[0]	domain_suffix	herokussl.com

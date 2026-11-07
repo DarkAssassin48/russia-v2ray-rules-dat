@@ -1,0 +1,24 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	futu.cn
+rules[0]	domain_suffix	futu.link
+rules[0]	domain_suffix	futu5.com
+rules[0]	domain_suffix	futuau.com
+rules[0]	domain_suffix	futuesop.com
+rules[0]	domain_suffix	futufin.com
+rules[0]	domain_suffix	futuhk.com
+rules[0]	domain_suffix	futuhk1.com
+rules[0]	domain_suffix	futuhk2.com
+rules[0]	domain_suffix	futuhkapp.com
+rules[0]	domain_suffix	futuhn.com
+rules[0]	domain_suffix	futuholdings.com
+rules[0]	domain_suffix	futuniuniu.com
+rules[0]	domain_suffix	futunn.com
+rules[0]	domain_suffix	futuoa.com
+rules[0]	domain_suffix	futusg.com
+rules[0]	domain_suffix	futustatic.com
+rules[0]	domain_suffix	fututrade.com
+rules[0]	domain_suffix	moomoo.com
+rules[0]	domain_suffix	moomooequity.com
+rules[0]	domain_suffix	moomootrustee.com

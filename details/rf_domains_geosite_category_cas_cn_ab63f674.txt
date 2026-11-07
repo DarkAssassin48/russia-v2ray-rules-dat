@@ -1,0 +1,34 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	c.pki.goog
+rules[0]	domain	cdn.globalsigncdn.com.cdn.cloudflare.net
+rules[0]	domain	certs-lb.apple.com.akadns.net
+rules[0]	domain	certs.apple.com
+rules[0]	domain	crl-lb.apple.com.akadns.net
+rules[0]	domain	crl.apple.com
+rules[0]	domain	crl.globalsign.net
+rules[0]	domain	crl.pki.goog
+rules[0]	domain	crls.pki.goog
+rules[0]	domain	i.pki.goog
+rules[0]	domain	o.pki.goog
+rules[0]	domain	ocsp.apple.com
+rules[0]	domain	ocsp.pki.goog
+rules[0]	domain	ocsp2.apple.com
+rules[0]	domain	pki-goog.l.google.com
+rules[0]	domain	valid.apple.com
+rules[0]	domain	valid.origin-apple.com.akadns.net
+rules[0]	domain	www.entrust.cn
+rules[0]	domain_suffix	alphassl.com
+rules[0]	domain_suffix	dcocsp.cn
+rules[0]	domain_suffix	digicert.cn
+rules[0]	domain_suffix	easy-signing.com
+rules[0]	domain_suffix	globalsign.cn
+rules[0]	domain_suffix	globalsign.com
+rules[0]	domain_suffix	globalsigncdn.com
+rules[0]	domain_suffix	oemssl.cn
+rules[0]	domain_suffix	oemssl.cn.cdn.cloudflare.net
+rules[0]	domain_suffix	sectigochina.com
+rules[0]	domain_suffix	sectigochina.com.cdn.cloudflare.net
+rules[0]	domain_suffix	sslcom.cn
+rules[0]	domain_suffix	trust-provider.cn

@@ -1,0 +1,46 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	4008-517-517.cn
+rules[0]	domain_suffix	aboutmcdonalds.com
+rules[0]	domain_suffix	happymeal.co.nz
+rules[0]	domain_suffix	happymeal.com
+rules[0]	domain_suffix	happymeal.com.au
+rules[0]	domain_suffix	happymealdigital.com
+rules[0]	domain_suffix	mcd-holdings.co.jp
+rules[0]	domain_suffix	mcd.cn
+rules[0]	domain_suffix	mcd.com
+rules[0]	domain_suffix	mcdchina.net
+rules[0]	domain_suffix	mcdelivery.co.id
+rules[0]	domain_suffix	mcdelivery.co.in
+rules[0]	domain_suffix	mcdelivery.co.kr
+rules[0]	domain_suffix	mcdelivery.com.au
+rules[0]	domain_suffix	mcdelivery.com.my
+rules[0]	domain_suffix	mcdelivery.com.ph
+rules[0]	domain_suffix	mcdelivery.com.sg
+rules[0]	domain_suffix	mcdelivery.com.tw
+rules[0]	domain_suffix	mcdindia.com
+rules[0]	domain_suffix	mcdindonesia.com
+rules[0]	domain_suffix	mcdonalds-online.com
+rules[0]	domain_suffix	mcdonalds.be
+rules[0]	domain_suffix	mcdonalds.ca
+rules[0]	domain_suffix	mcdonalds.co.id
+rules[0]	domain_suffix	mcdonalds.co.jp
+rules[0]	domain_suffix	mcdonalds.co.kr
+rules[0]	domain_suffix	mcdonalds.co.nz
+rules[0]	domain_suffix	mcdonalds.co.uk
+rules[0]	domain_suffix	mcdonalds.com
+rules[0]	domain_suffix	mcdonalds.com.au
+rules[0]	domain_suffix	mcdonalds.com.cn
+rules[0]	domain_suffix	mcdonalds.com.hk
+rules[0]	domain_suffix	mcdonalds.com.lb
+rules[0]	domain_suffix	mcdonalds.com.my
+rules[0]	domain_suffix	mcdonalds.com.ph
+rules[0]	domain_suffix	mcdonalds.com.tw
+rules[0]	domain_suffix	mcdonalds.hk
+rules[0]	domain_suffix	mcdonalds.it
+rules[0]	domain_suffix	mcdonalds.no
+rules[0]	domain_suffix	mcdonalds.se
+rules[0]	domain_suffix	mcdonaldsapps.com
+rules[0]	domain_suffix	mcdonaldsarabia.com
+rules[0]	domain_suffix	mcdonaldsparties.co.nz

@@ -1,0 +1,44 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	dishwashingexpert.com.cn
+rules[0]	domain_suffix	finish.at
+rules[0]	domain_suffix	finish.bg
+rules[0]	domain_suffix	finish.co.kr
+rules[0]	domain_suffix	finish.co.nz
+rules[0]	domain_suffix	finish.co.uk
+rules[0]	domain_suffix	finish.co.za
+rules[0]	domain_suffix	finish.com.cn
+rules[0]	domain_suffix	finish.com.hr
+rules[0]	domain_suffix	finish.com.tr
+rules[0]	domain_suffix	finish.de
+rules[0]	domain_suffix	finish.es
+rules[0]	domain_suffix	finish.fr
+rules[0]	domain_suffix	finish.gr
+rules[0]	domain_suffix	finish.hu
+rules[0]	domain_suffix	finish.lv
+rules[0]	domain_suffix	finish.pl
+rules[0]	domain_suffix	finish.pt
+rules[0]	domain_suffix	finish.ro
+rules[0]	domain_suffix	finish.si
+rules[0]	domain_suffix	finish.sk
+rules[0]	domain_suffix	finisharabia.com
+rules[0]	domain_suffix	finishbrasil.com.br
+rules[0]	domain_suffix	finishdishwashing.ca
+rules[0]	domain_suffix	finishdishwashing.com
+rules[0]	domain_suffix	finishinfo.be
+rules[0]	domain_suffix	finishinfo.cl
+rules[0]	domain_suffix	finishinfo.com
+rules[0]	domain_suffix	finishinfo.com.ar
+rules[0]	domain_suffix	finishinfo.com.au
+rules[0]	domain_suffix	finishinfo.cz
+rules[0]	domain_suffix	finishinfo.fi
+rules[0]	domain_suffix	finishinfo.it
+rules[0]	domain_suffix	finishinfo.jp
+rules[0]	domain_suffix	finishinfo.nl
+rules[0]	domain_suffix	finishinfo.no
+rules[0]	domain_suffix	finishinfo.ru
+rules[0]	domain_suffix	finishinfo.se
+rules[0]	domain_suffix	finishkilpailu.fi
+rules[0]	domain_suffix	finishwin.be
+rules[0]	domain_suffix	yarininsuyu.com

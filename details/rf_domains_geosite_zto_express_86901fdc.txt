@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	95311.com
+rules[0]	domain_suffix	izto.com
+rules[0]	domain_suffix	izto.com.cn
+rules[0]	domain_suffix	mlzt.com.cn
+rules[0]	domain_suffix	tuxi.com
+rules[0]	domain_suffix	zt-express.com
+rules[0]	domain_suffix	zto.cn
+rules[0]	domain_suffix	zto.com
+rules[0]	domain_suffix	zto.net
+rules[0]	domain_suffix	ztoapp.com
+rules[0]	domain_suffix	ztoglobal.com
+rules[0]	domain_suffix	ztogroup.com
+rules[0]	domain_suffix	ztoyh.com

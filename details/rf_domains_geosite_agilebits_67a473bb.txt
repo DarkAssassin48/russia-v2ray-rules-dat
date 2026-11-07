@@ -1,0 +1,18 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	1password.drift.click
+rules[0]	domain_suffix	1infra.net
+rules[0]	domain_suffix	1password.ca
+rules[0]	domain_suffix	1password.co
+rules[0]	domain_suffix	1password.com
+rules[0]	domain_suffix	1password.community
+rules[0]	domain_suffix	1password.dev
+rules[0]	domain_suffix	1password.eu
+rules[0]	domain_suffix	1password.io
+rules[0]	domain_suffix	1passwordservices.com
+rules[0]	domain_suffix	1passwordusercontent.ca
+rules[0]	domain_suffix	1passwordusercontent.com
+rules[0]	domain_suffix	1passwordusercontent.eu
+rules[0]	domain_suffix	agilebits.com
+rules[0]	domain_suffix	passage.id

@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	mortein.cn
+rules[0]	domain_suffix	mortein.co.in
+rules[0]	domain_suffix	mortein.co.nz
+rules[0]	domain_suffix	mortein.co.za
+rules[0]	domain_suffix	mortein.com
+rules[0]	domain_suffix	mortein.com.au
+rules[0]	domain_suffix	mortein.com.br
+rules[0]	domain_suffix	mortein.com.ng
+rules[0]	domain_suffix	mortein.com.pk
+rules[0]	domain_suffix	morteincam.com
+rules[0]	domain_suffix	pifpafarabia.com

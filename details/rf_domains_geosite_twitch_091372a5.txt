@@ -1,0 +1,38 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	d1g1f25tn8m2e6.cloudfront.net
+rules[0]	domain	d1m7jfoe9zdc1j.cloudfront.net
+rules[0]	domain	d1mhjrowxxagfy.cloudfront.net
+rules[0]	domain	d1ndex63qxojbr.cloudfront.net
+rules[0]	domain	d1oca24q5dwo6d.cloudfront.net
+rules[0]	domain	d1w2poirtb3as9.cloudfront.net
+rules[0]	domain	d1xhnb4ptk05mw.cloudfront.net
+rules[0]	domain	d1ymi26ma8va5x.cloudfront.net
+rules[0]	domain	d2aba1wr3818hz.cloudfront.net
+rules[0]	domain	d2dylwb3shzel1.cloudfront.net
+rules[0]	domain	d2e2de1etea730.cloudfront.net
+rules[0]	domain	d2nvs31859zcd8.cloudfront.net
+rules[0]	domain	d2um2qdswy1tb0.cloudfront.net
+rules[0]	domain	d2vjef5jvl6bfs.cloudfront.net
+rules[0]	domain	d2xmjdvx03ij56.cloudfront.net
+rules[0]	domain	d36nr0u3xmc4mm.cloudfront.net
+rules[0]	domain	d3aqoihi2n8ty8.cloudfront.net
+rules[0]	domain	d3c27h4odz752x.cloudfront.net
+rules[0]	domain	d3stzm2eumvgb4.cloudfront.net
+rules[0]	domain	d3vd9lfkzbru3h.cloudfront.net
+rules[0]	domain	d6d4ismr40iw.cloudfront.net
+rules[0]	domain	d6tizftlrpuof.cloudfront.net
+rules[0]	domain	ddacn6pr5v0tl.cloudfront.net
+rules[0]	domain	dgeft87wbj63p.cloudfront.net
+rules[0]	domain	dqrpb9wgowsf5.cloudfront.net
+rules[0]	domain	ds0h3roq6wcgc.cloudfront.net
+rules[0]	domain	dykkng5hnh52u.cloudfront.net
+rules[0]	domain_suffix	ext-twitch.tv
+rules[0]	domain_suffix	jtvnw.net
+rules[0]	domain_suffix	live-video.net
+rules[0]	domain_suffix	ttvnw.net
+rules[0]	domain_suffix	twitch.tv
+rules[0]	domain_suffix	twitchcdn.net
+rules[0]	domain_suffix	twitchcon.com
+rules[0]	domain_suffix	twitchsvc.net

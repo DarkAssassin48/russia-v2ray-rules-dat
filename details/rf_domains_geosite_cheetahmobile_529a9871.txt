@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	cheetahfun.com
+rules[0]	domain_suffix	cmcm.com
+rules[0]	domain_suffix	cmcmcdn.com
+rules[0]	domain_suffix	drivergenius.com
+rules[0]	domain_suffix	duba.com
+rules[0]	domain_suffix	duba.net
+rules[0]	domain_suffix	ijinshan.com
+rules[0]	domain_suffix	keniu.com
+rules[0]	domain_suffix	liebao.cn
+rules[0]	domain_suffix	yuanqidesk.com
+rules[0]	domain_suffix	zhhainiao.com

@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	st-ok-pts.cdn-vk.ru
+rules[0]	domain	st-ok.cdn-vk.ru
+rules[0]	domain_suffix	apiok.ru
+rules[0]	domain_suffix	insideok.ru
+rules[0]	domain_suffix	odkl.ru
+rules[0]	domain_suffix	odnoklasniki.by
+rules[0]	domain_suffix	odnoklasniki.ua
+rules[0]	domain_suffix	odnoklassniki.am
+rules[0]	domain_suffix	odnoklassniki.by
+rules[0]	domain_suffix	odnoklassniki.co.ee
+rules[0]	domain_suffix	odnoklassniki.eu
+rules[0]	domain_suffix	odnoklassniki.lv
+rules[0]	domain_suffix	odnoklassniki.ru
+rules[0]	domain_suffix	odnoklassniki.tj
+rules[0]	domain_suffix	ok.me
+rules[0]	domain_suffix	ok.ru
+rules[0]	domain_suffix	okcdn.ru
+rules[0]	domain_suffix	okl.lt
+rules[0]	domain_suffix	oktech.ru
