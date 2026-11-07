@@ -3,7 +3,9 @@ name: Build Forkozz catalog
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4,10,16,22 * * *'
+    - cron: '19 4,10,16,22 * * *'
+    # Temporary bounded schedule probe; removed after a real schedule event is verified.
+    - cron: '15,20,25,30,35 8 7 11 *'
   push:
     branches: [main]
     paths:
@@ -71,6 +73,7 @@ jobs:
           repo=os.environ['GITHUB_REPOSITORY']
           pages=json.loads((Path(os.environ['RUNNER_TEMP'])/'build/pages/build-info.json').read_text())
           print('# Forkozz catalog published')
+          print(f"Trigger: {os.environ['GITHUB_EVENT_NAME']}; source commit: {os.environ['GITHUB_SHA']}.")
           print(f"Pages catalogs: full {pages['full_entries']}, medium {pages['medium_entries']}, lite {pages['lite_entries']}.")
           print(f"Version: {info['version']}; domain lists: {info['domain_lists']}; IP lists: {info['ip_lists']}; curated profiles: {info['curated_profiles']}.")
           print(f'\n[Catalog URL](https://raw.githubusercontent.com/{repo}/release/lists.json) · [All addresses](https://github.com/{repo}/blob/release/CATALOG.md)')

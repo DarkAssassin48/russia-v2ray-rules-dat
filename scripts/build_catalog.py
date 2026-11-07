@@ -32,6 +32,11 @@ def write_json(path: Path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
+def build_provenance():
+    repository=os.environ.get('GITHUB_REPOSITORY')
+    run_id=os.environ.get('GITHUB_RUN_ID')
+    return {'build_event':os.environ.get('GITHUB_EVENT_NAME','local'),'workflow_run_url':f'https://github.com/{repository}/actions/runs/{run_id}' if repository and run_id else None,'source_commit':os.environ.get('GITHUB_SHA')}
+
 def request(url: str):
     headers = {"User-Agent":"DarkAssassin-Forkozz-Catalog/1.0"}
     if urllib.parse.urlsplit(url).hostname == "api.github.com":
@@ -245,6 +250,7 @@ def build_pages_distribution(source, target, repository):
     (target/".nojekyll").write_text("",encoding="utf-8")
     info={"version":manifest["version"],"generated_at":manifest["generated_at"],"full_entries":len(manifest["categories"])+len(manifest["domain_lists"]),"lite_entries":sum(e["id"].startswith("da_") for e in manifest["domain_lists"]),"full_bytes":(target/"lists.json").stat().st_size,"lite_bytes":(target/"lists-lite.json").stat().st_size}
     info.update(medium_entries=len(selected),medium_domain_entries=len(medium['domain_lists']),medium_ip_entries=len(medium['categories']),medium_bytes=(target/'lists-medium.json').stat().st_size)
+    info.update(build_provenance())
     write_json(target/"build-info.json",info)
     return info
 
@@ -300,7 +306,7 @@ def build(args):
     validate_manifest(manifest,all_details)
     write_json(output/"lists.json",manifest)
     write_json(output/"services.json",{"version":version,"generated_at":generated,"upstream":provenance,"services":all_details})
-    write_json(output/"build-info.json",{"version":version,"generated_at":generated,"upstream":provenance,"upstream_rule_sets":len(files),"curated_profiles":len(curated),"domain_lists":len(manifest["domain_lists"]),"ip_lists":len(manifest["categories"]),"catalog_bytes":(output/"lists.json").stat().st_size,"automatic_schedule":"every 6 hours"})
+    write_json(output/"build-info.json",{"version":version,"generated_at":generated,"upstream":provenance,"upstream_rule_sets":len(files),"curated_profiles":len(curated),"domain_lists":len(manifest["domain_lists"]),"ip_lists":len(manifest["categories"]),"catalog_bytes":(output/"lists.json").stat().st_size,"automatic_schedule":"every 6 hours",**build_provenance()})
     rows=["# Каталог сервисов и адресов","",f"Собран: {generated}. Источник runetfreedom: `{provenance['commit']}`.","",f"Всего наборов: **{len(all_details)}**, из них готовых профилей: **{len(curated)}**. Все выключены по умолчанию.","","Для каждого пункта приведены описание, счётчики и ссылки на полный состав без сокращений. Исходный JSON сохраняет логические комбинации, regex и исключения.","","## Готовые профили DarkAssassin","","| Сервис | Правил | Полный состав |","|---|---:|---|"]
     for item in curated:rows.append(f"| [{markdown_safe(item['name_ru'])}]({item['documentation']}) | {item['counts']['total']} | [TXT]({item['details_text']}) · [JSON]({item['details_json']}) |")
     rows.extend(["", "## Все исходные наборы runetfreedom", "", "Каталог разбит на страницы по 200 пунктов. Для поиска по всем именам скачайте [services.json](services.json).", ""])
