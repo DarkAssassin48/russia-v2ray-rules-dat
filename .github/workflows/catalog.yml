@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '19 4,10,16,22 * * *'
-    # Temporary bounded schedule probe; removed after a real schedule event is verified.
-    - cron: '15,20,25,30,35 8 7 11 *'
   push:
     branches: [main]
     paths:
