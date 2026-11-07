@@ -53,7 +53,7 @@ https://darkassassin48.github.io/russia-v2ray-rules-dat/lists-lite.json
 
 ## Автоматическое обновление
 
-[GitHub Actions](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/actions/workflows/build.yml) запускает сборку каждые 6 часов: **01:19, 07:19, 13:19 и 19:19 по Москве** (UTC+3). Планировщик GitHub может задерживать запуск. Также предусмотрены ручной запуск **Run workflow** и сборка после изменения профилей или генератора в `main`.
+[GitHub Actions](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/actions/workflows/catalog.yml) запускает сборку каждые 6 часов: **01:19, 07:19, 13:19 и 19:19 по Москве** (UTC+3). Планировщик GitHub может задерживать запуск. Также предусмотрены ручной запуск **Run workflow** и сборка после изменения профилей или генератора в `main`.
 
 Каждая сборка:
 
@@ -68,7 +68,7 @@ https://darkassassin48.github.io/russia-v2ray-rules-dat/lists-lite.json
 
 ## Проверка автообновления
 
-В [истории Actions](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/actions/workflows/build.yml) автоматический запуск должен иметь событие **schedule**. Успешный ручной запуск **workflow_dispatch** подтверждает только работоспособность сборки.
+В [истории Actions](https://github.com/DarkAssassin48/russia-v2ray-rules-dat/actions/workflows/catalog.yml) автоматический запуск должен иметь событие **schedule**. Успешный ручной запуск **workflow_dispatch** подтверждает только работоспособность сборки.
 
 В [build-info.json GitHub Pages](https://darkassassin48.github.io/russia-v2ray-rules-dat/build-info.json) опубликованы `generated_at`, `build_event`, `workflow_run_url` и `source_commit`. Для сверки с исходным runetfreedom используйте также [полный build-info.json ветки release](https://raw.githubusercontent.com/DarkAssassin48/russia-v2ray-rules-dat/release/build-info.json): он содержит upstream commit и его дату. Наличие расписания в YAML само по себе не подтверждает, что планировщик запускал сборку.
 

@@ -12,7 +12,7 @@ on:
       - 'catalog/**'
       - 'scripts/**'
       - 'tests/**'
-      - '.github/workflows/build.yml'
+      - '.github/workflows/catalog.yml'
       - 'README.md'
 
 permissions:
