@@ -1,0 +1,19 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ccb-life.com.cn
+rules[0]	domain_suffix	ccb.cn
+rules[0]	domain_suffix	ccb.com
+rules[0]	domain_suffix	ccb.com.cn
+rules[0]	domain_suffix	ccbcos.com
+rules[0]	domain_suffix	ccbfund.cn
+rules[0]	domain_suffix	ccbfund.com
+rules[0]	domain_suffix	ccbfund.com.cn
+rules[0]	domain_suffix	ccbfutures.cn
+rules[0]	domain_suffix	ccbfutures.com
+rules[0]	domain_suffix	ccbintl.com.hk
+rules[0]	domain_suffix	ccbleasing.com
+rules[0]	domain_suffix	ccblife-test.com.cn
+rules[0]	domain_suffix	ccbseoul.com
+rules[0]	domain_suffix	ccbtrust.com.cn
+rules[0]	domain_suffix	ccbxt.com

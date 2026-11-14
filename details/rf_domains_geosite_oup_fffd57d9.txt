@@ -1,0 +1,32 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	amamanualofstyle.com
+rules[0]	domain_suffix	anb.org
+rules[0]	domain_suffix	blackstonespoliceservice.com
+rules[0]	domain_suffix	epigeum.com
+rules[0]	domain_suffix	oed.com
+rules[0]	domain_suffix	omscr.com
+rules[0]	domain_suffix	oup.com
+rules[0]	domain_suffix	ouplaw.com
+rules[0]	domain_suffix	ox.ac.uk
+rules[0]	domain_suffix	oxfordaasc.com
+rules[0]	domain_suffix	oxfordartonline.com
+rules[0]	domain_suffix	oxfordbibliographies.com
+rules[0]	domain_suffix	oxfordclinicalpsych.com
+rules[0]	domain_suffix	oxforddnb.com
+rules[0]	domain_suffix	oxfordfirstsource.com
+rules[0]	domain_suffix	oxfordhandbooks.com
+rules[0]	domain_suffix	oxfordlawtrove.com
+rules[0]	domain_suffix	oxfordmedicine.com
+rules[0]	domain_suffix	oxfordmusiconline.com
+rules[0]	domain_suffix	oxfordpoliticstrove.com
+rules[0]	domain_suffix	oxfordre.com
+rules[0]	domain_suffix	oxfordreference.com
+rules[0]	domain_suffix	oxfordscholarlyeditions.com
+rules[0]	domain_suffix	oxfordscholarship.com
+rules[0]	domain_suffix	oxfordwesternmusic.com
+rules[0]	domain_suffix	sipriyearbook.org
+rules[0]	domain_suffix	ukwhoswho.com
+rules[0]	domain_suffix	universitypressscholarship.com
+rules[0]	domain_suffix	veryshortintroductions.com

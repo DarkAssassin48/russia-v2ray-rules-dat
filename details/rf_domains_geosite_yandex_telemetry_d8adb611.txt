@@ -1,0 +1,21 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	analytics.mobile.yandex.net
+rules[0]	domain	log.strm.yandex.ru
+rules[0]	domain	mc.yandex.com
+rules[0]	domain	mc.yandex.net
+rules[0]	domain	mc.yango.com
+rules[0]	domain_suffix	appmetrica.yandex.com
+rules[0]	domain_suffix	appmetrica.yandex.net
+rules[0]	domain_suffix	appmetrica.yandex.ru
+rules[0]	domain_suffix	appmetrica.yango.com
+rules[0]	domain_suffix	counter.yandex.ru
+rules[0]	domain_suffix	mc.yandex.ru
+rules[0]	domain_suffix	metrika.yandex.com
+rules[0]	domain_suffix	metrika.yandex.net
+rules[0]	domain_suffix	metrika.yandex.ru
+rules[0]	domain_suffix	webvisor.com
+rules[0]	domain_suffix	webvisor.org
+rules[0]	domain_suffix	yandex-metrica.ru
+rules[0]	domain_suffix	yandexmetrica.com

@@ -1,0 +1,12 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	agkn.com
+rules[0]	domain_suffix	cohere.com
+rules[0]	domain_suffix	inmobi.com
+rules[0]	domain_suffix	ip-api.com
+rules[0]	domain_suffix	kochava.com
+rules[0]	domain_suffix	mobilefuse.com
+rules[0]	domain_suffix	talkatone.com
+rules[0]	domain_suffix	tktn.at
+rules[0]	domain_suffix	tktn.be

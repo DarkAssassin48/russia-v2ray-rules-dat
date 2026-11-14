@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ads-pixiv.net
+rules[0]	domain_suffix	booth.pm
+rules[0]	domain_suffix	fanbox.cc
+rules[0]	domain_suffix	pixiv-recommend.net
+rules[0]	domain_suffix	pixiv.co.jp
+rules[0]	domain_suffix	pixiv.help
+rules[0]	domain_suffix	pixiv.me
+rules[0]	domain_suffix	pixiv.net
+rules[0]	domain_suffix	pixiv.org
+rules[0]	domain_suffix	pixivision.net
+rules[0]	domain_suffix	pximg.net

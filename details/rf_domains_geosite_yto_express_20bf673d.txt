@@ -1,0 +1,46 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	gpall.cn
+rules[0]	domain_suffix	gpall.net
+rules[0]	domain_suffix	kjwugx.com
+rules[0]	domain_suffix	mamayz.cn
+rules[0]	domain_suffix	mamayz.com
+rules[0]	domain_suffix	mumbuy365.com
+rules[0]	domain_suffix	nellit.cn
+rules[0]	domain_suffix	nellit.com.cn
+rules[0]	domain_suffix	nellit.info
+rules[0]	domain_suffix	nellit.net
+rules[0]	domain_suffix	nellit.net.cn
+rules[0]	domain_suffix	nellit.org.cn
+rules[0]	domain_suffix	nellit.xyz
+rules[0]	domain_suffix	sxgou.cn
+rules[0]	domain_suffix	tianxiajiameng.cn
+rules[0]	domain_suffix	tianxiajiameng.com
+rules[0]	domain_suffix	yt0.cc
+rules[0]	domain_suffix	yto-jsd.com
+rules[0]	domain_suffix	yto-lgs.com
+rules[0]	domain_suffix	yto-lgs.net
+rules[0]	domain_suffix	yto.net.cn
+rules[0]	domain_suffix	yto.top
+rules[0]	domain_suffix	yto.vip
+rules[0]	domain_suffix	yto.xin
+rules[0]	domain_suffix	yto56.com.cn
+rules[0]	domain_suffix	yto56.net.cn
+rules[0]	domain_suffix	yto56test.com
+rules[0]	domain_suffix	ytocargo.com
+rules[0]	domain_suffix	ytocargo.com.cn
+rules[0]	domain_suffix	ytoexpress.com
+rules[0]	domain_suffix	ytoholding.com
+rules[0]	domain_suffix	ytojg.com.cn
+rules[0]	domain_suffix	ytokj.cn
+rules[0]	domain_suffix	ytokj.com
+rules[0]	domain_suffix	ytokj.com.cn
+rules[0]	domain_suffix	ytokj.net
+rules[0]	domain_suffix	ytokj.net.cn
+rules[0]	domain_suffix	ytoluohan.cn
+rules[0]	domain_suffix	ytoluohan.com
+rules[0]	domain_suffix	ytoluohan.net
+rules[0]	domain_suffix	ytoluohan.xin
+rules[0]	domain_suffix	yuantongyizhan.cn
+rules[0]	domain_suffix	yuantongyizhan.com

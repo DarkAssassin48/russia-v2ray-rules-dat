@@ -1,0 +1,28 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	vat-apac.com
+rules[0]	domain_suffix	vatca.org
+rules[0]	domain_suffix	vatcan.ca
+rules[0]	domain_suffix	vatcar.net
+rules[0]	domain_suffix	vateud.net
+rules[0]	domain_suffix	vathk.com
+rules[0]	domain_suffix	vatil.org.il
+rules[0]	domain_suffix	vatjpn.org
+rules[0]	domain_suffix	vatkor.net
+rules[0]	domain_suffix	vatmex.com.mx
+rules[0]	domain_suffix	vatnz.net
+rules[0]	domain_suffix	vatpac.org
+rules[0]	domain_suffix	vatprc.net
+rules[0]	domain_suffix	vatroc.net
+rules[0]	domain_suffix	vats.im
+rules[0]	domain_suffix	vatsea.org
+rules[0]	domain_suffix	vatsim.com.br
+rules[0]	domain_suffix	vatsim.dev
+rules[0]	domain_suffix	vatsim.me
+rules[0]	domain_suffix	vatsim.net
+rules[0]	domain_suffix	vatsim.uk
+rules[0]	domain_suffix	vatssa.com
+rules[0]	domain_suffix	vatsur.org
+rules[0]	domain_suffix	vatusa.net
+rules[0]	domain_suffix	vatwa.net

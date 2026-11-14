@@ -1,0 +1,13 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	acd89244c803f7181.awsglobalaccelerator.com
+rules[0]	domain	afa7f374f51cc8991.awsglobalaccelerator.com
+rules[0]	domain	d33wubrfki0l68.cloudfront.net
+rules[0]	domain_suffix	bitballoon.com
+rules[0]	domain_suffix	netlify.app
+rules[0]	domain_suffix	netlify.com
+rules[0]	domain_suffix	netlifydns.com
+rules[0]	domain_suffix	netlifystatus.com
+rules[0]	domain_suffix	netlifyusercontent.com
+rules[0]	domain_suffix	ntl.fyi

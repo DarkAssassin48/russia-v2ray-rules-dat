@@ -1,0 +1,8 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	gamer-cds.cdn.hinet.net
+rules[0]	domain	gamer2-cds.cdn.hinet.net
+rules[0]	domain_suffix	bahamut.akamaized.net
+rules[0]	domain_suffix	bahamut.com.tw
+rules[0]	domain_suffix	gamer.com.tw

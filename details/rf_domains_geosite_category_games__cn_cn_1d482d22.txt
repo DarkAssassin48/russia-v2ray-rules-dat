@@ -1,0 +1,40 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	alibaba.cdn.steampipe.steamcontent.com
+rules[0]	domain	gog.qtlglb.com
+rules[0]	domain	lv.queniujq.cn
+rules[0]	domain	xz.pphimalayanrt.com
+rules[0]	domain_suffix	bluearchive-cn.com
+rules[0]	domain_suffix	client-update.queniuqe.com
+rules[0]	domain_suffix	csgo.com.cn
+rules[0]	domain_suffix	csgo.wmsj.cn
+rules[0]	domain_suffix	dl.steam.clngaa.com
+rules[0]	domain_suffix	dota2.com.cn
+rules[0]	domain_suffix	dota2.wmsj.cn
+rules[0]	domain_suffix	gstore.val.manlaxy.com
+rules[0]	domain_suffix	leagueoflegends.cn
+rules[0]	domain_suffix	legendofzelda.cn
+rules[0]	domain_suffix	legendofzelda.com.cn
+rules[0]	domain_suffix	lpl.com.cn
+rules[0]	domain_suffix	mariokart.cn
+rules[0]	domain_suffix	mariokart.com.cn
+rules[0]	domain_suffix	miitomo.com.cn
+rules[0]	domain_suffix	nintendolabo.cn
+rules[0]	domain_suffix	nintendoswitch.cn
+rules[0]	domain_suffix	nintendoswitch.com.cn
+rules[0]	domain_suffix	st.dl.bscstorage.net
+rules[0]	domain_suffix	st.dl.eccdnx.com
+rules[0]	domain_suffix	st.dl.pinyuncloud.com
+rules[0]	domain_suffix	steamchina.com
+rules[0]	domain_suffix	steampowered.com.8686c.com
+rules[0]	domain_suffix	steamstatic.com.8686c.com
+rules[0]	domain_suffix	supermariobros.com.cn
+rules[0]	domain_suffix	supersmashbros.cn
+rules[0]	domain_suffix	supersmashbros.com.cn
+rules[0]	domain_suffix	wmsjsteam.com
+rules[0]	domain_suffix	xboxlive.cn
+rules[0]	domain_suffix	xn--mts47c3w9b1qr.cn
+rules[0]	domain_suffix	yostar.cn
+rules[0]	domain_regex	^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
+rules[0]	domain_regex	^epicgames-download\d-\d+\.file\.myqcloud\.com$

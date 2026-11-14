@@ -1,0 +1,20 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	anm.co.uk
+rules[0]	domain_suffix	dailym.ai
+rules[0]	domain_suffix	dailymail.co.uk
+rules[0]	domain_suffix	dailymail.com
+rules[0]	domain_suffix	dailymail.com.au
+rules[0]	domain_suffix	dailymail.dk
+rules[0]	domain_suffix	dailymailonline.com
+rules[0]	domain_suffix	dmgmediaprivacy.co.uk
+rules[0]	domain_suffix	mailhealth.com
+rules[0]	domain_suffix	mailonline.co.uk
+rules[0]	domain_suffix	mailonline.com
+rules[0]	domain_suffix	mailonsunday.co.uk
+rules[0]	domain_suffix	mailonsunday.ie
+rules[0]	domain_suffix	metro.co.uk
+rules[0]	domain_suffix	mol.im
+rules[0]	domain_suffix	thisismoney.co.uk
+rules[0]	domain_suffix	thismon.ee

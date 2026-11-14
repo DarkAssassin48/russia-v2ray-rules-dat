@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	chuokoron.jp
+rules[0]	domain_suffix	fujinkoron.jp
+rules[0]	domain_suffix	hochi.news
+rules[0]	domain_suffix	ryokoyomiuri.co.jp
+rules[0]	domain_suffix	the-japan-news.com
+rules[0]	domain_suffix	ync.ne.jp
+rules[0]	domain_suffix	yomikyo.or.jp
+rules[0]	domain_suffix	yomilogi.com
+rules[0]	domain_suffix	yomiuri-johkai.co.jp
+rules[0]	domain_suffix	yomiuri-ryokou.co.jp
+rules[0]	domain_suffix	yomiuri-shimbun.pressreader.com
+rules[0]	domain_suffix	yomiuri-systec.co.jp
+rules[0]	domain_suffix	yomiuri.co.jp

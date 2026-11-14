@@ -1,0 +1,18 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	feng1.com
+rules[0]	domain_suffix	ibobscs.com
+rules[0]	domain_suffix	rongechain.com
+rules[0]	domain_suffix	sf-airlines.com
+rules[0]	domain_suffix	sf-cityrush.com
+rules[0]	domain_suffix	sf-express.com
+rules[0]	domain_suffix	sf-financial.com
+rules[0]	domain_suffix	sf-international.com
+rules[0]	domain_suffix	sf-saas.com
+rules[0]	domain_suffix	sf-tech.com.cn
+rules[0]	domain_suffix	sf.cn
+rules[0]	domain_suffix	sfbuy.com
+rules[0]	domain_suffix	sfcar.hk
+rules[0]	domain_suffix	sffix.cn
+rules[0]	domain_suffix	sfgy.org

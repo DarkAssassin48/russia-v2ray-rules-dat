@@ -1,0 +1,20 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	01.org
+rules[0]	domain_suffix	acpica.com
+rules[0]	domain_suffix	clearlinux.org
+rules[0]	domain_suffix	hyperscan.io
+rules[0]	domain_suffix	intellinuxgraphics.com
+rules[0]	domain_suffix	intellinuxgraphics.net
+rules[0]	domain_suffix	oneapi.com
+rules[0]	domain_suffix	oneapi.io
+rules[0]	domain_suffix	opencas.io
+rules[0]	domain_suffix	opendroneid.org
+rules[0]	domain_suffix	openvino.ai
+rules[0]	domain_suffix	openvinotoolkit.org
+rules[0]	domain_suffix	ospray.net
+rules[0]	domain_suffix	ospray.org
+rules[0]	domain_suffix	renderingtoolkit.org
+rules[0]	domain_suffix	snap-telemetry.io
+rules[0]	domain_suffix	universalscalablefirmware.org

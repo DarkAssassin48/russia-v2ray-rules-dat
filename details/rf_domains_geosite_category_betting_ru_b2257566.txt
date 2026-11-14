@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	betboom.ru
+rules[0]	domain_suffix	bk6bba-resources.com
+rules[0]	domain_suffix	bk6bba-resources.ru
+rules[0]	domain_suffix	fon.bet
+rules[0]	domain_suffix	fon.promo
+rules[0]	domain_suffix	ligadobra.ru
+rules[0]	domain_suffix	ligastavok-csr.ru
+rules[0]	domain_suffix	ligastavok.ru
+rules[0]	domain_suffix	mobile-bb.com
+rules[0]	domain_suffix	sozvezdie-dobra.ru
+rules[0]	domain_suffix	win-line.ru
+rules[0]	domain_suffix	winline.ru
+rules[0]	domain_suffix	winlinebet.ru

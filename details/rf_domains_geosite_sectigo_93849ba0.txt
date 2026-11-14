@@ -1,0 +1,24 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	aoc.cat
+rules[0]	domain_suffix	catcert.cat
+rules[0]	domain_suffix	comodoca.com
+rules[0]	domain_suffix	comodoca2.com
+rules[0]	domain_suffix	comodoca3.com
+rules[0]	domain_suffix	comodoca4.com
+rules[0]	domain_suffix	enterprisessl.com
+rules[0]	domain_suffix	hackerguardian.com
+rules[0]	domain_suffix	incommon-rsa.org
+rules[0]	domain_suffix	instantssl.com
+rules[0]	domain_suffix	netsolssl.com
+rules[0]	domain_suffix	oemssl.cn
+rules[0]	domain_suffix	oemssl.cn.cdn.cloudflare.net
+rules[0]	domain_suffix	optimumssl.com
+rules[0]	domain_suffix	positivessl.com
+rules[0]	domain_suffix	sectigo.com
+rules[0]	domain_suffix	sectigochina.com
+rules[0]	domain_suffix	sectigochina.com.cdn.cloudflare.net
+rules[0]	domain_suffix	trust-provider.cn
+rules[0]	domain_suffix	trust-provider.com
+rules[0]	domain_suffix	usertrust.com

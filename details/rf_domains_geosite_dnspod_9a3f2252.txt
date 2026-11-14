@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	dns.pub
+rules[0]	domain_suffix	dnsapi.cn
+rules[0]	domain_suffix	dnspod.cn
+rules[0]	domain_suffix	dnspod.com
+rules[0]	domain_suffix	dnspod.com.cn
+rules[0]	domain_suffix	dnspod.mobi
+rules[0]	domain_suffix	dnspod.net
+rules[0]	domain_suffix	dnspod.org
+rules[0]	domain_suffix	dnsv2.com
+rules[0]	domain_suffix	dnsv3.com
+rules[0]	domain_suffix	dnsv4.com
+rules[0]	domain_suffix	dnsv5.com
+rules[0]	domain_suffix	doh.pub
+rules[0]	domain_suffix	dot.pub

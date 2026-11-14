@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	.java
+rules[0]	domain_suffix	.oracle
+rules[0]	domain_suffix	addthis.com
+rules[0]	domain_suffix	addthiscdn.com
+rules[0]	domain_suffix	addthisedge.com
+rules[0]	domain_suffix	ateam-oracle.com
+rules[0]	domain_suffix	bronto.com
+rules[0]	domain_suffix	covid19-rx.org
+rules[0]	domain_suffix	covid19rx.org
+rules[0]	domain_suffix	custhelp.com
+rules[0]	domain_suffix	java.com
+rules[0]	domain_suffix	java.net
+rules[0]	domain_suffix	oracle.com
+rules[0]	domain_suffix	oraclecloud.com
+rules[0]	domain_suffix	oraclefoundation.org
+rules[0]	domain_suffix	oracleimg.com
+rules[0]	domain_suffix	oracleinfinity.io
+rules[0]	domain_suffix	sun.com
+rules[0]	domain_suffix	virtualbox.org

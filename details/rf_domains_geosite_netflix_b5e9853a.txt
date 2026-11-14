@@ -1,0 +1,31 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	fast.com
+rules[0]	domain_suffix	netflix.ca
+rules[0]	domain_suffix	netflix.com
+rules[0]	domain_suffix	netflix.com.edgesuite.net
+rules[0]	domain_suffix	netflix.net
+rules[0]	domain_suffix	netflixdnstest0.com
+rules[0]	domain_suffix	netflixdnstest1.com
+rules[0]	domain_suffix	netflixdnstest10.com
+rules[0]	domain_suffix	netflixdnstest2.com
+rules[0]	domain_suffix	netflixdnstest3.com
+rules[0]	domain_suffix	netflixdnstest4.com
+rules[0]	domain_suffix	netflixdnstest5.com
+rules[0]	domain_suffix	netflixdnstest6.com
+rules[0]	domain_suffix	netflixdnstest7.com
+rules[0]	domain_suffix	netflixdnstest8.com
+rules[0]	domain_suffix	netflixdnstest9.com
+rules[0]	domain_suffix	netflixinvestor.com
+rules[0]	domain_suffix	netflixtechblog.com
+rules[0]	domain_suffix	nflxext.com
+rules[0]	domain_suffix	nflximg.com
+rules[0]	domain_suffix	nflximg.net
+rules[0]	domain_suffix	nflxsearch.net
+rules[0]	domain_suffix	nflxso.net
+rules[0]	domain_suffix	nflxvideo.net
+rules[0]	domain_regex	(^|\.)apiproxy-device-prod-nlb-.+\.amazonaws\.com$
+rules[0]	domain_regex	(^|\.)apiproxy-website-nlb-prod-.+\.amazonaws\.com$
+rules[0]	domain_regex	(^|\.)dualstack\.apiproxy-.+\.amazonaws\.com$
+rules[0]	domain_regex	(^|\.)dualstack\.ichnaea-web-.+\.amazonaws\.com$

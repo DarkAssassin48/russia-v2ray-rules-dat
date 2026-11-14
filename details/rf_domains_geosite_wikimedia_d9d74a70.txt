@@ -1,0 +1,21 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	mediawiki.org
+rules[0]	domain_suffix	toolforge.org
+rules[0]	domain_suffix	w.wiki
+rules[0]	domain_suffix	wikibooks.org
+rules[0]	domain_suffix	wikidata.org
+rules[0]	domain_suffix	wikimedia.org
+rules[0]	domain_suffix	wikimediacloud.org
+rules[0]	domain_suffix	wikimediafoundation.org
+rules[0]	domain_suffix	wikinews.org
+rules[0]	domain_suffix	wikipedia.org
+rules[0]	domain_suffix	wikiquote.org
+rules[0]	domain_suffix	wikisource.org
+rules[0]	domain_suffix	wikiversity.org
+rules[0]	domain_suffix	wikivoyage.org
+rules[0]	domain_suffix	wiktionary.org
+rules[0]	domain_suffix	wmcloud.org
+rules[0]	domain_suffix	wmflabs.org
+rules[0]	domain_suffix	wmfusercontent.org

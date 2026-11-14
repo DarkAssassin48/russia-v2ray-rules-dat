@@ -1,0 +1,24 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	http-intake.logs.us5.datadoghq.com
+rules[0]	domain	o1158394.ingest.us.sentry.io
+rules[0]	domain	servd-anthropic-website.b-cdn.net
+rules[0]	domain_suffix	ant.dev
+rules[0]	domain_suffix	anthropic.com
+rules[0]	domain_suffix	anthropic.team
+rules[0]	domain_suffix	antspace.dev
+rules[0]	domain_suffix	chatbotclaude.com
+rules[0]	domain_suffix	clau.de
+rules[0]	domain_suffix	claude.ai
+rules[0]	domain_suffix	claude.app
+rules[0]	domain_suffix	claude.com
+rules[0]	domain_suffix	claude.dev
+rules[0]	domain_suffix	claude.new
+rules[0]	domain_suffix	claude.site
+rules[0]	domain_suffix	claudeacademy.com
+rules[0]	domain_suffix	claudemcpclient.com
+rules[0]	domain_suffix	claudemcpcontent.com
+rules[0]	domain_suffix	claudepages.dev
+rules[0]	domain_suffix	claudestudio.com
+rules[0]	domain_suffix	claudeusercontent.com

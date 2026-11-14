@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	upos-hz-mirrorakam.akamaized.net
+rules[0]	domain_suffix	bilicdn1.com
+rules[0]	domain_suffix	bilicdn2.com
+rules[0]	domain_suffix	bilicdn3.com
+rules[0]	domain_suffix	bilicdn4.com
+rules[0]	domain_suffix	bilicdn5.com
+rules[0]	domain_suffix	biliimg.com
+rules[0]	domain_suffix	bilivideo.cn
+rules[0]	domain_suffix	bilivideo.com
+rules[0]	domain_suffix	bilivideo.net
+rules[0]	domain_suffix	hdslb.com
+rules[0]	domain_suffix	hdslb.org
+rules[0]	domain_suffix	maoercdn.com
+rules[0]	domain_suffix	mincdn.com

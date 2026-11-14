@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	hospital.pku.edu.cn
+rules[0]	domain	ss.bjmu.edu.cn
+rules[0]	domain_suffix	ba-hospital.com
+rules[0]	domain_suffix	cd120.com
+rules[0]	domain_suffix	cd120.info
+rules[0]	domain_suffix	fuwai.com
+rules[0]	domain_suffix	hnxzctec.com
+rules[0]	domain_suffix	pkuh6.cn
+rules[0]	domain_suffix	puh3.net.cn
+rules[0]	domain_suffix	smuszh.com
+rules[0]	domain_suffix	yctdyy.com

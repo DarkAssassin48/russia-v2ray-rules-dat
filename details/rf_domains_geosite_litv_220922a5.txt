@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	ntdfreemobile-tgc.cdn.hinet.net
+rules[0]	domain	ntdfreepc-tgc.cdn.hinet.net
+rules[0]	domain	ntdfreetv-tgc.cdn.hinet.net
+rules[0]	domain	ntdfreevcpc-tgc.cdn.hinet.net
+rules[0]	domain	ntdofifreemobile-tgc.cdn.hinet.net
+rules[0]	domain	ntdofifreepc-tgc.cdn.hinet.net
+rules[0]	domain	ntdofifreetv-tgc.cdn.hinet.net
+rules[0]	domain	ntdofifreevcpc-tgc.cdn.hinet.net
+rules[0]	domain_suffix	litv.tv
+rules[0]	domain_suffix	litvfreepc.akamaized.net
+rules[0]	domain_suffix	ofiii.com

@@ -1,0 +1,27 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	315dian.com
+rules[0]	domain_suffix	doucang.cn
+rules[0]	domain_suffix	doucang.com
+rules[0]	domain_suffix	drp321.com
+rules[0]	domain_suffix	erp.cn
+rules[0]	domain_suffix	erp321.cn
+rules[0]	domain_suffix	erp321.com
+rules[0]	domain_suffix	erp321.net
+rules[0]	domain_suffix	jsterp.cn
+rules[0]	domain_suffix	jugongdan.com
+rules[0]	domain_suffix	jushuitan-inc.com
+rules[0]	domain_suffix	jushuitan.cn
+rules[0]	domain_suffix	jushuitan.com
+rules[0]	domain_suffix	jushuitan.net
+rules[0]	domain_suffix	juxieyun.com
+rules[0]	domain_suffix	scm121.cn
+rules[0]	domain_suffix	scm121.com
+rules[0]	domain_suffix	shopss.com
+rules[0]	domain_suffix	shuiyaohuo.cn
+rules[0]	domain_suffix	shuiyaohuo.com
+rules[0]	domain_suffix	surerp.cn
+rules[0]	domain_suffix	surerp.com
+rules[0]	domain_suffix	sursung.cn
+rules[0]	domain_suffix	sursung.com

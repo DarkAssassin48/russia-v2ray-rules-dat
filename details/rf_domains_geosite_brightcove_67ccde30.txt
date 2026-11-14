@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	bcovlive-a.akamaihd.net
+rules[0]	domain	bcsecure01-a.akamaihd.net
+rules[0]	domain	brightcove.imgix.net
+rules[0]	domain_suffix	bcove.video
+rules[0]	domain_suffix	bcovlive.io
+rules[0]	domain_suffix	bcvp0rtal.com
+rules[0]	domain_suffix	boltdns.net
+rules[0]	domain_suffix	brightcove.com
+rules[0]	domain_suffix	brightcove.net
+rules[0]	domain_suffix	brightcove.services
+rules[0]	domain_suffix	brightcovecdn.com
+rules[0]	domain_suffix	videojs.com
+rules[0]	domain_suffix	zencdn.net
+rules[0]	domain_suffix	zencoder.com

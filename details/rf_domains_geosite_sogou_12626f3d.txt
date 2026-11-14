@@ -1,0 +1,43 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	binglianhuajianzhan.com
+rules[0]	domain_suffix	ggoplay.com
+rules[0]	domain_suffix	ggowan.com
+rules[0]	domain_suffix	go2map.com
+rules[0]	domain_suffix	inte.sogou.com
+rules[0]	domain_suffix	inte.sogoucdn.com
+rules[0]	domain_suffix	lu.sogou.com
+rules[0]	domain_suffix	lu.sogoucdn.com
+rules[0]	domain_suffix	pb.i.sogou.com
+rules[0]	domain_suffix	pinyin.cn
+rules[0]	domain_suffix	qd.ink
+rules[0]	domain_suffix	sg.cn
+rules[0]	domain_suffix	sgtmos.com
+rules[0]	domain_suffix	sgyeyou.com
+rules[0]	domain_suffix	sgyouxi.com
+rules[0]	domain_suffix	sogo.com
+rules[0]	domain_suffix	sogou-inc.com
+rules[0]	domain_suffix	sogou-op.org
+rules[0]	domain_suffix	sogou.cn
+rules[0]	domain_suffix	sogou.com
+rules[0]	domain_suffix	sogou.com.cn
+rules[0]	domain_suffix	sogou.net
+rules[0]	domain_suffix	sogoucdn.com
+rules[0]	domain_suffix	sogoucdndl.com
+rules[0]	domain_suffix	sogouimecdn.com
+rules[0]	domain_suffix	soso.com
+rules[0]	domain_suffix	soso.com.cn
+rules[0]	domain_suffix	sososnap.com
+rules[0]	domain_suffix	teemo.cn
+rules[0]	domain_suffix	theta.sogoucdn.com
+rules[0]	domain_suffix	uranus.sogou.com
+rules[0]	domain_suffix	wannianqingjianzhan.com
+rules[0]	domain_suffix	wuliao.epro.sogou.com
+rules[0]	domain_suffix	xiangrikuijianzhan.com
+rules[0]	domain_suffix	xiangrikuisite.com
+rules[0]	domain_suffix	xinyan.cn
+rules[0]	domain_suffix	yeyousg.com
+rules[0]	domain_suffix	yidianliulan.cn
+rules[0]	domain_suffix	yidianliulan.com
+rules[0]	domain_suffix	yuweikuijianzhan.com

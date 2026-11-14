@@ -1,0 +1,33 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	accdn.com.cn
+rules[0]	domain_suffix	akadns88.net
+rules[0]	domain_suffix	akadns99.net
+rules[0]	domain_suffix	akamai.com
+rules[0]	domain_suffix	akcdn.com.cn
+rules[0]	domain_suffix	aptdn.net
+rules[0]	domain_suffix	cf-china.info
+rules[0]	domain_suffix	cf-ns.com
+rules[0]	domain_suffix	cf-ns.net
+rules[0]	domain_suffix	cf-ns.site
+rules[0]	domain_suffix	cf-ns.tech
+rules[0]	domain_suffix	cftest5.cn
+rules[0]	domain_suffix	cftest6.cn
+rules[0]	domain_suffix	cftest7.com
+rules[0]	domain_suffix	cftest8.com
+rules[0]	domain_suffix	cloudflare-cn.com
+rules[0]	domain_suffix	cloudflareanycast.net
+rules[0]	domain_suffix	cloudflarechina.cn
+rules[0]	domain_suffix	cloudflarecn.net
+rules[0]	domain_suffix	cloudflareglobal.net
+rules[0]	domain_suffix	cloudflareinsights-cn.com
+rules[0]	domain_suffix	cloudflareperf.com
+rules[0]	domain_suffix	cloudflareprod.com
+rules[0]	domain_suffix	cloudflarestaging.com
+rules[0]	domain_suffix	cloudflarestoragegw.com
+rules[0]	domain_suffix	edgekey88.net
+rules[0]	domain_suffix	janrain.biz
+rules[0]	domain_suffix	janrainservices.com
+rules[0]	domain_suffix	skycdn.com.cn
+rules[0]	domain_suffix	tl88.net

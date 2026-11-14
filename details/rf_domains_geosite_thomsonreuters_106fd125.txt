@@ -1,0 +1,35 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	aranzadi.es
+rules[0]	domain_suffix	corepublishingsolutions.com
+rules[0]	domain_suffix	elite.com
+rules[0]	domain_suffix	legaltracker.com
+rules[0]	domain_suffix	livrariart.com.br
+rules[0]	domain_suffix	reut.rs
+rules[0]	domain_suffix	reuters.com
+rules[0]	domain_suffix	reuters.tv
+rules[0]	domain_suffix	reutersagency.cn
+rules[0]	domain_suffix	reutersmedia.net
+rules[0]	domain_suffix	sweetandmaxwell.co.uk
+rules[0]	domain_suffix	thomsonreuters.ca
+rules[0]	domain_suffix	thomsonreuters.cn
+rules[0]	domain_suffix	thomsonreuters.co.jp
+rules[0]	domain_suffix	thomsonreuters.co.kr
+rules[0]	domain_suffix	thomsonreuters.co.nz
+rules[0]	domain_suffix	thomsonreuters.co.uk
+rules[0]	domain_suffix	thomsonreuters.com
+rules[0]	domain_suffix	thomsonreuters.com.ar
+rules[0]	domain_suffix	thomsonreuters.com.au
+rules[0]	domain_suffix	thomsonreuters.com.br
+rules[0]	domain_suffix	thomsonreuters.com.hk
+rules[0]	domain_suffix	thomsonreuters.com.my
+rules[0]	domain_suffix	thomsonreuters.com.pe
+rules[0]	domain_suffix	thomsonreuters.com.sg
+rules[0]	domain_suffix	thomsonreuters.com.tr
+rules[0]	domain_suffix	thomsonreuters.es
+rules[0]	domain_suffix	thomsonreuters.in
+rules[0]	domain_suffix	thomsonreuters.ru
+rules[0]	domain_suffix	thomsonreutersmexico.com
+rules[0]	domain_suffix	tmsnrt.rs
+rules[0]	domain_suffix	tr.com

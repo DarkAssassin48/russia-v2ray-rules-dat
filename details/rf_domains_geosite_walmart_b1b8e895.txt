@@ -1,0 +1,13 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	.walmart
+rules[0]	domain_suffix	w-mt.co
+rules[0]	domain_suffix	wal-mart.com
+rules[0]	domain_suffix	wal.co
+rules[0]	domain_suffix	walmart-content.com
+rules[0]	domain_suffix	walmart.cn
+rules[0]	domain_suffix	walmart.com
+rules[0]	domain_suffix	walmart.pharmacy
+rules[0]	domain_suffix	walmartimages.com
+rules[0]	domain_suffix	wmt.co

@@ -1,0 +1,19 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	hpefonts.s3.amazonaws.com
+rules[0]	domain_suffix	greenlakeaas.com
+rules[0]	domain_suffix	greenlakehybridcloud.com
+rules[0]	domain_suffix	hewlett-packard.asia
+rules[0]	domain_suffix	hewlett-packard.ch
+rules[0]	domain_suffix	hewlett-packard.co
+rules[0]	domain_suffix	hewlett-packard.co.il
+rules[0]	domain_suffix	hewlett-packard.co.uk
+rules[0]	domain_suffix	hewlett-packard.com.cn
+rules[0]	domain_suffix	hewlett-packard.com.mx
+rules[0]	domain_suffix	hewlett-packard.com.sg
+rules[0]	domain_suffix	hewlett-packard.jp
+rules[0]	domain_suffix	hewlett-packard.mobi
+rules[0]	domain_suffix	hewlettpackard.enterprises
+rules[0]	domain_suffix	hpe.com
+rules[0]	domain_suffix	hpecyber.com

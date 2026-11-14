@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	acousticbrainz.org
+rules[0]	domain_suffix	bookbrainz.org
+rules[0]	domain_suffix	coverartarchive.org
+rules[0]	domain_suffix	critiquebrainz.org
+rules[0]	domain_suffix	listenbrainz.org
+rules[0]	domain_suffix	messybrainz.org
+rules[0]	domain_suffix	metabrainz.org
+rules[0]	domain_suffix	musicbrainz.org

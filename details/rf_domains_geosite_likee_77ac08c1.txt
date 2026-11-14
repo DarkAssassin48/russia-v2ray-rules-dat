@@ -1,0 +1,38 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	agb9r0ad.qllfkl.com
+rules[0]	domain	d1d0w7op819ely.cloudfront.net
+rules[0]	domain	d1fijc56o1fzod.cloudfront.net
+rules[0]	domain	d1nu566dreq9vj.cloudfront.net
+rules[0]	domain	d1ugi9qonif2a2.cloudfront.net
+rules[0]	domain	d20g4xwarzxagx.cloudfront.net
+rules[0]	domain	d26rnz3bwp7rlk.cloudfront.net
+rules[0]	domain	d28odxiw1asdj8.cloudfront.net
+rules[0]	domain	d2be40xdoc0in8.cloudfront.net
+rules[0]	domain	d2fg91fzjsrcv1.cloudfront.net
+rules[0]	domain	d2j7e8uopcv07.cloudfront.net
+rules[0]	domain	d2v9yioq9zuuq2.cloudfront.net
+rules[0]	domain	d31dormfno8pk4.cloudfront.net
+rules[0]	domain	d3lh5kkip965lj.cloudfront.net
+rules[0]	domain	d3nwj80emtnjeo.cloudfront.net
+rules[0]	domain	d3ucl0eqgl80l5.cloudfront.net
+rules[0]	domain	d96jfp62lg3kj.cloudfront.net
+rules[0]	domain	dcb0z5ovq92mz.cloudfront.net
+rules[0]	domain	ddpjwstwtpszg.cloudfront.net
+rules[0]	domain	dstnzhnatv9pz.cloudfront.net
+rules[0]	domain	hb4bbbbb.pmhcjk.com
+rules[0]	domain	nbbb1bb7.pmhcjk.com
+rules[0]	domain	q676790b.pmhcjk.com
+rules[0]	domain_suffix	bnxz.net
+rules[0]	domain_suffix	bystys.tech
+rules[0]	domain_suffix	like-video.com
+rules[0]	domain_suffix	like.video
+rules[0]	domain_suffix	likee.com
+rules[0]	domain_suffix	likee.video
+rules[0]	domain_suffix	likeeapp.ru
+rules[0]	domain_suffix	likeevideo.com
+rules[0]	domain_suffix	likeevideo.ru
+rules[0]	domain_suffix	owxd.xyz
+rules[0]	domain_suffix	uxzw.club
+rules[0]	domain_suffix	yucf.top

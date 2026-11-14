@@ -1,0 +1,40 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	mozilla-ohttp.fastly-edge.com
+rules[0]	domain	mozilla.map.fastly.net
+rules[0]	domain_suffix	.chrome
+rules[0]	domain_suffix	basilisk-browser.org
+rules[0]	domain_suffix	brave.com
+rules[0]	domain_suffix	bromite.org
+rules[0]	domain_suffix	browser.kagi.com
+rules[0]	domain_suffix	ceno.app
+rules[0]	domain_suffix	censorship.no
+rules[0]	domain_suffix	chrome.com
+rules[0]	domain_suffix	chromium.org
+rules[0]	domain_suffix	cromite.org
+rules[0]	domain_suffix	decentr.net
+rules[0]	domain_suffix	dothq.org
+rules[0]	domain_suffix	epicbrowser.com
+rules[0]	domain_suffix	extendfirefox.com
+rules[0]	domain_suffix	firefox-portal-detection.com
+rules[0]	domain_suffix	firefox.com
+rules[0]	domain_suffix	firefox.hu
+rules[0]	domain_suffix	firefoxtweetmachine.com
+rules[0]	domain_suffix	firefoxusercontent.com
+rules[0]	domain_suffix	floorp.app
+rules[0]	domain_suffix	iridiumbrowser.de
+rules[0]	domain_suffix	kiwibrowser.com
+rules[0]	domain_suffix	kmeleonbrowser.org
+rules[0]	domain_suffix	librewolf.dev
+rules[0]	domain_suffix	librewolf.net
+rules[0]	domain_suffix	minbrowser.org
+rules[0]	domain_suffix	netsurf-browser.org
+rules[0]	domain_suffix	opera.com
+rules[0]	domain_suffix	palemoon.org
+rules[0]	domain_suffix	pulsebrowser.app
+rules[0]	domain_suffix	qutebrowser.org
+rules[0]	domain_suffix	torproject.org
+rules[0]	domain_suffix	vivaldi.com
+rules[0]	domain_suffix	waterfox.net
+rules[0]	domain_suffix	zen-browser.app

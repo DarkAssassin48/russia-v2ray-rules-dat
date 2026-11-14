@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	zoho.com
+rules[0]	domain_suffix	zoho.com.au
+rules[0]	domain_suffix	zoho.eu
+rules[0]	domain_suffix	zoho.in
+rules[0]	domain_suffix	zohocdn.com
+rules[0]	domain_suffix	zohomeetups.com
+rules[0]	domain_suffix	zohomerchandise.com
+rules[0]	domain_suffix	zohopublic.com
+rules[0]	domain_suffix	zohoschools.com
+rules[0]	domain_suffix	zohostatic.com
+rules[0]	domain_suffix	zohostatic.in
+rules[0]	domain_suffix	zohouniversity.com
+rules[0]	domain_suffix	zohowebstatic.com

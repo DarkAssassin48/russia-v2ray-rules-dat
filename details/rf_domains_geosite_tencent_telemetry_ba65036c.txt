@@ -1,0 +1,21 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	badjs.weixinbridge.com
+rules[0]	domain_suffix	beacon.cdn.qq.com
+rules[0]	domain_suffix	beacon.qq.com
+rules[0]	domain_suffix	beaconcdn.qq.com
+rules[0]	domain_suffix	btrace.qq.com
+rules[0]	domain_suffix	bugly.qq.com
+rules[0]	domain_suffix	htrace.wetvinfo.com
+rules[0]	domain_suffix	log.tbs.qq.com
+rules[0]	domain_suffix	monitor.music.qq.com
+rules[0]	domain_suffix	monitor.uu.qq.com
+rules[0]	domain_suffix	mtrace.qq.com
+rules[0]	domain_suffix	report.qqweb.qq.com
+rules[0]	domain_suffix	report.tencentmusic.com
+rules[0]	domain_suffix	rmonitor.qq.com
+rules[0]	domain_suffix	sngmta.qq.com
+rules[0]	domain_suffix	stat.y.qq.com
+rules[0]	domain_suffix	tpstelemetry.tencent.com
+rules[0]	domain_suffix	trace.qq.com

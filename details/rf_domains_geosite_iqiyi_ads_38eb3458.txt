@@ -1,0 +1,13 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ad.m.iqiyi.com
+rules[0]	domain_suffix	afp.iqiyi.com
+rules[0]	domain_suffix	c.uaa.iqiyi.com
+rules[0]	domain_suffix	cloudpush.iqiyi.com
+rules[0]	domain_suffix	cupid.iqiyi.com
+rules[0]	domain_suffix	ifacelog.iqiyi.com
+rules[0]	domain_suffix	mbdlog.iqiyi.com
+rules[0]	domain_suffix	msg.video.qiyi.com
+rules[0]	domain_suffix	msg2.video.qiyi.com
+rules[0]	domain_suffix	policy.video.iqiyi.com

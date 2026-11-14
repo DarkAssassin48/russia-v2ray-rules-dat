@@ -1,0 +1,23 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bookclubgirl.com
+rules[0]	domain_suffix	collins.co.uk
+rules[0]	domain_suffix	collins.in
+rules[0]	domain_suffix	egmontbooks.co.uk
+rules[0]	domain_suffix	epicreads.com
+rules[0]	domain_suffix	harperacademic.com
+rules[0]	domain_suffix	harperapps.com
+rules[0]	domain_suffix	harpercollins.ca
+rules[0]	domain_suffix	harpercollins.co.in
+rules[0]	domain_suffix	harpercollins.co.uk
+rules[0]	domain_suffix	harpercollins.com
+rules[0]	domain_suffix	harpercollins.com.au
+rules[0]	domain_suffix	harpercollinsadvantage.com
+rules[0]	domain_suffix	harpercollinschildrensbooks.co.uk
+rules[0]	domain_suffix	harpercollinschristian.com
+rules[0]	domain_suffix	harpercollinsspeakersbureau.com
+rules[0]	domain_suffix	hcpdts.com
+rules[0]	domain_suffix	librarylovefest.com
+rules[0]	domain_suffix	natgeokidsbooks.co.uk
+rules[0]	domain_suffix	shelfstuff.com

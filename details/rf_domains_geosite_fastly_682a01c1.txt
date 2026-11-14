@@ -1,0 +1,10 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	fastly-edge.com
+rules[0]	domain_suffix	fastly-terrarium.com
+rules[0]	domain_suffix	fastly.com
+rules[0]	domain_suffix	fastly.io
+rules[0]	domain_suffix	fastly.net
+rules[0]	domain_suffix	fastlylabs.com
+rules[0]	domain_suffix	fastlylb.net

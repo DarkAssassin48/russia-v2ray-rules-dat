@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ads.service.kugou.com
+rules[0]	domain_suffix	adserviceretry.kglink.cn
+rules[0]	domain_suffix	adserviceretry.kugou.com
+rules[0]	domain_suffix	fanxingliveshow.com
+rules[0]	domain_suffix	kgimg.com
+rules[0]	domain_suffix	kglink.cn
+rules[0]	domain_suffix	ktv.com
+rules[0]	domain_suffix	kugoo.com
+rules[0]	domain_suffix	kugou.com
+rules[0]	domain_suffix	kugou.net
+rules[0]	domain_suffix	kugouaudio.com
+rules[0]	domain_suffix	kugouipv6.com
+rules[0]	domain_suffix	kugoukid.com
+rules[0]	domain_suffix	kugouliveshow.com
+rules[0]	domain_suffix	kugouringtone.com
+rules[0]	domain_suffix	kugousenior.com
+rules[0]	domain_suffix	kugoustore.com
+rules[0]	domain_suffix	kugouvoice.com
+rules[0]	domain_suffix	kugouyouth.com

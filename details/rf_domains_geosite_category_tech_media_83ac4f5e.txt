@@ -1,0 +1,29 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	9to5google.com
+rules[0]	domain_suffix	9to5mac.com
+rules[0]	domain_suffix	9to5terminal.com
+rules[0]	domain_suffix	9to5toys.com
+rules[0]	domain_suffix	androidauthority.com
+rules[0]	domain_suffix	androidpolice.com
+rules[0]	domain_suffix	appleinsider.com
+rules[0]	domain_suffix	digitaltrends.com
+rules[0]	domain_suffix	dronedj.com
+rules[0]	domain_suffix	electrek.co
+rules[0]	domain_suffix	engadget.com
+rules[0]	domain_suffix	macrumors.com
+rules[0]	domain_suffix	slashdot.org
+rules[0]	domain_suffix	spaceexplored.com
+rules[0]	domain_suffix	startupschool.org
+rules[0]	domain_suffix	technews.tw
+rules[0]	domain_suffix	techradar.com
+rules[0]	domain_suffix	techspot.com
+rules[0]	domain_suffix	thetype.cloud
+rules[0]	domain_suffix	thetype.com
+rules[0]	domain_suffix	theverge.com
+rules[0]	domain_suffix	tomsguide.com
+rules[0]	domain_suffix	typeisbeautiful.com
+rules[0]	domain_suffix	ycombinator.com
+rules[0]	domain_suffix	zdnet.com
+rules[0]	domain_suffix	zdnet.redvideo.io

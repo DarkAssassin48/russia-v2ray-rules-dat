@@ -1,0 +1,27 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	cdn-cn.apple-mapkit.com
+rules[0]	domain	cdn-cn1.apple-mapkit.com
+rules[0]	domain	cdn-cn2.apple-mapkit.com
+rules[0]	domain	cdn-cn3.apple-mapkit.com
+rules[0]	domain	cdn-cn4.apple-mapkit.com
+rules[0]	domain	cdn.ampproject.org
+rules[0]	domain	cdn.apple-mapkit.com
+rules[0]	domain	cdn1.apple-mapkit.com
+rules[0]	domain	cdn2.apple-mapkit.com
+rules[0]	domain	cdn3.apple-mapkit.com
+rules[0]	domain	cdn4.apple-mapkit.com
+rules[0]	domain	crashlyticsreports-pa.googleapis.com
+rules[0]	domain	download.visualstudio.microsoft.com
+rules[0]	domain	firebase-settings.crashlytics.com
+rules[0]	domain	update.crashlytics.com
+rules[0]	domain_suffix	cdn.jetbrains.com
+rules[0]	domain_suffix	jetbrains.com.cn
+rules[0]	domain_suffix	microsoftreactor.cn
+rules[0]	domain_suffix	microsoftreactor.com.cn
+rules[0]	domain_suffix	reactorms.com.cn
+rules[0]	domain_suffix	researchkit.cn
+rules[0]	domain_suffix	researchkit.com.cn
+rules[0]	domain_suffix	swiftui.cn
+rules[0]	domain_suffix	swiftui.com.cn

@@ -1,0 +1,15 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	aiesa.ru
+rules[0]	domain_suffix	alice.yandex.net
+rules[0]	domain_suffix	alice.yandex.ru
+rules[0]	domain_suffix	alicepro.yandex.ru
+rules[0]	domain_suffix	copymonkey.app
+rules[0]	domain_suffix	gerwin.io
+rules[0]	domain_suffix	giga.chat
+rules[0]	domain_suffix	gptunnel.ru
+rules[0]	domain_suffix	polza.ai
+rules[0]	domain_suffix	robotext.io
+rules[0]	domain_suffix	rugpt.io
+rules[0]	domain_suffix	tokenator.top

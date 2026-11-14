@@ -1,0 +1,18 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	app.moegirl.org.cn
+rules[0]	domain	storage.moegirl.org.cn
+rules[0]	domain_suffix	allhistory.com
+rules[0]	domain_suffix	chaz.fun
+rules[0]	domain_suffix	fgo.wiki
+rules[0]	domain_suffix	huijistatic.com
+rules[0]	domain_suffix	huijiwiki.com
+rules[0]	domain_suffix	mbalib.com
+rules[0]	domain_suffix	mcmod.cn
+rules[0]	domain_suffix	pwsannong.com
+rules[0]	domain_suffix	qiuwen.wiki
+rules[0]	domain_suffix	qiuwenbaike.cn
+rules[0]	domain_suffix	sec-wiki.com
+rules[0]	domain_suffix	shidianbaike.com
+rules[0]	domain_suffix	zdic.net

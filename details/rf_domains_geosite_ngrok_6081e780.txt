@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	equinox.io
+rules[0]	domain_suffix	ngrok-agent.com
+rules[0]	domain_suffix	ngrok-free.app
+rules[0]	domain_suffix	ngrok-free.dev
+rules[0]	domain_suffix	ngrok-free.pizza
+rules[0]	domain_suffix	ngrok.app
+rules[0]	domain_suffix	ngrok.com
+rules[0]	domain_suffix	ngrok.dev
+rules[0]	domain_suffix	ngrok.io
+rules[0]	domain_suffix	ngrok.pizza
+rules[0]	domain_suffix	ngrok.pro

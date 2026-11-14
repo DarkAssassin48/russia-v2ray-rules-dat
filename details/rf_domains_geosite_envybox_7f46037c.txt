@@ -1,0 +1,24 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bananacall.ru
+rules[0]	domain_suffix	beesbfl.ru
+rules[0]	domain_suffix	beescrm.ru
+rules[0]	domain_suffix	bimsaas.ru
+rules[0]	domain_suffix	callbackkiller.com
+rules[0]	domain_suffix	cbkiller.com
+rules[0]	domain_suffix	envybox.company
+rules[0]	domain_suffix	envybox.family
+rules[0]	domain_suffix	envybox.io
+rules[0]	domain_suffix	envybox.kg
+rules[0]	domain_suffix	envybox.su
+rules[0]	domain_suffix	envycdp.com
+rules[0]	domain_suffix	envycdp.ru
+rules[0]	domain_suffix	envycrm.com
+rules[0]	domain_suffix	envyday.ru
+rules[0]	domain_suffix	killercb.ru
+rules[0]	domain_suffix	myenvy.ru
+rules[0]	domain_suffix	quizlink.ru
+rules[0]	domain_suffix	saas-support.com
+rules[0]	domain_suffix	whitesaas.com
+rules[0]	domain_suffix	xn--90absjljw3g.xn--p1ai

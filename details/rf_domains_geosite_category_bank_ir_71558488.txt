@@ -1,0 +1,35 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	agri-bank.com
+rules[0]	domain_suffix	ansarbank.com
+rules[0]	domain_suffix	bank-maskan.ir
+rules[0]	domain_suffix	bankmellat.ir
+rules[0]	domain_suffix	banksepah.ir
+rules[0]	domain_suffix	bim.ir
+rules[0]	domain_suffix	blubank.com
+rules[0]	domain_suffix	bmi.ir
+rules[0]	domain_suffix	bpi.ir
+rules[0]	domain_suffix	bsi.ir
+rules[0]	domain_suffix	cbi.ir
+rules[0]	domain_suffix	day24.ir
+rules[0]	domain_suffix	edbi.ir
+rules[0]	domain_suffix	enbank.ir
+rules[0]	domain_suffix	ghbi.ir
+rules[0]	domain_suffix	hibank24.com
+rules[0]	domain_suffix	izbank.ir
+rules[0]	domain_suffix	karafarinbank.ir
+rules[0]	domain_suffix	mebank.ir
+rules[0]	domain_suffix	mresalat.ir
+rules[0]	domain_suffix	parsian-bank.com
+rules[0]	domain_suffix	postbank.ir
+rules[0]	domain_suffix	qmb.ir
+rules[0]	domain_suffix	rb24.ir
+rules[0]	domain_suffix	refah-bank.ir
+rules[0]	domain_suffix	rqbank.ir
+rules[0]	domain_suffix	sb24.com
+rules[0]	domain_suffix	sbank.ir
+rules[0]	domain_suffix	shahr-bank.ir
+rules[0]	domain_suffix	shaparak.ir
+rules[0]	domain_suffix	sinabank.ir
+rules[0]	domain_suffix	tejaratbank.ir

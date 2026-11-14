@@ -1,0 +1,30 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	.samsung
+rules[0]	domain_suffix	.xn--cg4bki
+rules[0]	domain_suffix	galaxyappstore.com
+rules[0]	domain_suffix	galaxymobile.jp
+rules[0]	domain_suffix	game-platform.net
+rules[0]	domain_suffix	knoxemm.com
+rules[0]	domain_suffix	ospserver.net
+rules[0]	domain_suffix	samsung.com
+rules[0]	domain_suffix	samsung.com.cn
+rules[0]	domain_suffix	samsungadhub.com
+rules[0]	domain_suffix	samsungads.com
+rules[0]	domain_suffix	samsungapps.com
+rules[0]	domain_suffix	samsungcloud.com
+rules[0]	domain_suffix	samsungcloudcn.com
+rules[0]	domain_suffix	samsungconsent.com
+rules[0]	domain_suffix	samsungdm.com
+rules[0]	domain_suffix	samsungeshop.com.cn
+rules[0]	domain_suffix	samsunggalaxyfriends.com
+rules[0]	domain_suffix	samsunghealth.com
+rules[0]	domain_suffix	samsunghealthcn.com
+rules[0]	domain_suffix	samsungiotcloud.com
+rules[0]	domain_suffix	samsungiots.com
+rules[0]	domain_suffix	samsungknox.com
+rules[0]	domain_suffix	samsungosp.com
+rules[0]	domain_suffix	samsungqbe.com
+rules[0]	domain_suffix	samsungrs.com
+rules[0]	domain_suffix	smartthings.com

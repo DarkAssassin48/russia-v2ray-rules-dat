@@ -1,0 +1,27 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	chipcore.com
+rules[0]	domain_suffix	chipcore.ru
+rules[0]	domain_suffix	haicomdc.com
+rules[0]	domain_suffix	haicomdc.ru
+rules[0]	domain_suffix	haicomgroup.ru
+rules[0]	domain_suffix	itirex.ru
+rules[0]	domain_suffix	selcdn.net
+rules[0]	domain_suffix	selectel.academy
+rules[0]	domain_suffix	selectel.blog
+rules[0]	domain_suffix	selectel.com
+rules[0]	domain_suffix	selectel.dev
+rules[0]	domain_suffix	selectel.info
+rules[0]	domain_suffix	selectel.io
+rules[0]	domain_suffix	selectel.live
+rules[0]	domain_suffix	selectel.ru
+rules[0]	domain_suffix	selectelix.ru
+rules[0]	domain_suffix	selectelpro.ru
+rules[0]	domain_suffix	servercore.com
+rules[0]	domain_suffix	servercore.live
+rules[0]	domain_suffix	slc.tl
+rules[0]	domain_suffix	tehnodom.com
+rules[0]	domain_suffix	vscale.blog
+rules[0]	domain_suffix	vscale.io
+rules[0]	domain_suffix	vscale.ru

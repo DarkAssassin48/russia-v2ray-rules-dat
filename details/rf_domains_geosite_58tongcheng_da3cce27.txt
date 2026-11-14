@@ -1,0 +1,45 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	58.com
+rules[0]	domain_suffix	58.com.cn
+rules[0]	domain_suffix	5858.com
+rules[0]	domain_suffix	58antenna.cn
+rules[0]	domain_suffix	58antenna.com
+rules[0]	domain_suffix	58cdn.com.cn
+rules[0]	domain_suffix	58che.com
+rules[0]	domain_suffix	58control.cn
+rules[0]	domain_suffix	58corp.com
+rules[0]	domain_suffix	58dns.org
+rules[0]	domain_suffix	58ganji-corp.com
+rules[0]	domain_suffix	58ganji.com
+rules[0]	domain_suffix	58lovepet.com
+rules[0]	domain_suffix	58uxd.com
+rules[0]	domain_suffix	58v5.cn
+rules[0]	domain_suffix	58xinghuo.cn
+rules[0]	domain_suffix	58xinghuo.com
+rules[0]	domain_suffix	58xueche.com
+rules[0]	domain_suffix	anjuke.com
+rules[0]	domain_suffix	anjukestatic.com
+rules[0]	domain_suffix	chinahr.com
+rules[0]	domain_suffix	chrstatic.com
+rules[0]	domain_suffix	daojia.com
+rules[0]	domain_suffix	diandao.org
+rules[0]	domain_suffix	ganji.com
+rules[0]	domain_suffix	ganjistatic1.com
+rules[0]	domain_suffix	jxedt.com
+rules[0]	domain_suffix	jxksw.net
+rules[0]	domain_suffix	kaoshibao.com
+rules[0]	domain_suffix	kgdc.cn
+rules[0]	domain_suffix	kgtest.cn
+rules[0]	domain_suffix	roomeet.cn
+rules[0]	domain_suffix	xgo-img.com.cn
+rules[0]	domain_suffix	xinchong.com
+rules[0]	domain_suffix	xueche.com
+rules[0]	domain_suffix	zaixiankaoshi.com
+rules[0]	domain_suffix	zhuancorp.com
+rules[0]	domain_suffix	zhuaninc.com
+rules[0]	domain_suffix	zhuanspirit.cn
+rules[0]	domain_suffix	zhuanspirit.com
+rules[0]	domain_suffix	zhuanstatic.com
+rules[0]	domain_suffix	zhuanzhuan.com

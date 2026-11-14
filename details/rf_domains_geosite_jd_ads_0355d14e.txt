@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ads-union.jd.com
+rules[0]	domain_suffix	ads.union.jd.com
+rules[0]	domain_suffix	c-nfa.jd.com
+rules[0]	domain_suffix	cps.360buy.com
+rules[0]	domain_suffix	gia.jd.com
+rules[0]	domain_suffix	img-x.jd.com
+rules[0]	domain_suffix	jzt.jd.com
+rules[0]	domain_suffix	stat.m.jd.com

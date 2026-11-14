@@ -1,0 +1,30 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ai-sdk.dev
+rules[0]	domain_suffix	err.sh
+rules[0]	domain_suffix	hyper.is
+rules[0]	domain_suffix	nextjs.org
+rules[0]	domain_suffix	now.sh
+rules[0]	domain_suffix	skills.sh
+rules[0]	domain_suffix	static.fun
+rules[0]	domain_suffix	title.sh
+rules[0]	domain_suffix	turborepo.org
+rules[0]	domain_suffix	vercel-dns.com
+rules[0]	domain_suffix	vercel-status.com
+rules[0]	domain_suffix	vercel.app
+rules[0]	domain_suffix	vercel.blog
+rules[0]	domain_suffix	vercel.com
+rules[0]	domain_suffix	vercel.dev
+rules[0]	domain_suffix	vercel.events
+rules[0]	domain_suffix	vercel.live
+rules[0]	domain_suffix	vercel.pub
+rules[0]	domain_suffix	vercel.sh
+rules[0]	domain_suffix	vercel.store
+rules[0]	domain_suffix	zeit-world.co.uk
+rules[0]	domain_suffix	zeit-world.com
+rules[0]	domain_suffix	zeit-world.net
+rules[0]	domain_suffix	zeit-world.org
+rules[0]	domain_suffix	zeit.co
+rules[0]	domain_suffix	zeit.sh
+rules[0]	domain_suffix	zeitworld.com

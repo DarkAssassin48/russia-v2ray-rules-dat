@@ -1,0 +1,25 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	agendaweek.com
+rules[0]	domain_suffix	excedo.com
+rules[0]	domain_suffix	exec-appointments.com
+rules[0]	domain_suffix	fdiintelligence.com
+rules[0]	domain_suffix	financialadvisoriq.com
+rules[0]	domain_suffix	ft.com
+rules[0]	domain_suffix	ftadviser.com
+rules[0]	domain_suffix	ftchinese.com
+rules[0]	domain_suffix	ftiecla.com
+rules[0]	domain_suffix	fundfire.com
+rules[0]	domain_suffix	gisplanning.com
+rules[0]	domain_suffix	globalriskregulator.com
+rules[0]	domain_suffix	ignites.com
+rules[0]	domain_suffix	ignitesasia.com
+rules[0]	domain_suffix	igniteseurope.com
+rules[0]	domain_suffix	investorschronicle.co.uk
+rules[0]	domain_suffix	mandatewire.com
+rules[0]	domain_suffix	pensions-expert.com
+rules[0]	domain_suffix	pwmnet.com
+rules[0]	domain_suffix	thebanker.com
+rules[0]	domain_suffix	thebankerdatabase.com
+rules[0]	domain_suffix	thenextweb.com

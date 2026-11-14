@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	alborzinsurance.ir
+rules[0]	domain_suffix	bimeh.com
+rules[0]	domain_suffix	bimehasia.com
+rules[0]	domain_suffix	bimeonline.com
+rules[0]	domain_suffix	dana-insurance.com
+rules[0]	domain_suffix	dayins.com
+rules[0]	domain_suffix	hafezinsurance.ir
+rules[0]	domain_suffix	ihio.gov.ir
+rules[0]	domain_suffix	iraninsurance.ir
+rules[0]	domain_suffix	karafarin-insurance.ir
+rules[0]	domain_suffix	mellatinsurance.com
+rules[0]	domain_suffix	novininsurance.com
+rules[0]	domain_suffix	omid-insurance.ir
+rules[0]	domain_suffix	parsianinsurance.ir
+rules[0]	domain_suffix	razi-insurance.ir
+rules[0]	domain_suffix	risc.ir
+rules[0]	domain_suffix	sinainsurance.com
+rules[0]	domain_suffix	tamin.ir
+rules[0]	domain_suffix	tins.ir

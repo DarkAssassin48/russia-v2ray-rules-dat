@@ -1,0 +1,46 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	fa-part.com
+rules[0]	domain_suffix	forface3d.com
+rules[0]	domain_suffix	jlc-3dp.cn
+rules[0]	domain_suffix	jlc-3dp.com
+rules[0]	domain_suffix	jlc-bbs.com
+rules[0]	domain_suffix	jlc-cad.com
+rules[0]	domain_suffix	jlc-cam.com
+rules[0]	domain_suffix	jlc-cnc.com
+rules[0]	domain_suffix	jlc-dfm.com
+rules[0]	domain_suffix	jlc-drm.com
+rules[0]	domain_suffix	jlc-ecad.com
+rules[0]	domain_suffix	jlc-erp.com
+rules[0]	domain_suffix	jlc-fpc.com
+rules[0]	domain_suffix	jlc-gw.com
+rules[0]	domain_suffix	jlc-jh.com
+rules[0]	domain_suffix	jlc-layout.com
+rules[0]	domain_suffix	jlc-pcb.com
+rules[0]	domain_suffix	jlc-smt.com
+rules[0]	domain_suffix	jlc-zh.com
+rules[0]	domain_suffix	jlc.com
+rules[0]	domain_suffix	jlc3dp.cn
+rules[0]	domain_suffix	jlccad.com
+rules[0]	domain_suffix	jlccam.com
+rules[0]	domain_suffix	jlccnc.com
+rules[0]	domain_suffix	jlcdfm.com
+rules[0]	domain_suffix	jlcecad.com
+rules[0]	domain_suffix	jlceda.cn
+rules[0]	domain_suffix	jlceda.com
+rules[0]	domain_suffix	jlcerp.com
+rules[0]	domain_suffix	jlcfa.com
+rules[0]	domain_suffix	jlcgroup.cn
+rules[0]	domain_suffix	jlcops.com
+rules[0]	domain_suffix	jlcsj.com
+rules[0]	domain_suffix	jlcsmt.com
+rules[0]	domain_suffix	lceda.cn
+rules[0]	domain_suffix	lckfb.com
+rules[0]	domain_suffix	oshwhub.com
+rules[0]	domain_suffix	sanweihou.com
+rules[0]	domain_suffix	sz-jlc.com
+rules[0]	domain_suffix	szjlc.cn
+rules[0]	domain_suffix	szlcsc.com
+rules[0]	domain_suffix	zs-jlc.com
+rules[0]	domain_suffix	zxhgroup.com

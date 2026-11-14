@@ -1,0 +1,12 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	haiwaikan.com
+rules[0]	domain_suffix	iole.tv
+rules[0]	domain_suffix	olehd.com
+rules[0]	domain_suffix	olelive.com
+rules[0]	domain_suffix	olemovienews.com
+rules[0]	domain_suffix	olevod.com
+rules[0]	domain_suffix	olevod.io
+rules[0]	domain_suffix	olevod.tv
+rules[0]	domain_suffix	olevodtv.com

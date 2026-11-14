@@ -1,0 +1,20 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	1prime.ru
+rules[0]	domain_suffix	arctic.ru
+rules[0]	domain_suffix	baltnews.com
+rules[0]	domain_suffix	baltnews.lt
+rules[0]	domain_suffix	inosmi.ru
+rules[0]	domain_suffix	jinrieluosi.cn
+rules[0]	domain_suffix	pressria.ru
+rules[0]	domain_suffix	radiosputnik.ru
+rules[0]	domain_suffix	ria.ru
+rules[0]	domain_suffix	rossiyasegodnya.com
+rules[0]	domain_suffix	sputnikglobe.com
+rules[0]	domain_suffix	sputnikimages.com
+rules[0]	domain_suffix	sputnikmediabank.com
+rules[0]	domain_suffix	sputniknews.com
+rules[0]	domain_suffix	tok.media
+rules[0]	domain_suffix	ukraina.ru
+rules[0]	domain_suffix	xn--c1acbl2abdlkab1og.xn--p1ai

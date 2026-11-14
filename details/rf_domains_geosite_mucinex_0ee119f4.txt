@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	mucinex.ca
+rules[0]	domain_suffix	mucinex.cn
+rules[0]	domain_suffix	mucinex.co.nz
+rules[0]	domain_suffix	mucinex.com
+rules[0]	domain_suffix	mucinex.com.cn
+rules[0]	domain_suffix	mucinex.net
+rules[0]	domain_suffix	mucinex.tv
+rules[0]	domain_suffix	mucinexprofessional.com

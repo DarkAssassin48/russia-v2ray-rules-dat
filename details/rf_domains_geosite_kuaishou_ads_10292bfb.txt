@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	apilog-web.acfun.cn
+rules[0]	domain	log-sdk.gifshow.com
+rules[0]	domain	wlog.kuaishou.com
+rules[0]	domain_suffix	adbkwai.com
+rules[0]	domain_suffix	adkwai.com
+rules[0]	domain_suffix	adukwai.com
+rules[0]	domain_suffix	e.kuaishou.cn
+rules[0]	domain_suffix	e.kuaishou.com

@@ -1,0 +1,26 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	1ppt.com
+rules[0]	domain_suffix	360doc.com
+rules[0]	domain_suffix	51pptmoban.com
+rules[0]	domain_suffix	51wendang.com
+rules[0]	domain_suffix	52ppt.com
+rules[0]	domain_suffix	777ppt.com
+rules[0]	domain_suffix	badou.com
+rules[0]	domain_suffix	book118.com
+rules[0]	domain_suffix	daodoc.com
+rules[0]	domain_suffix	doc88.com
+rules[0]	domain_suffix	docin.com
+rules[0]	domain_suffix	douding.cn
+rules[0]	domain_suffix	goldhoe.com
+rules[0]	domain_suffix	haohaodoc.com
+rules[0]	domain_suffix	jinchutou.com
+rules[0]	domain_suffix	lazyer.net
+rules[0]	domain_suffix	renrendoc.com
+rules[0]	domain_suffix	safewk.com
+rules[0]	domain_suffix	taodocs.com
+rules[0]	domain_suffix	wenkeju.com
+rules[0]	domain_suffix	wenkub.com
+rules[0]	domain_suffix	ypppt.com
+rules[0]	domain_suffix	zhijidoc.com

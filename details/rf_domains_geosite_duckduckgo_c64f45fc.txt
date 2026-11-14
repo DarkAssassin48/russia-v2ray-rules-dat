@@ -1,0 +1,47 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	cispaletter.com
+rules[0]	domain_suffix	cispaletter.org
+rules[0]	domain_suffix	cometotheduckside.com
+rules[0]	domain_suffix	ddg.co
+rules[0]	domain_suffix	ddg.gg
+rules[0]	domain_suffix	ddh.gg
+rules[0]	domain_suffix	dgg.gg
+rules[0]	domain_suffix	dontbubble.us
+rules[0]	domain_suffix	donttrack.us
+rules[0]	domain_suffix	duck.ai
+rules[0]	domain_suffix	duck.co
+rules[0]	domain_suffix	duck.com
+rules[0]	domain_suffix	duckduckco.com
+rules[0]	domain_suffix	duckduckco.de
+rules[0]	domain_suffix	duckduckgo.ca
+rules[0]	domain_suffix	duckduckgo.co
+rules[0]	domain_suffix	duckduckgo.co.uk
+rules[0]	domain_suffix	duckduckgo.com
+rules[0]	domain_suffix	duckduckgo.com.mx
+rules[0]	domain_suffix	duckduckgo.com.tw
+rules[0]	domain_suffix	duckduckgo.de
+rules[0]	domain_suffix	duckduckgo.dk
+rules[0]	domain_suffix	duckduckgo.in
+rules[0]	domain_suffix	duckduckgo.jp
+rules[0]	domain_suffix	duckduckgo.ke
+rules[0]	domain_suffix	duckduckgo.mx
+rules[0]	domain_suffix	duckduckgo.nl
+rules[0]	domain_suffix	duckduckgo.org
+rules[0]	domain_suffix	duckduckgo.pl
+rules[0]	domain_suffix	duckduckgo.sg
+rules[0]	domain_suffix	duckduckgo.uk
+rules[0]	domain_suffix	duckduckhack.com
+rules[0]	domain_suffix	duckgo.com
+rules[0]	domain_suffix	ducksear.ch
+rules[0]	domain_suffix	duckside.com
+rules[0]	domain_suffix	dukgo.com
+rules[0]	domain_suffix	enteentegeh.de
+rules[0]	domain_suffix	fixtracking.com
+rules[0]	domain_suffix	goduckgo.com
+rules[0]	domain_suffix	hacksear.ch
+rules[0]	domain_suffix	justduckit.com
+rules[0]	domain_suffix	privacysimplified.com
+rules[0]	domain_suffix	privatebrowsingmyths.com
+rules[0]	domain_suffix	spreadprivacy.com

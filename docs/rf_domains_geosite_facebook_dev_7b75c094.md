@@ -1,0 +1,68 @@
+# facebook-dev
+
+Актуальный набор доменных правил «facebook-dev» из runetfreedom. Полный текущий состав приведён в файлах JSON и TXT.
+
+Код: `facebook-dev`. Тип: **domains**.
+
+Правил: **44**. Точные домены: 1; доменные зоны: 43; фрагменты: 0; regex: 0; IP-сети: 0.
+
+## Полный состав
+
+- [Все адреса в текстовом виде](../details/rf_domains_geosite_facebook_dev_7b75c094.txt)
+- [Полный JSON с исходной логикой](../details/rf_domains_geosite_facebook_dev_7b75c094.json)
+- [Готовый SRS](../sing-box/rule-set-geosite/geosite-facebook-dev.srs)
+
+`domain_suffix` охватывает сам домен и все поддомены. Точное правило `domain` охватывает только указанное имя. IP-набор может направлять через VPN несколько сервисов, использующих одну сеть.
+
+## Первые адреса
+
+```text
+domain: developers.facebook.com
+domain_suffix: accountkit.com
+domain_suffix: atscaleconference.com
+domain_suffix: botorch.org
+domain_suffix: buck.build
+domain_suffix: buckbuild.com
+domain_suffix: componentkit.org
+domain_suffix: draftjs.org
+domain_suffix: f8.com
+domain_suffix: facebookappcenter.info
+domain_suffix: facebookappcenter.net
+domain_suffix: facebookappcenter.org
+domain_suffix: facebookconnect.com
+domain_suffix: facebookdevelopergarage.com
+domain_suffix: faciometrics.com
+domain_suffix: fasttext.cc
+domain_suffix: fbf8.com
+domain_suffix: fbinfer.com
+domain_suffix: fblitho.com
+domain_suffix: fbredex.com
+domain_suffix: fbrell.com
+domain_suffix: flow.dev
+domain_suffix: flow.org
+domain_suffix: flowtype.org
+domain_suffix: frescolib.org
+domain_suffix: hacklang.org
+domain_suffix: hhvm.com
+domain_suffix: makeitopen.com
+domain_suffix: mcrouter.net
+domain_suffix: mcrouter.org
+domain_suffix: messengerdevelopers.com
+domain_suffix: ogp.me
+domain_suffix: opengraphprotocol.com
+domain_suffix: opengraphprotocol.org
+domain_suffix: parse.com
+domain_suffix: pyrobot.org
+domain_suffix: react.com
+domain_suffix: reactjs.com
+domain_suffix: reactjs.org
+domain_suffix: recoiljs.org
+domain_suffix: rocksdb.com
+domain_suffix: rocksdb.net
+domain_suffix: rocksdb.org
+domain_suffix: yogalayout.com
+```
+
+Полный перечень без сокращений доступен по ссылкам выше.
+
+По умолчанию выключен. Добавление каталога само по себе не включает маршрут.

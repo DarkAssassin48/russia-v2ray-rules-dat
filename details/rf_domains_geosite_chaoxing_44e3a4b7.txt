@@ -1,0 +1,38 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	16q.cn
+rules[0]	domain_suffix	5read.com
+rules[0]	domain_suffix	aichaoxing.com
+rules[0]	domain_suffix	chaoxing.cc
+rules[0]	domain_suffix	chaoxing.com
+rules[0]	domain_suffix	chaoxingv.com
+rules[0]	domain_suffix	cldisk.com
+rules[0]	domain_suffix	cxbiji.com
+rules[0]	domain_suffix	dayainfo.com
+rules[0]	domain_suffix	hongbo100.com
+rules[0]	domain_suffix	lnlib.net
+rules[0]	domain_suffix	mndqlib.net
+rules[0]	domain_suffix	mti100.com
+rules[0]	domain_suffix	nihaoafrica.org
+rules[0]	domain_suffix	nihaorwanda.cn
+rules[0]	domain_suffix	sslawy.com
+rules[0]	domain_suffix	sslibrary.com
+rules[0]	domain_suffix	ssreader.cn
+rules[0]	domain_suffix	ssreader.com.cn
+rules[0]	domain_suffix	ssvideo.cn
+rules[0]	domain_suffix	ssvideo.com.cn
+rules[0]	domain_suffix	study360.com.cn
+rules[0]	domain_suffix	superlib.com
+rules[0]	domain_suffix	superlib.net
+rules[0]	domain_suffix	uonline-sh.com
+rules[0]	domain_suffix	uonline-sh.net
+rules[0]	domain_suffix	xuexi365.com
+rules[0]	domain_suffix	xuexi365.com.cn
+rules[0]	domain_suffix	xuexi365.net
+rules[0]	domain_suffix	xuexitong.com
+rules[0]	domain_suffix	xxtmail.com
+rules[0]	domain_suffix	ylike.net
+rules[0]	domain_suffix	zaifan.com
+rules[0]	domain_suffix	zaifan.com.cn
+rules[0]	domain_suffix	zhihang100.com

@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	gen.lib.rus.ec
+rules[0]	domain_suffix	libgen.fun
+rules[0]	domain_suffix	libgen.is
+rules[0]	domain_suffix	libgen.life
+rules[0]	domain_suffix	libgen.me
+rules[0]	domain_suffix	libgen.rs
+rules[0]	domain_suffix	libgen.st
+rules[0]	domain_suffix	library.lol

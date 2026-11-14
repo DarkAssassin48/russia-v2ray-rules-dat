@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	signal.art
+rules[0]	domain_suffix	signal.group
+rules[0]	domain_suffix	signal.link
+rules[0]	domain_suffix	signal.me
+rules[0]	domain_suffix	signal.org
+rules[0]	domain_suffix	signal.tube
+rules[0]	domain_suffix	signalusers.org
+rules[0]	domain_suffix	whispersystems.org

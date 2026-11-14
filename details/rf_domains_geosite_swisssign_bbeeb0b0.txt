@@ -1,0 +1,34 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	digital-id.ch
+rules[0]	domain_suffix	digitalid.ch
+rules[0]	domain_suffix	managed-pki.ch
+rules[0]	domain_suffix	managed-pki.de
+rules[0]	domain_suffix	pki-post.ch
+rules[0]	domain_suffix	pki-posta.ch
+rules[0]	domain_suffix	pki-poste.ch
+rules[0]	domain_suffix	root-signing.ch
+rules[0]	domain_suffix	rootsigning.com
+rules[0]	domain_suffix	ssl-certificate.ch
+rules[0]	domain_suffix	swissid.ch
+rules[0]	domain_suffix	swissign.com
+rules[0]	domain_suffix	swissign.li
+rules[0]	domain_suffix	swisssign-group.ch
+rules[0]	domain_suffix	swisssign-group.com
+rules[0]	domain_suffix	swisssign-group.li
+rules[0]	domain_suffix	swisssign.ch
+rules[0]	domain_suffix	swisssign.com
+rules[0]	domain_suffix	swisssign.li
+rules[0]	domain_suffix	swisssign.net
+rules[0]	domain_suffix	swisssign.org
+rules[0]	domain_suffix	swisssigner.ch
+rules[0]	domain_suffix	swisssigner.com
+rules[0]	domain_suffix	swisssigngroup.ch
+rules[0]	domain_suffix	swisssigngroup.com
+rules[0]	domain_suffix	swissstick.com
+rules[0]	domain_suffix	swisstsa.ch
+rules[0]	domain_suffix	swisstsa.li
+rules[0]	domain_suffix	trustdoc.ch
+rules[0]	domain_suffix	trustsign.ch
+rules[0]	domain_suffix	zert.ch

@@ -1,0 +1,13 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	56xiniao.com
+rules[0]	domain_suffix	cainiao-inc.com
+rules[0]	domain_suffix	cainiao.com
+rules[0]	domain_suffix	cainiao.com.cn
+rules[0]	domain_suffix	cainiaoyizhan.com
+rules[0]	domain_suffix	danniao.com
+rules[0]	domain_suffix	dianwoda.cn
+rules[0]	domain_suffix	dianwoda.com
+rules[0]	domain_suffix	guoguo-app.com
+rules[0]	domain_suffix	v6-adashx.ut.cainiao.com

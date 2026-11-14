@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	fluxer.app
+rules[0]	domain_suffix	fluxer.com
+rules[0]	domain_suffix	fluxer.dev
+rules[0]	domain_suffix	fluxer.gg
+rules[0]	domain_suffix	fluxer.gift
+rules[0]	domain_suffix	fluxer.media
+rules[0]	domain_suffix	fluxer.tools
+rules[0]	domain_suffix	fluxerapp.com
+rules[0]	domain_suffix	fluxerstatic.com
+rules[0]	domain_suffix	fluxerstatus.com
+rules[0]	domain_suffix	fluxerusercontent.com

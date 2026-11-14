@@ -1,0 +1,9 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	digitalocean-ui.com
+rules[0]	domain_suffix	digitalocean.com
+rules[0]	domain_suffix	digitaloceanspaces.com
+rules[0]	domain_suffix	do.co
+rules[0]	domain_suffix	nginxconfig.io
+rules[0]	domain_suffix	ondigitalocean.com

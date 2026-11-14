@@ -1,0 +1,43 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	autoesporte.com
+rules[0]	domain_suffix	autoesporte.com.br
+rules[0]	domain_suffix	bhfm.com.br
+rules[0]	domain_suffix	cartola.com.br
+rules[0]	domain_suffix	cbn.com.br
+rules[0]	domain_suffix	epoca.com.br
+rules[0]	domain_suffix	epocanegocios.com.br
+rules[0]	domain_suffix	g1.com.br
+rules[0]	domain_suffix	globo.com
+rules[0]	domain_suffix	globo.com.br
+rules[0]	domain_suffix	globoplay.com
+rules[0]	domain_suffix	globoplay.com.br
+rules[0]	domain_suffix	globoradio.com.br
+rules[0]	domain_suffix	globoreporter.com.br
+rules[0]	domain_suffix	globorural.com.br
+rules[0]	domain_suffix	gshow.com
+rules[0]	domain_suffix	gshow.com.br
+rules[0]	domain_suffix	infoglobo.com.br
+rules[0]	domain_suffix	oghost.com.br
+rules[0]	domain_suffix	oglobo.com.br
+rules[0]	domain_suffix	pegn.com
+rules[0]	domain_suffix	pegn.com.br
+rules[0]	domain_suffix	radioglobo.com.br
+rules[0]	domain_suffix	revistaepoca.com
+rules[0]	domain_suffix	revistaepoca.com.br
+rules[0]	domain_suffix	revistagalileu.com.br
+rules[0]	domain_suffix	revistapegn.com
+rules[0]	domain_suffix	revistapegn.com.br
+rules[0]	domain_suffix	revistaquem.com.br
+rules[0]	domain_suffix	revistavalor.com.br
+rules[0]	domain_suffix	sgr.com.br
+rules[0]	domain_suffix	techtudo.com
+rules[0]	domain_suffix	techtudo.com.br
+rules[0]	domain_suffix	umsoplaneta.com
+rules[0]	domain_suffix	umsoplaneta.com.br
+rules[0]	domain_suffix	valor.com.br
+rules[0]	domain_suffix	valoreconomico.com.br
+rules[0]	domain_suffix	valorinveste.com
+rules[0]	domain_suffix	valorinveste.com.br
+rules[0]	domain_suffix	xuxaverso.com.br

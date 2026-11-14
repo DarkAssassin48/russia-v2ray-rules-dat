@@ -1,0 +1,45 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	prodforza.blob.core.windows.net
+rules[0]	domain_suffix	.xbox
+rules[0]	domain_suffix	beth.games
+rules[0]	domain_suffix	bethesda.net
+rules[0]	domain_suffix	bethesdagamestudios.com
+rules[0]	domain_suffix	bethsoft.com
+rules[0]	domain_suffix	callersbane.com
+rules[0]	domain_suffix	doom.com
+rules[0]	domain_suffix	elderscrolls.com
+rules[0]	domain_suffix	forza.net
+rules[0]	domain_suffix	forzamotorsport.net
+rules[0]	domain_suffix	forzaracingchampionship.com
+rules[0]	domain_suffix	forzarc.com
+rules[0]	domain_suffix	gamepass.com
+rules[0]	domain_suffix	minecraft-services.net
+rules[0]	domain_suffix	minecraft.net
+rules[0]	domain_suffix	minecraftservices.com
+rules[0]	domain_suffix	minecraftshop.com
+rules[0]	domain_suffix	mojang.com
+rules[0]	domain_suffix	orithegame.com
+rules[0]	domain_suffix	renovacionxboxlive.com
+rules[0]	domain_suffix	tellmewhygame.com
+rules[0]	domain_suffix	xbox.co
+rules[0]	domain_suffix	xbox.com
+rules[0]	domain_suffix	xbox.eu
+rules[0]	domain_suffix	xbox.org
+rules[0]	domain_suffix	xbox360.co
+rules[0]	domain_suffix	xbox360.com
+rules[0]	domain_suffix	xbox360.eu
+rules[0]	domain_suffix	xbox360.org
+rules[0]	domain_suffix	xboxab.com
+rules[0]	domain_suffix	xboxgamepass.com
+rules[0]	domain_suffix	xboxgamestudios.com
+rules[0]	domain_suffix	xboxlive.cn
+rules[0]	domain_suffix	xboxlive.com
+rules[0]	domain_suffix	xboxone.co
+rules[0]	domain_suffix	xboxone.com
+rules[0]	domain_suffix	xboxone.eu
+rules[0]	domain_suffix	xboxplayanywhere.com
+rules[0]	domain_suffix	xboxservices.com
+rules[0]	domain_suffix	xboxstudios.com
+rules[0]	domain_suffix	xbx.lv

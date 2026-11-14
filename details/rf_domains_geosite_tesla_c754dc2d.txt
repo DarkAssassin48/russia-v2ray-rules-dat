@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	solarcity.com
+rules[0]	domain_suffix	tesla.cn
+rules[0]	domain_suffix	tesla.com
+rules[0]	domain_suffix	tesla.com.cn
+rules[0]	domain_suffix	tesla.services
+rules[0]	domain_suffix	teslaenergy.services
+rules[0]	domain_suffix	teslamotors.cn
+rules[0]	domain_suffix	teslamotors.com
+rules[0]	domain_suffix	teslamotors.com.cn
+rules[0]	domain_suffix	teslazta.net
+rules[0]	domain_suffix	ts.la

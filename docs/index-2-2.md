@@ -1,0 +1,34 @@
+# runetfreedom · Категории
+
+[Вернуться к каталогу](../CATALOG.md)
+
+| Сервис / категория | Тип | Правил | Полный состав |
+|---|---|---:|---|
+| [category-stun](rf_domains_geosite_category_stun_fc535503.md) | domains | 359 | [TXT](../details/rf_domains_geosite_category_stun_fc535503.txt) · [JSON](../details/rf_domains_geosite_category_stun_fc535503.json) |
+| [category-tech-ir](rf_domains_geosite_category_tech_ir_d45dcd70.md) | domains | 45 | [TXT](../details/rf_domains_geosite_category_tech_ir_d45dcd70.txt) · [JSON](../details/rf_domains_geosite_category_tech_ir_d45dcd70.json) |
+| [category-tech-media](rf_domains_geosite_category_tech_media_83ac4f5e.md) | domains | 26 | [TXT](../details/rf_domains_geosite_category_tech_media_83ac4f5e.txt) · [JSON](../details/rf_domains_geosite_category_tech_media_83ac4f5e.json) |
+| [category-tech-media-ru](rf_domains_geosite_category_tech_media_ru_c22aa8bd.md) | domains | 34 | [TXT](../details/rf_domains_geosite_category_tech_media_ru_c22aa8bd.txt) · [JSON](../details/rf_domains_geosite_category_tech_media_ru_c22aa8bd.json) |
+| [category-tech-media@cn](rf_domains_geosite_category_tech_media_cn_d6de7f94.md) | domains | 1 | [TXT](../details/rf_domains_geosite_category_tech_media_cn_d6de7f94.txt) · [JSON](../details/rf_domains_geosite_category_tech_media_cn_d6de7f94.json) |
+| [category-telemetry](rf_domains_geosite_category_telemetry_2b021529.md) | domains | 237 | [TXT](../details/rf_domains_geosite_category_telemetry_2b021529.txt) · [JSON](../details/rf_domains_geosite_category_telemetry_2b021529.json) |
+| [category-telemetry@ads](rf_domains_geosite_category_telemetry_ads_a350ce6b.md) | domains | 196 | [TXT](../details/rf_domains_geosite_category_telemetry_ads_a350ce6b.txt) · [JSON](../details/rf_domains_geosite_category_telemetry_ads_a350ce6b.json) |
+| [category-telemetry@cn](rf_domains_geosite_category_telemetry_cn_2604fc5b.md) | domains | 4 | [TXT](../details/rf_domains_geosite_category_telemetry_cn_2604fc5b.txt) · [JSON](../details/rf_domains_geosite_category_telemetry_cn_2604fc5b.json) |
+| [category-telemetry@telemetry](rf_domains_geosite_category_telemetry_telemetry_e8d2e212.md) | domains | 237 | [TXT](../details/rf_domains_geosite_category_telemetry_telemetry_e8d2e212.txt) · [JSON](../details/rf_domains_geosite_category_telemetry_telemetry_e8d2e212.json) |
+| [category-tm](rf_domains_geosite_category_tm_a67e91c4.md) | domains | 72 | [TXT](../details/rf_domains_geosite_category_tm_a67e91c4.txt) · [JSON](../details/rf_domains_geosite_category_tm_a67e91c4.json) |
+| [category-travel-ir](rf_domains_geosite_category_travel_ir_ab6823e2.md) | domains | 7 | [TXT](../details/rf_domains_geosite_category_travel_ir_ab6823e2.txt) · [JSON](../details/rf_domains_geosite_category_travel_ir_ab6823e2.json) |
+| [category-travel-ru](rf_domains_geosite_category_travel_ru_2abcd76f.md) | domains | 25 | [TXT](../details/rf_domains_geosite_category_travel_ru_2abcd76f.txt) · [JSON](../details/rf_domains_geosite_category_travel_ru_2abcd76f.json) |
+| [category-urlshortner](rf_domains_geosite_category_urlshortner_85d133de.md) | domains | 5 | [TXT](../details/rf_domains_geosite_category_urlshortner_85d133de.txt) · [JSON](../details/rf_domains_geosite_category_urlshortner_85d133de.json) |
+| [category-voip](rf_domains_geosite_category_voip_e4eb5ae7.md) | domains | 9 | [TXT](../details/rf_domains_geosite_category_voip_e4eb5ae7.txt) · [JSON](../details/rf_domains_geosite_category_voip_e4eb5ae7.json) |
+| [category-vpnservices](rf_domains_geosite_category_vpnservices_36fb9c7a.md) | domains | 69 | [TXT](../details/rf_domains_geosite_category_vpnservices_36fb9c7a.txt) · [JSON](../details/rf_domains_geosite_category_vpnservices_36fb9c7a.json) |
+| [category-web-archive](rf_domains_geosite_category_web_archive_051ec88c.md) | domains | 18 | [TXT](../details/rf_domains_geosite_category_web_archive_051ec88c.txt) · [JSON](../details/rf_domains_geosite_category_web_archive_051ec88c.json) |
+| [category-wiki-cn](rf_domains_geosite_category_wiki_cn_d4b5a8af.md) | domains | 15 | [TXT](../details/rf_domains_geosite_category_wiki_cn_d4b5a8af.txt) · [JSON](../details/rf_domains_geosite_category_wiki_cn_d4b5a8af.json) |
+| [geolocation-!cn@!cn](rf_domains_geosite_geolocation__cn__cn_9ce1924a.md) | domains | 65 | [TXT](../details/rf_domains_geosite_geolocation__cn__cn_9ce1924a.txt) · [JSON](../details/rf_domains_geosite_geolocation__cn__cn_9ce1924a.json) |
+| [geolocation-!cn@telemetry](rf_domains_geosite_geolocation__cn_telemetry_61163725.md) | domains | 25 | [TXT](../details/rf_domains_geosite_geolocation__cn_telemetry_61163725.txt) · [JSON](../details/rf_domains_geosite_geolocation__cn_telemetry_61163725.json) |
+| [geolocation-cn](rf_domains_geosite_geolocation_cn_7bdbc02a.md) | domains | 5440 | [TXT](../details/rf_domains_geosite_geolocation_cn_7bdbc02a.txt) · [JSON](../details/rf_domains_geosite_geolocation_cn_7bdbc02a.json) |
+| [geolocation-cn@cn](rf_domains_geosite_geolocation_cn_cn_705cb910.md) | domains | 76 | [TXT](../details/rf_domains_geosite_geolocation_cn_cn_705cb910.txt) · [JSON](../details/rf_domains_geosite_geolocation_cn_cn_705cb910.json) |
+| [geolocation-cn@telemetry](rf_domains_geosite_geolocation_cn_telemetry_d676d0a1.md) | domains | 12 | [TXT](../details/rf_domains_geosite_geolocation_cn_telemetry_d676d0a1.txt) · [JSON](../details/rf_domains_geosite_geolocation_cn_telemetry_d676d0a1.json) |
+| [re:filter](rf_domains_geosite_refilter_f89b13bc.md) | domains | 73528 | [TXT](../details/rf_domains_geosite_refilter_f89b13bc.txt) · [JSON](../details/rf_domains_geosite_refilter_f89b13bc.json) |
+| [Блокировки РФ — все известные домены [большой набор]](rf_domains_geosite_ru_blocked_all_cc323246.md) | domains | 1614241 | [TXT](../details/rf_domains_geosite_ru_blocked_all_cc323246.txt) · [JSON](../details/rf_domains_geosite_ru_blocked_all_cc323246.json) |
+| [Блокировки РФ — сводный набор](rf_domains_geosite_ru_blocked_bff8eb6d.md) | domains | 73607 | [TXT](../details/rf_domains_geosite_ru_blocked_bff8eb6d.txt) · [JSON](../details/rf_domains_geosite_ru_blocked_bff8eb6d.json) |
+| [Домены вне Китая — общий набор](rf_domains_geosite_geolocation__cn_e8071294.md) | domains | 24450 | [TXT](../details/rf_domains_geosite_geolocation__cn_e8071294.txt) · [JSON](../details/rf_domains_geosite_geolocation__cn_e8071294.json) |
+| [Домены, доступные только из России](rf_domains_geosite_ru_available_only_inside_699c9e32.md) | domains | 170 | [TXT](../details/rf_domains_geosite_ru_available_only_inside_699c9e32.txt) · [JSON](../details/rf_domains_geosite_ru_available_only_inside_699c9e32.json) |
+| [Реклама — общий набор [большой набор]](rf_domains_geosite_category_ads_all_7d384895.md) | domains | 184440 | [TXT](../details/rf_domains_geosite_category_ads_all_7d384895.txt) · [JSON](../details/rf_domains_geosite_category_ads_all_7d384895.json) |
