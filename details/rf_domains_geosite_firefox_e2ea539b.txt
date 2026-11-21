@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	mozilla-ohttp.fastly-edge.com
+rules[0]	domain	mozilla.map.fastly.net
+rules[0]	domain_suffix	extendfirefox.com
+rules[0]	domain_suffix	firefox-portal-detection.com
+rules[0]	domain_suffix	firefox.com
+rules[0]	domain_suffix	firefox.hu
+rules[0]	domain_suffix	firefoxtweetmachine.com
+rules[0]	domain_suffix	firefoxusercontent.com

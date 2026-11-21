@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	hihonor.cn
+rules[0]	domain_suffix	hihonor.com
+rules[0]	domain_suffix	hihonorcdn.com
+rules[0]	domain_suffix	hihonorcloud.com
+rules[0]	domain_suffix	honor.cn
+rules[0]	domain_suffix	honor.com
+rules[0]	domain_suffix	honor.com.cn
+rules[0]	domain_suffix	honorfile.com

@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	muji.com
+rules[0]	domain_suffix	muji.com.cn
+rules[0]	domain_suffix	muji.com.hk
+rules[0]	domain_suffix	muji.eu
+rules[0]	domain_suffix	muji.net
+rules[0]	domain_suffix	muji.tw
+rules[0]	domain_suffix	muji.us
+rules[0]	domain_suffix	mujikorea.net

@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	appconsent.io
+rules[0]	domain_suffix	axept.io
+rules[0]	domain_suffix	cdn-cookieyes.com
+rules[0]	domain_suffix	consentmanager.net
+rules[0]	domain_suffix	consentpro.com
+rules[0]	domain_suffix	cookiebot.com
+rules[0]	domain_suffix	cookielaw.org
+rules[0]	domain_suffix	cookiepro.com
+rules[0]	domain_suffix	cookieyes.com
+rules[0]	domain_suffix	onetrust.com
+rules[0]	domain_suffix	osano.com
+rules[0]	domain_suffix	termly.io
+rules[0]	domain_suffix	trustarc.com
+rules[0]	domain_suffix	usercentrics.eu

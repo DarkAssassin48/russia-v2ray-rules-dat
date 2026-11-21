@@ -1,0 +1,21 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	dyncdn.me
+rules[0]	domain_suffix	proxyrarbg.org
+rules[0]	domain_suffix	rarbg.is
+rules[0]	domain_suffix	rarbg.me
+rules[0]	domain_suffix	rarbg.to
+rules[0]	domain_suffix	rarbgaccess.org
+rules[0]	domain_suffix	rarbgaccessed.org
+rules[0]	domain_suffix	rarbgget.org
+rules[0]	domain_suffix	rarbggo.org
+rules[0]	domain_suffix	rarbgmirror.com
+rules[0]	domain_suffix	rarbgmirror.org
+rules[0]	domain_suffix	rarbgproxy.org
+rules[0]	domain_suffix	rarbgprx.org
+rules[0]	domain_suffix	rarbgto.org
+rules[0]	domain_suffix	rarbgunblock.com
+rules[0]	domain_suffix	rarbgunblock.org
+rules[0]	domain_suffix	rarbgunblocked.org
+rules[0]	domain_suffix	rarbgway.org

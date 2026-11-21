@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	.moscow
+rules[0]	domain_suffix	.ru
+rules[0]	domain_suffix	.su
+rules[0]	domain_suffix	.tatar
+rules[0]	domain_suffix	.xn--80adxhks
+rules[0]	domain_suffix	.xn--80asehdb
+rules[0]	domain_suffix	.xn--80aswg
+rules[0]	domain_suffix	.xn--c1avg
+rules[0]	domain_suffix	.xn--d1acj3b
+rules[0]	domain_suffix	.xn--p1acf
+rules[0]	domain_suffix	.xn--p1ai

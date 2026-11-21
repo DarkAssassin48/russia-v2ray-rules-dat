@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	1drv.com
+rules[0]	domain_suffix	1drv.ms
+rules[0]	domain_suffix	livefilestore.com
+rules[0]	domain_suffix	onedrive.co
+rules[0]	domain_suffix	onedrive.co.uk
+rules[0]	domain_suffix	onedrive.com
+rules[0]	domain_suffix	onedrive.eu
+rules[0]	domain_suffix	onedrive.live.com
+rules[0]	domain_suffix	onedrive.net
+rules[0]	domain_suffix	onedrive.org
+rules[0]	domain_suffix	storage.live.com

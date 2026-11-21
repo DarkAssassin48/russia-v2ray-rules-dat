@@ -1,0 +1,37 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	9ineverse.com
+rules[0]	domain_suffix	buicha.social
+rules[0]	domain_suffix	gyutte.site
+rules[0]	domain_suffix	labo.wovs.tk
+rules[0]	domain_suffix	maniakey.homes
+rules[0]	domain_suffix	mfmf.club
+rules[0]	domain_suffix	mi.kochudaho.me
+rules[0]	domain_suffix	mi.mashiro.site
+rules[0]	domain_suffix	mi.nakn.jp
+rules[0]	domain_suffix	misskey-square.net
+rules[0]	domain_suffix	misskey.04.si
+rules[0]	domain_suffix	misskey.always-we-need.games
+rules[0]	domain_suffix	misskey.art
+rules[0]	domain_suffix	misskey.cloud
+rules[0]	domain_suffix	misskey.design
+rules[0]	domain_suffix	misskey.flowers
+rules[0]	domain_suffix	misskey.gamelore.fun
+rules[0]	domain_suffix	misskey.gg
+rules[0]	domain_suffix	misskey.io
+rules[0]	domain_suffix	misskey.noellabo.jp
+rules[0]	domain_suffix	misskey.ranranhome.info
+rules[0]	domain_suffix	misskey.stream
+rules[0]	domain_suffix	misskey.yukineko.me
+rules[0]	domain_suffix	misskeyusercontent.jp
+rules[0]	domain_suffix	mk.shrimpia.network
+rules[0]	domain_suffix	mk.yopo.work
+rules[0]	domain_suffix	mof.kemomi.me
+rules[0]	domain_suffix	msk.ilnk.info
+rules[0]	domain_suffix	msk.kitazawa.me
+rules[0]	domain_suffix	nijimiss.moe
+rules[0]	domain_suffix	oekakiskey.com
+rules[0]	domain_suffix	submarin.online
+rules[0]	domain_suffix	sushi.ski
+rules[0]	domain_suffix	trpger.us

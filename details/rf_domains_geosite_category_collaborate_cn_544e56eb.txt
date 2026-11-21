@@ -1,0 +1,29 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	asklink.com
+rules[0]	domain_suffix	easytier.cn
+rules[0]	domain_suffix	feihengip.com
+rules[0]	domain_suffix	ganjiangvpn.com
+rules[0]	domain_suffix	glxcc.net
+rules[0]	domain_suffix	nlark.com
+rules[0]	domain_suffix	oray.com
+rules[0]	domain_suffix	oray.net
+rules[0]	domain_suffix	orayer.com
+rules[0]	domain_suffix	orayimg.com
+rules[0]	domain_suffix	privateapi.xyz
+rules[0]	domain_suffix	shimo.im
+rules[0]	domain_suffix	shimonote.com
+rules[0]	domain_suffix	smgv.cn
+rules[0]	domain_suffix	sunlogin.net
+rules[0]	domain_suffix	todesk.cn
+rules[0]	domain_suffix	todesk.com
+rules[0]	domain_suffix	tower.im
+rules[0]	domain_suffix	tritoninfo.net
+rules[0]	domain_suffix	woodo.cn
+rules[0]	domain_suffix	worktile.com
+rules[0]	domain_suffix	xedge.cc
+rules[0]	domain_suffix	xiumi.us
+rules[0]	domain_suffix	xiumius.com
+rules[0]	domain_suffix	xn0.cc
+rules[0]	domain_suffix	yuque.com

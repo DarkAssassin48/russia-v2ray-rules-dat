@@ -1,0 +1,21 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	4pcdn.org
+rules[0]	domain_suffix	4plebs.org
+rules[0]	domain_suffix	archive-it.org
+rules[0]	domain_suffix	archive.fo
+rules[0]	domain_suffix	archive.is
+rules[0]	domain_suffix	archive.li
+rules[0]	domain_suffix	archive.md
+rules[0]	domain_suffix	archive.org
+rules[0]	domain_suffix	archive.ph
+rules[0]	domain_suffix	archive.today
+rules[0]	domain_suffix	archive.vn
+rules[0]	domain_suffix	eotarchive.org
+rules[0]	domain_suffix	ghostarchive.org
+rules[0]	domain_suffix	megalodon.jp
+rules[0]	domain_suffix	mementoweb.org
+rules[0]	domain_suffix	openlibrary.org
+rules[0]	domain_suffix	perma.cc
+rules[0]	domain_suffix	webcitation.org

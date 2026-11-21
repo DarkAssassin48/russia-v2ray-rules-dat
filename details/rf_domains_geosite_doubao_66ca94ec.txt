@@ -1,0 +1,36 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	api-building.fun
+rules[0]	domain_suffix	building.fun
+rules[0]	domain_suffix	butterfly-static.cn
+rules[0]	domain_suffix	butterflyai.cn
+rules[0]	domain_suffix	coze-dns-01.com
+rules[0]	domain_suffix	coze.cn
+rules[0]	domain_suffix	coze.email
+rules[0]	domain_suffix	coze.site
+rules[0]	domain_suffix	cozeapp.net
+rules[0]	domain_suffix	cozebaas.cn
+rules[0]	domain_suffix	cozebuild.com
+rules[0]	domain_suffix	cozecdn.com
+rules[0]	domain_suffix	cozedeploy.com
+rules[0]	domain_suffix	cozefn.cn
+rules[0]	domain_suffix	cozeide.cn
+rules[0]	domain_suffix	cozesdk.com
+rules[0]	domain_suffix	cozetest.cn
+rules[0]	domain_suffix	cozetest2.cn
+rules[0]	domain_suffix	cozetest3.cn
+rules[0]	domain_suffix	dbbuilding.fun
+rules[0]	domain_suffix	doubao-dev.com
+rules[0]	domain_suffix	doubao.com
+rules[0]	domain_suffix	doubaoapps.com
+rules[0]	domain_suffix	doubaocdn.com
+rules[0]	domain_suffix	hi-butterfly.cn
+rules[0]	domain_suffix	instreet.com
+rules[0]	domain_suffix	maoxiangai.com
+rules[0]	domain_suffix	myparallelstory.com
+rules[0]	domain_suffix	obriccloud.com
+rules[0]	domain_suffix	obricclouddw.com
+rules[0]	domain_suffix	oceancloudapi.com
+rules[0]	domain_suffix	picpic-ai.cn
+rules[0]	domain_suffix	pixeldance.com

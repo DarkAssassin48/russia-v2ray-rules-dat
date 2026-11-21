@@ -1,0 +1,31 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	discord-attachments-uploads-prd.storage.googleapis.com
+rules[0]	domain	hammerandchisel.ssl.zendesk.com
+rules[0]	domain_suffix	airhorn.solutions
+rules[0]	domain_suffix	airhornbot.com
+rules[0]	domain_suffix	bigbeans.solutions
+rules[0]	domain_suffix	dis.gd
+rules[0]	domain_suffix	discord-activities.com
+rules[0]	domain_suffix	discord.co
+rules[0]	domain_suffix	discord.com
+rules[0]	domain_suffix	discord.design
+rules[0]	domain_suffix	discord.dev
+rules[0]	domain_suffix	discord.gg
+rules[0]	domain_suffix	discord.gift
+rules[0]	domain_suffix	discord.gifts
+rules[0]	domain_suffix	discord.media
+rules[0]	domain_suffix	discord.new
+rules[0]	domain_suffix	discord.store
+rules[0]	domain_suffix	discord.tools
+rules[0]	domain_suffix	discordactivities.com
+rules[0]	domain_suffix	discordapp.com
+rules[0]	domain_suffix	discordapp.io
+rules[0]	domain_suffix	discordapp.net
+rules[0]	domain_suffix	discordcdn.com
+rules[0]	domain_suffix	discordmerch.com
+rules[0]	domain_suffix	discordpartygames.com
+rules[0]	domain_suffix	discordsays.com
+rules[0]	domain_suffix	discordstatus.com
+rules[0]	domain_suffix	watchanimeattheoffice.com

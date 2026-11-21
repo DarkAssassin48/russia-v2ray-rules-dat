@@ -1,0 +1,12 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	47gyosei.jp
+rules[0]	domain_suffix	47news.jp
+rules[0]	domain_suffix	kyodo-d.info
+rules[0]	domain_suffix	kyodo-d.jp
+rules[0]	domain_suffix	kyodoimages.jp
+rules[0]	domain_suffix	kyodonews.jp
+rules[0]	domain_suffix	kyodonews.net
+rules[0]	domain_suffix	newsmart.jp
+rules[0]	domain_suffix	nna.jp

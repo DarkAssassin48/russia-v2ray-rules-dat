@@ -1,0 +1,34 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	ubisoft-orbit-savegames.s3.amazonaws.com
+rules[0]	domain	ubisoft-uplay-savegames.s3.amazonaws.com
+rules[0]	domain	ubisoft.siteintercept.qualtrics.com
+rules[0]	domain	ubistatic1-a.akamaihd.net
+rules[0]	domain	ubistatic10-a.akamaihd.net
+rules[0]	domain	ubistatic11-a.akamaihd.net
+rules[0]	domain	ubistatic12-a.akamaihd.net
+rules[0]	domain	ubistatic13-a.akamaihd.net
+rules[0]	domain	ubistatic14-a.akamaihd.net
+rules[0]	domain	ubistatic15-a.akamaihd.net
+rules[0]	domain	ubistatic16-a.akamaihd.net
+rules[0]	domain	ubistatic17-a.akamaihd.net
+rules[0]	domain	ubistatic18-a.akamaihd.net
+rules[0]	domain	ubistatic19-a.akamaihd.net
+rules[0]	domain	ubistatic2-a.akamaihd.net
+rules[0]	domain	ubistatic20-a.akamaihd.net
+rules[0]	domain	ubistatic21-a.akamaihd.net
+rules[0]	domain	ubistatic22-a.akamaihd.net
+rules[0]	domain	ubistatic23-a.akamaihd.net
+rules[0]	domain	ubistatic24-a.akamaihd.net
+rules[0]	domain	ubistatic3-a.akamaihd.net
+rules[0]	domain	ubistatic4-a.akamaihd.net
+rules[0]	domain	ubistatic5-a.akamaihd.net
+rules[0]	domain	ubistatic6-a.akamaihd.net
+rules[0]	domain	ubistatic7-a.akamaihd.net
+rules[0]	domain	ubistatic8-a.akamaihd.net
+rules[0]	domain	ubistatic9-a.akamaihd.net
+rules[0]	domain_suffix	ubi.com
+rules[0]	domain_suffix	ubisoft.com
+rules[0]	domain_suffix	ubisoftconnect.com
+rules[0]	domain_suffix	uplay.com

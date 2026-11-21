@@ -1,0 +1,19 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	businessinsider.co.za
+rules[0]	domain_suffix	businessinsider.com
+rules[0]	domain_suffix	businessinsider.com.au
+rules[0]	domain_suffix	businessinsider.com.pl
+rules[0]	domain_suffix	businessinsider.de
+rules[0]	domain_suffix	businessinsider.es
+rules[0]	domain_suffix	businessinsider.fr
+rules[0]	domain_suffix	businessinsider.in
+rules[0]	domain_suffix	businessinsider.jp
+rules[0]	domain_suffix	businessinsider.mx
+rules[0]	domain_suffix	businessinsider.my
+rules[0]	domain_suffix	businessinsider.nl
+rules[0]	domain_suffix	businessinsider.sg
+rules[0]	domain_suffix	insider-intelligence.com
+rules[0]	domain_suffix	insider.com
+rules[0]	domain_suffix	insiderintelligence.com

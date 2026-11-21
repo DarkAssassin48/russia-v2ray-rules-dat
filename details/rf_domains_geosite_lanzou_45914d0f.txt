@@ -1,0 +1,31 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	baidupan.com
+rules[0]	domain_suffix	ilanzou.com
+rules[0]	domain_suffix	lanosso.com
+rules[0]	domain_suffix	lanrar.com
+rules[0]	domain_suffix	lanzou.com
+rules[0]	domain_suffix	lanzoub.com
+rules[0]	domain_suffix	lanzouc.com
+rules[0]	domain_suffix	lanzoue.com
+rules[0]	domain_suffix	lanzouf.com
+rules[0]	domain_suffix	lanzoug.com
+rules[0]	domain_suffix	lanzouh.com
+rules[0]	domain_suffix	lanzoui.com
+rules[0]	domain_suffix	lanzouj.com
+rules[0]	domain_suffix	lanzouk.com
+rules[0]	domain_suffix	lanzoul.com
+rules[0]	domain_suffix	lanzoum.com
+rules[0]	domain_suffix	lanzouo.com
+rules[0]	domain_suffix	lanzoup.com
+rules[0]	domain_suffix	lanzouq.com
+rules[0]	domain_suffix	lanzous.com
+rules[0]	domain_suffix	lanzout.com
+rules[0]	domain_suffix	lanzouu.com
+rules[0]	domain_suffix	lanzouv.com
+rules[0]	domain_suffix	lanzouw.com
+rules[0]	domain_suffix	lanzoux.com
+rules[0]	domain_suffix	lanzouy.com
+rules[0]	domain_suffix	lanzov.com
+rules[0]	domain_suffix	woozooo.com

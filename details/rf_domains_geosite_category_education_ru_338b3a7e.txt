@@ -1,0 +1,23 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	altaiobr04.ru
+rules[0]	domain_suffix	chelyabinsk-sgo-edu-74.ru
+rules[0]	domain_suffix	gramotei.online
+rules[0]	domain_suffix	hse.ru
+rules[0]	domain_suffix	kakpishem.ru
+rules[0]	domain_suffix	kartaslov.ru
+rules[0]	domain_suffix	mel.fm
+rules[0]	domain_suffix	melfm.ru
+rules[0]	domain_suffix	obr03.ru
+rules[0]	domain_suffix	pishi-pravilno.ru
+rules[0]	domain_suffix	pravilno-pishem.ru
+rules[0]	domain_suffix	setevoygorodkrasnodar.ru
+rules[0]	domain_suffix	sgo-egov66.ru
+rules[0]	domain_suffix	sgo.tvobr.ru
+rules[0]	domain_suffix	sgo12.ru
+rules[0]	domain_suffix	sgo171.ru
+rules[0]	domain_suffix	sgo41.ru
+rules[0]	domain_suffix	sgoedu74.ru
+rules[0]	domain_suffix	tak-pravilno.com
+rules[0]	domain_suffix	ulyanovsk-sgo-cit73.ru

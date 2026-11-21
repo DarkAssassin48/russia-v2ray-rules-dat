@@ -1,0 +1,31 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	aod-pod-uk-live.akamaized.net
+rules[0]	domain	as-dash-uk-live.akamaized.net
+rules[0]	domain	as-hls-uk-live.akamaized.net
+rules[0]	domain	ve-dash-uk-live.akamaized.net
+rules[0]	domain	ve-uhd-push-uk-live.akamaized.net
+rules[0]	domain	vod-dash-uk-live.akamaized.net
+rules[0]	domain	vod-dash-ww-live.akamaized.net
+rules[0]	domain	vod-hls-uk-live.akamaized.net
+rules[0]	domain	vod-sub-uk-live.akamaized.net
+rules[0]	domain	vod-thumb-uk-live.akamaized.net
+rules[0]	domain	vod-thumb-ww-live.akamaized.net
+rules[0]	domain	vs-cmaf-push-uk-live.akamaized.net
+rules[0]	domain	vs-cmaf-pushb-ww-live.akamaized.net
+rules[0]	domain	vs-hls-push-uk-live.akamaized.net
+rules[0]	domain	vs-hls-pushb-uk-live.akamaized.net
+rules[0]	domain_suffix	.bbc
+rules[0]	domain_suffix	bbc-reporting-api.app
+rules[0]	domain_suffix	bbc.co.uk
+rules[0]	domain_suffix	bbc.com
+rules[0]	domain_suffix	bbc.in
+rules[0]	domain_suffix	bbc.mp-pxcdn.com
+rules[0]	domain_suffix	bbc.net.uk
+rules[0]	domain_suffix	bbcfmt.s.llnwi.net
+rules[0]	domain_suffix	bbci.co.uk
+rules[0]	domain_suffix	bbcmedia.co.uk
+rules[0]	domain_suffix	bbcpersian.com
+rules[0]	domain_suffix	bbcverticals.com
+rules[0]	domain_suffix	bidi.net.uk

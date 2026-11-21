@@ -1,0 +1,19 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	adnet.sohu.com
+rules[0]	domain_suffix	ads.sohu.com
+rules[0]	domain_suffix	adv-sv-show.focus.cn
+rules[0]	domain_suffix	adv-sv-stat.focus.cn
+rules[0]	domain_suffix	assp.sohu.com
+rules[0]	domain_suffix	bdu.focus.cn
+rules[0]	domain_suffix	fpb.sohu.com
+rules[0]	domain_suffix	imp.go.sohu.com
+rules[0]	domain_suffix	m.aty.sohu.com
+rules[0]	domain_suffix	p.aty.sohu.com
+rules[0]	domain_suffix	pv.hd.sohu.com
+rules[0]	domain_suffix	pv.sohu.com
+rules[0]	domain_suffix	qpb.sohu.com
+rules[0]	domain_suffix	qpb1.sohu.com
+rules[0]	domain_suffix	reke.at.sohu.com
+rules[0]	domain_suffix	track.sohu.com

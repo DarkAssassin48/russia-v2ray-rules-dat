@@ -1,0 +1,13 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	fengkongbao.com
+rules[0]	domain_suffix	fengkongcloud.cn
+rules[0]	domain_suffix	fengkongcloud.com
+rules[0]	domain_suffix	ishumei.com
+rules[0]	domain_suffix	portal101.cn
+rules[0]	domain_suffix	portal102.cn
+rules[0]	domain_suffix	portal201.cn
+rules[0]	domain_suffix	portal301.cn
+rules[0]	domain_suffix	tebiefuza.cloud
+rules[0]	domain_suffix	tebiefuza.cn

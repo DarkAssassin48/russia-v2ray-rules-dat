@@ -1,0 +1,24 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	a.market.xiaomi.com
+rules[0]	domain_suffix	ad.intl.xiaomi.com
+rules[0]	domain_suffix	ad.mi.com
+rules[0]	domain_suffix	ad.xiaomi.com
+rules[0]	domain_suffix	ad1.xiaomi.com
+rules[0]	domain_suffix	admob.xiaomi.com
+rules[0]	domain_suffix	adv.sec.intl.miui.com
+rules[0]	domain_suffix	adv.sec.miui.com
+rules[0]	domain_suffix	data.mistat.india.xiaomi.com
+rules[0]	domain_suffix	data.mistat.intl.xiaomi.com
+rules[0]	domain_suffix	data.mistat.rus.xiaomi.com
+rules[0]	domain_suffix	data.mistat.xiaomi.com
+rules[0]	domain_suffix	logupdate.avlyun.sec.miui.com
+rules[0]	domain_suffix	misc.in.duokanbox.com
+rules[0]	domain_suffix	sentry.d.mi.com
+rules[0]	domain_suffix	sentry.d.xiaomi.net
+rules[0]	domain_suffix	stats.music.xiaomi.com
+rules[0]	domain_suffix	tjqonline.cn
+rules[0]	domain_suffix	tracker.ai.xiaomi.com
+rules[0]	domain_suffix	tracker.xiaomixiaoai.com
+rules[0]	domain_suffix	tracking.miui.com

@@ -1,0 +1,9 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	2k.com
+rules[0]	domain_suffix	2kcoretech.online
+rules[0]	domain_suffix	2kct.onl
+rules[0]	domain_suffix	2kgames.com
+rules[0]	domain_suffix	2ksports.com
+rules[0]	domain_suffix	2kweb.online

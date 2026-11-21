@@ -1,0 +1,36 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bravotv.com
+rules[0]	domain_suffix	dreamworks.com
+rules[0]	domain_suffix	focusfeatures.com
+rules[0]	domain_suffix	hayu.com
+rules[0]	domain_suffix	illumination.com
+rules[0]	domain_suffix	nbc.co
+rules[0]	domain_suffix	nbc.com
+rules[0]	domain_suffix	nbcnews.com
+rules[0]	domain_suffix	nbcolympics.com
+rules[0]	domain_suffix	nbcsports.com
+rules[0]	domain_suffix	nbcudigitaladops.com
+rules[0]	domain_suffix	nbcumv.com
+rules[0]	domain_suffix	nbcuni.com
+rules[0]	domain_suffix	nbcunicareers.com
+rules[0]	domain_suffix	nbcuniversal.com
+rules[0]	domain_suffix	nbcuniversalprivacy.com
+rules[0]	domain_suffix	peacocktv.com
+rules[0]	domain_suffix	s-nbcnews.com
+rules[0]	domain_suffix	telemundo.com
+rules[0]	domain_suffix	udxfpp.com
+rules[0]	domain_suffix	universalbeijingresort.com
+rules[0]	domain_suffix	universalhorrorunleashed.com
+rules[0]	domain_suffix	universalkidsresort.com
+rules[0]	domain_suffix	universalorlando.com
+rules[0]	domain_suffix	universalpictures.co.uk
+rules[0]	domain_suffix	universalpictures.com
+rules[0]	domain_suffix	universalpicturesathome.com
+rules[0]	domain_suffix	universalpicturesinternational.com
+rules[0]	domain_suffix	universalproductsexperiences.com
+rules[0]	domain_suffix	universalstudioshollywood.com
+rules[0]	domain_suffix	universalukproject.co.uk
+rules[0]	domain_suffix	uphe.com
+rules[0]	domain_suffix	usj.co.jp

@@ -1,0 +1,23 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	gcld-line.com
+rules[0]	domain_suffix	lin.ee
+rules[0]	domain_suffix	line-apps-beta.com
+rules[0]	domain_suffix	line-apps-rc.com
+rules[0]	domain_suffix	line-apps.com
+rules[0]	domain_suffix	line-beta.me
+rules[0]	domain_suffix	line-cdn.net
+rules[0]	domain_suffix	line-scdn.net
+rules[0]	domain_suffix	line.biz
+rules[0]	domain_suffix	line.me
+rules[0]	domain_suffix	line.naver.jp
+rules[0]	domain_suffix	linecorp.com
+rules[0]	domain_suffix	linefriends.com
+rules[0]	domain_suffix	linefriends.com.tw
+rules[0]	domain_suffix	linegame.jp
+rules[0]	domain_suffix	linemobile.com
+rules[0]	domain_suffix	linemyshop.com
+rules[0]	domain_suffix	lineshoppingseller.com
+rules[0]	domain_suffix	linetv.tw
+rules[0]	domain_suffix	nhncorp.jp

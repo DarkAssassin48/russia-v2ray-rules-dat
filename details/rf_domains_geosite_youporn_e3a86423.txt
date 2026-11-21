@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	extremetube.com
+rules[0]	domain_suffix	keezmovies.com
+rules[0]	domain_suffix	yopornshop.com
+rules[0]	domain_suffix	youporn.com
+rules[0]	domain_suffix	youporngay.com
+rules[0]	domain_suffix	youpornpremium.com
+rules[0]	domain_suffix	youpornru.com
+rules[0]	domain_suffix	ypncdn.com

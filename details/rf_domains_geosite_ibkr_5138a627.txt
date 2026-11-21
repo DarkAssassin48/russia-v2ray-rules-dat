@@ -1,0 +1,24 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ibkr.ca
+rules[0]	domain_suffix	ibkr.co.in
+rules[0]	domain_suffix	ibkr.co.uk
+rules[0]	domain_suffix	ibkr.com
+rules[0]	domain_suffix	ibkr.com.au
+rules[0]	domain_suffix	ibkr.com.hk
+rules[0]	domain_suffix	ibkr.com.sg
+rules[0]	domain_suffix	ibkr.eu
+rules[0]	domain_suffix	ibkr.ie
+rules[0]	domain_suffix	ibkrguides.com
+rules[0]	domain_suffix	ibllc.com
+rules[0]	domain_suffix	interactivebrokers.ca
+rules[0]	domain_suffix	interactivebrokers.co.in
+rules[0]	domain_suffix	interactivebrokers.co.jp
+rules[0]	domain_suffix	interactivebrokers.co.uk
+rules[0]	domain_suffix	interactivebrokers.com
+rules[0]	domain_suffix	interactivebrokers.com.au
+rules[0]	domain_suffix	interactivebrokers.com.hk
+rules[0]	domain_suffix	interactivebrokers.com.sg
+rules[0]	domain_suffix	interactivebrokers.eu
+rules[0]	domain_suffix	interactivebrokers.ie

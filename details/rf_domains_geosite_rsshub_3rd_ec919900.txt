@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	holoxx.f5.si
+rules[0]	domain	hub.slarker.me
+rules[0]	domain	rss.4040940.xyz
+rules[0]	domain	rss.datuan.dev
+rules[0]	domain	rss.littlebaby.life
+rules[0]	domain	rss.owo.nz
+rules[0]	domain	rss.wudifeixue.com
+rules[0]	domain	rsshub.asailor.org
+rules[0]	domain	rsshub.email-once.com
+rules[0]	domain	rsshub.henry.wang
+rules[0]	domain	rsshub.isrss.com
+rules[0]	domain	rsshub.ktachibana.party
+rules[0]	domain	rsshub.pseudoyu.com
+rules[0]	domain	rsshub.rss.tips
+rules[0]	domain	rsshub.rssforever.com
+rules[0]	domain	rsshub.umzzz.com
+rules[0]	domain	rsshub.woodland.cafe
+rules[0]	domain	rsshub2.asailor.org
+rules[0]	domain	yangzhi.app

@@ -1,0 +1,32 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	cbsi.live.ott.irdeto.com
+rules[0]	domain	cbsplaylistserver.aws.syncbak.com
+rules[0]	domain	cbsservice.aws.syncbak.com
+rules[0]	domain	link.theplatform.com
+rules[0]	domain_suffix	amlg.io
+rules[0]	domain_suffix	cbs.com
+rules[0]	domain_suffix	cbsaavideo.com
+rules[0]	domain_suffix	cbscorporation.com
+rules[0]	domain_suffix	cbsi.com
+rules[0]	domain_suffix	cbsi.video
+rules[0]	domain_suffix	cbsiam.com
+rules[0]	domain_suffix	cbsig.net
+rules[0]	domain_suffix	cbsimg.net
+rules[0]	domain_suffix	cbsinteractive.com
+rules[0]	domain_suffix	cbsistatic.com
+rules[0]	domain_suffix	cbsivideo.com
+rules[0]	domain_suffix	cbsnews.com
+rules[0]	domain_suffix	cbspressexpress.com
+rules[0]	domain_suffix	cbssports.com
+rules[0]	domain_suffix	cbsstatic.com
+rules[0]	domain_suffix	cbssvideo.com
+rules[0]	domain_suffix	mtvnservices.com
+rules[0]	domain_suffix	paramount.com
+rules[0]	domain_suffix	paramountplus.com
+rules[0]	domain_suffix	pplusstatic.com
+rules[0]	domain_suffix	viacbs.com
+rules[0]	domain_suffix	viacom.com
+rules[0]	domain_suffix	viacomcbs.com
+rules[0]	domain_suffix	viacomcbspressexpress.com

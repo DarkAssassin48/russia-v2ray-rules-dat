@@ -1,0 +1,12 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	openmaps.org
+rules[0]	domain_suffix	openstreetmap.com
+rules[0]	domain_suffix	openstreetmap.net
+rules[0]	domain_suffix	openstreetmap.org
+rules[0]	domain_suffix	openstreetmaps.org
+rules[0]	domain_suffix	osm.org
+rules[0]	domain_suffix	osmfoundation.org
+rules[0]	domain_suffix	stateofthemap.com
+rules[0]	domain_suffix	stateofthemap.org

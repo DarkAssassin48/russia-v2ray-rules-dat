@@ -1,0 +1,25 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	zeenews-fonts.s3.amazonaws.com
+rules[0]	domain_suffix	bgr.in
+rules[0]	domain_suffix	bollywoodlife.com
+rules[0]	domain_suffix	careerfundas.com
+rules[0]	domain_suffix	cricketcountry.com
+rules[0]	domain_suffix	dnai.in
+rules[0]	domain_suffix	dnaindia.com
+rules[0]	domain_suffix	earngeek.com
+rules[0]	domain_suffix	ekhindi.com
+rules[0]	domain_suffix	ind.sh
+rules[0]	domain_suffix	india.com
+rules[0]	domain_suffix	indiancolleges.com
+rules[0]	domain_suffix	itripto.com
+rules[0]	domain_suffix	oncars.in
+rules[0]	domain_suffix	prepsure.com
+rules[0]	domain_suffix	thehealthsite.com
+rules[0]	domain_suffix	wionews.com
+rules[0]	domain_suffix	yo1health.com
+rules[0]	domain_suffix	zee.com
+rules[0]	domain_suffix	zeebiz.com
+rules[0]	domain_suffix	zeeentertainment.com
+rules[0]	domain_suffix	zeenews.com

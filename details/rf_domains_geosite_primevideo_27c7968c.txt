@@ -1,0 +1,27 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	d1v5ir2lpwr8os.cloudfront.net
+rules[0]	domain	d22qjgkvxw22r6.cloudfront.net
+rules[0]	domain	d25xi40x97liuc.cloudfront.net
+rules[0]	domain	d27xxe7juh1us6.cloudfront.net
+rules[0]	domain	dmqdd6hw24ucf.cloudfront.net
+rules[0]	domain	images-eu.ssl-images-amazon.com
+rules[0]	domain	images-fe.ssl-images-amazon.com
+rules[0]	domain	images-na.ssl-images-amazon.com
+rules[0]	domain	msh.amazon.co.uk
+rules[0]	domain	static.siege-amazon.com
+rules[0]	domain_suffix	aiv-cdn.net
+rules[0]	domain_suffix	amazonprimevideo.cn
+rules[0]	domain_suffix	amazonprimevideo.com.cn
+rules[0]	domain_suffix	amazonprimevideos.com
+rules[0]	domain_suffix	amazonvideo.cc
+rules[0]	domain_suffix	amazonvideo.com
+rules[0]	domain_suffix	prime-video.com
+rules[0]	domain_suffix	primevideo.cc
+rules[0]	domain_suffix	primevideo.com
+rules[0]	domain_suffix	primevideo.info
+rules[0]	domain_suffix	primevideo.org
+rules[0]	domain_suffix	primevideo.tv
+rules[0]	domain_suffix	prod.service.minerva.devices.a2z.com
+rules[0]	domain_suffix	pv-cdn.net

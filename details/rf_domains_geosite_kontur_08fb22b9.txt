@@ -1,0 +1,10 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	metrika.kontur.ru
+rules[0]	domain	sentry.kontur.host
+rules[0]	domain_suffix	kontur-inc.com
+rules[0]	domain_suffix	kontur.host
+rules[0]	domain_suffix	kontur.ru
+rules[0]	domain_suffix	ktalk.host
+rules[0]	domain_suffix	ktalk.ru

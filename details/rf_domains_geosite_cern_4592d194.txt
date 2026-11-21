@@ -1,0 +1,10 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	.cern
+rules[0]	domain_suffix	ams02.space
+rules[0]	domain_suffix	cern.ch
+rules[0]	domain_suffix	cixp.net
+rules[0]	domain_suffix	dotcernpilot.info
+rules[0]	domain_suffix	ippog.org
+rules[0]	domain_suffix	linearcollider.org

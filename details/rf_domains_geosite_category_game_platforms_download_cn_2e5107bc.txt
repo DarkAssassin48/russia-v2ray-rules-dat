@@ -1,0 +1,27 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	alibaba.cdn.steampipe.steamcontent.com
+rules[0]	domain	assets1.xboxlive.cn
+rules[0]	domain	assets2.xboxlive.cn
+rules[0]	domain	blzdist-d3.necdn.leihuo.netease.com
+rules[0]	domain	blzdist-di.necdn.leihuo.netease.com
+rules[0]	domain	blzdist-hs.necdn.leihuo.netease.com
+rules[0]	domain	blzdist-ow.necdn.leihuo.netease.com
+rules[0]	domain	blzdist-phx.necdn.leihuo.netease.com
+rules[0]	domain	blzdist-wow.necdn.leihuo.netease.com
+rules[0]	domain	cdn-ali.content.steamchina.com
+rules[0]	domain	cdn-qc.content.steamchina.com
+rules[0]	domain	cdn-ws.content.steamchina.com
+rules[0]	domain	dl.delivery.mp.microsoft.com
+rules[0]	domain	dl.steam.clngaa.com
+rules[0]	domain	epicgames-download1-1251447533.file.myqcloud.com
+rules[0]	domain	lv.queniujq.cn
+rules[0]	domain	st-bak.viv.wanwang.space
+rules[0]	domain	st.dl.bscstorage.net
+rules[0]	domain	st.dl.eccdnx.com
+rules[0]	domain	tlu.dl.delivery.mp.microsoft.com
+rules[0]	domain	trts.baishancdnx.cn
+rules[0]	domain	ubisoftconnect.eo-edgefunctions7.com
+rules[0]	domain	uplaypc-s-ubisoft.cdn.ubionline.com.cn
+rules[0]	domain	xz.pphimalayanrt.com

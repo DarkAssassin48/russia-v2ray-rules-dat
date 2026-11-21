@@ -1,0 +1,12 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	udalogistic.cn
+rules[0]	domain_suffix	udalogistic.com
+rules[0]	domain_suffix	ydsys.cn
+rules[0]	domain_suffix	yunda56.com
+rules[0]	domain_suffix	yundaex.cn
+rules[0]	domain_suffix	yundaex.com
+rules[0]	domain_suffix	yundalog.com
+rules[0]	domain_suffix	yundaltl.com
+rules[0]	domain_suffix	yundasys.com

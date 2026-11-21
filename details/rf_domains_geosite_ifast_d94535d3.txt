@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	fsmone.com
+rules[0]	domain_suffix	fsmone.com.hk
+rules[0]	domain_suffix	fsmone.com.my
+rules[0]	domain_suffix	fundsupermart.com
+rules[0]	domain_suffix	ifastcapital.com.my
+rules[0]	domain_suffix	ifastcorp.com
+rules[0]	domain_suffix	ifastfinancial.co.in
+rules[0]	domain_suffix	ifastfinancial.com.hk
+rules[0]	domain_suffix	ifastgb.com
+rules[0]	domain_suffix	ifastgp.com
+rules[0]	domain_suffix	ifastgp.com.hk
+rules[0]	domain_suffix	ifastnetwork.com
+rules[0]	domain_suffix	ifastps.com.cn
+rules[0]	domain_suffix	ifasttv.com

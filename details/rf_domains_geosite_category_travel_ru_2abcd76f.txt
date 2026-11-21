@@ -1,0 +1,28 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	arenda.yandex.ru
+rules[0]	domain	bilet.nspk.ru
+rules[0]	domain	metro.spb.ru
+rules[0]	domain	mos.transport.vtb.ru
+rules[0]	domain	podorozhnik.spb.ru
+rules[0]	domain	taxi.yandex.ru
+rules[0]	domain	transport.mos.ru
+rules[0]	domain_suffix	2gis.ru
+rules[0]	domain_suffix	aviasales.com
+rules[0]	domain_suffix	aviasales.ru
+rules[0]	domain_suffix	avs.io
+rules[0]	domain_suffix	avtovokzaly.ru
+rules[0]	domain_suffix	blablacar.ru
+rules[0]	domain_suffix	fasten.ru
+rules[0]	domain_suffix	gorodpay.ru
+rules[0]	domain_suffix	greywallpass.com
+rules[0]	domain_suffix	mosmetro.ru
+rules[0]	domain_suffix	mosmetro.tech
+rules[0]	domain_suffix	ostrovok.ru
+rules[0]	domain_suffix	otello.ru
+rules[0]	domain_suffix	rrtp.ru
+rules[0]	domain_suffix	rzd-bonus.ru
+rules[0]	domain_suffix	rzd.ru
+rules[0]	domain_suffix	sber.ru
+rules[0]	domain_suffix	tutu.ru

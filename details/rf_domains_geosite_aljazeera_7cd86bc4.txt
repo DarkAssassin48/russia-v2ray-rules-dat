@@ -1,0 +1,10 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ajplus.net
+rules[0]	domain_suffix	aljazeera.com
+rules[0]	domain_suffix	aljazeera.net
+rules[0]	domain_suffix	palestineremix.com
+rules[0]	domain_suffix	sarajevopodopsadom.com
+rules[0]	domain_suffix	srebrenica360.com
+rules[0]	domain_suffix	syhacked.com

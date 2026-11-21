@@ -1,0 +1,46 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	anycross.com
+rules[0]	domain_suffix	blmpb.com
+rules[0]	domain_suffix	bytedancehermestest.com
+rules[0]	domain_suffix	falconsending.com
+rules[0]	domain_suffix	fei-shu.cn
+rules[0]	domain_suffix	feishu-3rd-party-services.com
+rules[0]	domain_suffix	feishu-boe.net
+rules[0]	domain_suffix	feishu-customer.cn
+rules[0]	domain_suffix	feishu-pre.cn
+rules[0]	domain_suffix	feishu-pre.net
+rules[0]	domain_suffix	feishu-psc.cn
+rules[0]	domain_suffix	feishu-staging.cn
+rules[0]	domain_suffix	feishu.cn
+rules[0]	domain_suffix	feishu.net
+rules[0]	domain_suffix	feishuapp-cdn.net
+rules[0]	domain_suffix	feishuapp.cn
+rules[0]	domain_suffix	feishuapp.com
+rules[0]	domain_suffix	feishucdn.com
+rules[0]	domain_suffix	feishudoc.cn
+rules[0]	domain_suffix	feishudoc.com
+rules[0]	domain_suffix	feishuhuiyi.cn
+rules[0]	domain_suffix	feishuhuiyi.com
+rules[0]	domain_suffix	feishuimg-boe.com
+rules[0]	domain_suffix	feishuimg-pre.com
+rules[0]	domain_suffix	feishuimg.com
+rules[0]	domain_suffix	feishukacdn.com
+rules[0]	domain_suffix	feishumeetings.cn
+rules[0]	domain_suffix	feishumeetings.com
+rules[0]	domain_suffix	feishuoffice.cn
+rules[0]	domain_suffix	feishuoffice.com
+rules[0]	domain_suffix	feishuopenplatformrecord.com
+rules[0]	domain_suffix	feishupkg.com
+rules[0]	domain_suffix	feishustatus.cn
+rules[0]	domain_suffix	feishuvc.cn
+rules[0]	domain_suffix	feishuvc.com
+rules[0]	domain_suffix	getfeishu.cn
+rules[0]	domain_suffix	getfeishu.com
+rules[0]	domain_suffix	getsays.cn
+rules[0]	domain_suffix	getsays.com
+rules[0]	domain_suffix	lackvc.cn
+rules[0]	domain_suffix	securityfeishu.cn
+rules[0]	domain_suffix	securityfs.cn
+rules[0]	domain_suffix	statusfeishu.cn

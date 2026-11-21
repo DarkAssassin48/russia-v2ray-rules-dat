@@ -1,0 +1,43 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	airwick.at
+rules[0]	domain_suffix	airwick.be
+rules[0]	domain_suffix	airwick.ca
+rules[0]	domain_suffix	airwick.ch
+rules[0]	domain_suffix	airwick.cl
+rules[0]	domain_suffix	airwick.co.in
+rules[0]	domain_suffix	airwick.co.nz
+rules[0]	domain_suffix	airwick.co.uk
+rules[0]	domain_suffix	airwick.co.za
+rules[0]	domain_suffix	airwick.com
+rules[0]	domain_suffix	airwick.com.au
+rules[0]	domain_suffix	airwick.com.br
+rules[0]	domain_suffix	airwick.com.cn
+rules[0]	domain_suffix	airwick.com.mx
+rules[0]	domain_suffix	airwick.com.tr
+rules[0]	domain_suffix	airwick.cz
+rules[0]	domain_suffix	airwick.de
+rules[0]	domain_suffix	airwick.dk
+rules[0]	domain_suffix	airwick.es
+rules[0]	domain_suffix	airwick.fi
+rules[0]	domain_suffix	airwick.fr
+rules[0]	domain_suffix	airwick.hr
+rules[0]	domain_suffix	airwick.hu
+rules[0]	domain_suffix	airwick.ie
+rules[0]	domain_suffix	airwick.it
+rules[0]	domain_suffix	airwick.jp
+rules[0]	domain_suffix	airwick.net
+rules[0]	domain_suffix	airwick.nl
+rules[0]	domain_suffix	airwick.no
+rules[0]	domain_suffix	airwick.pl
+rules[0]	domain_suffix	airwick.pt
+rules[0]	domain_suffix	airwick.ro
+rules[0]	domain_suffix	airwick.ru
+rules[0]	domain_suffix	airwick.se
+rules[0]	domain_suffix	airwick.si
+rules[0]	domain_suffix	airwick.sk
+rules[0]	domain_suffix	airwick.tv
+rules[0]	domain_suffix	airwick.us
+rules[0]	domain_suffix	airwickarabia.com
+rules[0]	domain_suffix	vipoo.es

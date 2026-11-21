@@ -1,0 +1,47 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ad.cctv.com
+rules[0]	domain_suffix	cctv.cn
+rules[0]	domain_suffix	cctv.com
+rules[0]	domain_suffix	cctv4g.com
+rules[0]	domain_suffix	cctvlib.cn
+rules[0]	domain_suffix	cctvlib.com.cn
+rules[0]	domain_suffix	cctvlibrary.cn
+rules[0]	domain_suffix	cctvlibrary.com.cn
+rules[0]	domain_suffix	cctvpic.com
+rules[0]	domain_suffix	cctvpro.cn
+rules[0]	domain_suffix	cctvpro.com.cn
+rules[0]	domain_suffix	chinaepg.cn
+rules[0]	domain_suffix	chinalive.com
+rules[0]	domain_suffix	chinaott.com
+rules[0]	domain_suffix	citv.net.cn
+rules[0]	domain_suffix	cnms.net.cn
+rules[0]	domain_suffix	cntv.cn
+rules[0]	domain_suffix	cntv.com.cn
+rules[0]	domain_suffix	cntvwb.cn
+rules[0]	domain_suffix	cri.cn
+rules[0]	domain_suffix	gjgbdszt.cn
+rules[0]	domain_suffix	gjgbdszt.com.cn
+rules[0]	domain_suffix	gjgbdszt.net.cn
+rules[0]	domain_suffix	icntvcdn.com
+rules[0]	domain_suffix	ipanda.cn
+rules[0]	domain_suffix	ipanda.com
+rules[0]	domain_suffix	ipanda.com.cn
+rules[0]	domain_suffix	ipanda.net
+rules[0]	domain_suffix	livechina.cn
+rules[0]	domain_suffix	livechina.com
+rules[0]	domain_suffix	olympicchannelchina.cn
+rules[0]	domain_suffix	ottcn.com
+rules[0]	domain_suffix	tvcc.cn
+rules[0]	domain_suffix	tvcc.com.cn
+rules[0]	domain_suffix	xn--fiq53l6wcx3kp9bc7joo6apn8a.cn
+rules[0]	domain_suffix	xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s
+rules[0]	domain_suffix	xn--fiq53l90et9fpncc7joo6apn8a.cn
+rules[0]	domain_suffix	xn--kprv4ewxfr9cpxcc7joo6apn8a.cn
+rules[0]	domain_suffix	xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s
+rules[0]	domain_suffix	yangshipin.cn
+rules[0]	domain_suffix	zggbdszt.cn
+rules[0]	domain_suffix	zggbdszt.com.cn
+rules[0]	domain_suffix	zggbdszt.net.cn
+rules[0]	domain_suffix	zygbdszt.net.cn

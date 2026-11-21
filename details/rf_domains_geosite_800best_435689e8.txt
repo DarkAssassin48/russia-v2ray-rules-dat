@@ -1,0 +1,32 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	56laile.com
+rules[0]	domain_suffix	800best.cn
+rules[0]	domain_suffix	800best.com
+rules[0]	domain_suffix	800best.com.cn
+rules[0]	domain_suffix	800best.net
+rules[0]	domain_suffix	800bestapi.cn
+rules[0]	domain_suffix	800bestapi.com
+rules[0]	domain_suffix	800bestapp.cn
+rules[0]	domain_suffix	800bestapp.com
+rules[0]	domain_suffix	baishinetwork.com
+rules[0]	domain_suffix	best-inc.com
+rules[0]	domain_suffix	bestcrossborder.com
+rules[0]	domain_suffix	bestdataclub.com
+rules[0]	domain_suffix	bestincapi.cn
+rules[0]	domain_suffix	bestincapi.com
+rules[0]	domain_suffix	bestincapp.cn
+rules[0]	domain_suffix	bestincapp.com
+rules[0]	domain_suffix	linliyz.com
+rules[0]	domain_suffix	qiancangwms.com
+rules[0]	domain_suffix	qianyierp.com
+rules[0]	domain_suffix	t1tms.com
+rules[0]	domain_suffix	t8tms.com
+rules[0]	domain_suffix	t9tms.com
+rules[0]	domain_suffix	tnettms.com
+rules[0]	domain_suffix	wangniuwms.com
+rules[0]	domain_suffix	xinyuanfin.com
+rules[0]	domain_suffix	youyierp.com
+rules[0]	domain_suffix	youyitms.com
+rules[0]	domain_suffix	youyiwms.com

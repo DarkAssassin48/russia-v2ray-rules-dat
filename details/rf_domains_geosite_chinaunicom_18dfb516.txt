@@ -1,0 +1,28 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	.unicom
+rules[0]	domain_suffix	.xn--8y0a063a
+rules[0]	domain_suffix	10010.com
+rules[0]	domain_suffix	10010.com.cn
+rules[0]	domain_suffix	10155.com
+rules[0]	domain_suffix	114menhu.com
+rules[0]	domain_suffix	169ol.com
+rules[0]	domain_suffix	chinaunicom.cn
+rules[0]	domain_suffix	chinaunicom.com
+rules[0]	domain_suffix	chinaunicom.com.cn
+rules[0]	domain_suffix	chinaunicom.com.hk
+rules[0]	domain_suffix	chinaunicomglobal.com
+rules[0]	domain_suffix	cuguplus.com
+rules[0]	domain_suffix	cuniq.com
+rules[0]	domain_suffix	cuniq.sg
+rules[0]	domain_suffix	mychinaunicom.com
+rules[0]	domain_suffix	smartont.net
+rules[0]	domain_suffix	unicompayment.com
+rules[0]	domain_suffix	wo-adv.cn
+rules[0]	domain_suffix	wo.cn
+rules[0]	domain_suffix	wo.com.cn
+rules[0]	domain_suffix	wo116114.com
+rules[0]	domain_suffix	wocloud.com.cn
+rules[0]	domain_suffix	woread.com.cn
+rules[0]	domain_suffix	wosms.cn

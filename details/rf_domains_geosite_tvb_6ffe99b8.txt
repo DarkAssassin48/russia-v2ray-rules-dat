@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bigbigchannel.com.hk
+rules[0]	domain_suffix	bigbigshop.com
+rules[0]	domain_suffix	encoretvb.com
+rules[0]	domain_suffix	mytvsuper.com
+rules[0]	domain_suffix	neigbuy.com
+rules[0]	domain_suffix	tvb.com
+rules[0]	domain_suffix	tvb.com.au
+rules[0]	domain_suffix	tvbanywhere.com
+rules[0]	domain_suffix	tvbanywhere.com.sg
+rules[0]	domain_suffix	tvbc.com.cn
+rules[0]	domain_suffix	tvbeventpower.com.hk
+rules[0]	domain_suffix	tvbusa.com
+rules[0]	domain_suffix	tvbweekly.com
+rules[0]	domain_suffix	tvmedia.net.au

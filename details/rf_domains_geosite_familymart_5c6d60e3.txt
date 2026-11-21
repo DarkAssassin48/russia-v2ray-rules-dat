@@ -1,0 +1,10 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	famifun.com.tw
+rules[0]	domain_suffix	family.co.jp
+rules[0]	domain_suffix	family.com.tw
+rules[0]	domain_suffix	familymart.com.cn
+rules[0]	domain_suffix	familymart.com.my
+rules[0]	domain_suffix	familymart.com.ph
+rules[0]	domain_suffix	famima.vn

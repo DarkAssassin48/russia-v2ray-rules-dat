@@ -1,0 +1,20 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	asanpardakht.com
+rules[0]	domain_suffix	asanpardakht.net
+rules[0]	domain_suffix	behpardakht.com
+rules[0]	domain_suffix	bitbarg.me
+rules[0]	domain_suffix	iranicard.ir
+rules[0]	domain_suffix	mydigipay.com
+rules[0]	domain_suffix	pay.ir
+rules[0]	domain_suffix	payping.ir
+rules[0]	domain_suffix	pec.ir
+rules[0]	domain_suffix	pep.co.ir
+rules[0]	domain_suffix	sadadpsp.ir
+rules[0]	domain_suffix	sep.ir
+rules[0]	domain_suffix	shaparak.ir
+rules[0]	domain_suffix	vandar.app
+rules[0]	domain_suffix	vandar.io
+rules[0]	domain_suffix	weswap.digital
+rules[0]	domain_suffix	zarinpal.com

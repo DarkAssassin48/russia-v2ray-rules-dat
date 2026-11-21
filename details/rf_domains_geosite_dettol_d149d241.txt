@@ -1,0 +1,38 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	dettol-prize.com
+rules[0]	domain_suffix	dettol.at
+rules[0]	domain_suffix	dettol.be
+rules[0]	domain_suffix	dettol.ch
+rules[0]	domain_suffix	dettol.cl
+rules[0]	domain_suffix	dettol.co.id
+rules[0]	domain_suffix	dettol.co.in
+rules[0]	domain_suffix	dettol.co.ke
+rules[0]	domain_suffix	dettol.co.nz
+rules[0]	domain_suffix	dettol.co.uk
+rules[0]	domain_suffix	dettol.com
+rules[0]	domain_suffix	dettol.com.au
+rules[0]	domain_suffix	dettol.com.bd
+rules[0]	domain_suffix	dettol.com.br
+rules[0]	domain_suffix	dettol.com.cn
+rules[0]	domain_suffix	dettol.com.eg
+rules[0]	domain_suffix	dettol.com.hk
+rules[0]	domain_suffix	dettol.com.my
+rules[0]	domain_suffix	dettol.com.ng
+rules[0]	domain_suffix	dettol.com.sg
+rules[0]	domain_suffix	dettol.cz
+rules[0]	domain_suffix	dettol.fr
+rules[0]	domain_suffix	dettol.hu
+rules[0]	domain_suffix	dettol.ie
+rules[0]	domain_suffix	dettol.net
+rules[0]	domain_suffix	dettol.nl
+rules[0]	domain_suffix	dettol.pk
+rules[0]	domain_suffix	dettol.pl
+rules[0]	domain_suffix	dettol.pt
+rules[0]	domain_suffix	dettol.ru
+rules[0]	domain_suffix	dettolarabia.com
+rules[0]	domain_suffix	dettolcleannaija.com
+rules[0]	domain_suffix	dettolsitishield.co.in
+rules[0]	domain_suffix	dettolthailand.com
+rules[0]	domain_suffix	espadoldettol.com.ar

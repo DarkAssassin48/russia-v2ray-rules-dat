@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	certs-lb.apple.com.akadns.net
+rules[0]	domain	certs.apple.com
+rules[0]	domain	crl-lb.apple.com.akadns.net
+rules[0]	domain	crl.apple.com
+rules[0]	domain	ocsp.apple.com
+rules[0]	domain	ocsp2.apple.com
+rules[0]	domain	valid.apple.com
+rules[0]	domain	valid.origin-apple.com.akadns.net

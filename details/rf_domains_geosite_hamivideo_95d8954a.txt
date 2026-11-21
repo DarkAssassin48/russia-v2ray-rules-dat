@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	apl-hamivideo.cdn.hinet.net
+rules[0]	domain	chatscc-hamivideo2.cdn.hinet.net
+rules[0]	domain	efe8f8a4-abd5-44c9-bf5c-cd217442c52f.t.ssp.hinet.net
+rules[0]	domain	favoritescc-hamivideo2.cdn.hinet.net
+rules[0]	domain	hamivideo.hinet.net
+rules[0]	domain	hls-hamivideo.cdn.hinet.net
+rules[0]	domain	lgcscc-hamivideo2.cdn.hinet.net
+rules[0]	domain	mobilelive-hamivideo.cdn.hinet.net
+rules[0]	domain	pvr-hamivideo.cdn.hinet.net
+rules[0]	domain	scc-hamivideo.cdn.hinet.net
+rules[0]	domain	scc.ott.hinet.net
+rules[0]	domain	static-hamivideo.cdn.hinet.net
+rules[0]	domain	t.ssp.hinet.net
+rules[0]	domain	thumbnail-hamivideo.cdn.hinet.net
+rules[0]	domain	tlmr-hamivideo2.cdn.hinet.net
+rules[0]	domain	tvcastlive-hamivideo.cdn.hinet.net
+rules[0]	domain	weblive-hamivideo.cdn.hinet.net
+rules[0]	domain	weblivea-hamivideo.cdn.hinet.net
+rules[0]	domain	webvodad-hamivideo.cdn.hinet.net

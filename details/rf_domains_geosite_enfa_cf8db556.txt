@@ -1,0 +1,34 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bebepremium3.com.bo
+rules[0]	domain_suffix	enfa.co.id
+rules[0]	domain_suffix	enfa.com.vn
+rules[0]	domain_suffix	enfaaplus.com
+rules[0]	domain_suffix	enfababy.com
+rules[0]	domain_suffix	enfabebe.com
+rules[0]	domain_suffix	enfabebe.com.br
+rules[0]	domain_suffix	enfabebe.com.co
+rules[0]	domain_suffix	enfabebe.com.do
+rules[0]	domain_suffix	enfabebe.com.ec
+rules[0]	domain_suffix	enfabebe.com.mx
+rules[0]	domain_suffix	enfabebe.com.pe
+rules[0]	domain_suffix	enfabebe.com.ve
+rules[0]	domain_suffix	enfabebe3.com.ar
+rules[0]	domain_suffix	enfagrow.co.in
+rules[0]	domain_suffix	enfagrow.com.bn
+rules[0]	domain_suffix	enfagrow.com.my
+rules[0]	domain_suffix	enfagrow.com.ph
+rules[0]	domain_suffix	enfagrow.com.sg
+rules[0]	domain_suffix	enfagrow4.com
+rules[0]	domain_suffix	enfamama.com.ar
+rules[0]	domain_suffix	enfamama.com.ph
+rules[0]	domain_suffix	enfamil.ca
+rules[0]	domain_suffix	enfamil.com
+rules[0]	domain_suffix	enfamil.es
+rules[0]	domain_suffix	enfamil.pl
+rules[0]	domain_suffix	enfamil.pt
+rules[0]	domain_suffix	enfasmart.com
+rules[0]	domain_suffix	enspireformula.com
+rules[0]	domain_suffix	nutramigen.net
+rules[0]	domain_suffix	nutramigen.pl

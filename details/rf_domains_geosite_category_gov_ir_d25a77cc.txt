@@ -1,0 +1,32 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	adliran.ir
+rules[0]	domain_suffix	agrieng.org
+rules[0]	domain_suffix	bazresi.ir
+rules[0]	domain_suffix	bia-judiciary.ir
+rules[0]	domain_suffix	budget.imo.org.ir
+rules[0]	domain_suffix	dadiran.ir
+rules[0]	domain_suffix	dadsara.ir
+rules[0]	domain_suffix	dadsetani.ir
+rules[0]	domain_suffix	divan-edalat.ir
+rules[0]	domain_suffix	dmk.ir
+rules[0]	domain_suffix	doe.ir
+rules[0]	domain_suffix	dolat.ir
+rules[0]	domain_suffix	eadl.ir
+rules[0]	domain_suffix	enamad.ir
+rules[0]	domain_suffix	gov.ir
+rules[0]	domain_suffix	hadafmandi.ir
+rules[0]	domain_suffix	intamedia.ir
+rules[0]	domain_suffix	irimo.ir
+rules[0]	domain_suffix	moi.ir
+rules[0]	domain_suffix	mporg.ir
+rules[0]	domain_suffix	parliran.ir
+rules[0]	domain_suffix	post.ir
+rules[0]	domain_suffix	president.ir
+rules[0]	domain_suffix	refahi.ir
+rules[0]	domain_suffix	sahamedalat.ir
+rules[0]	domain_suffix	samandehi.ir
+rules[0]	domain_suffix	samanese.ir
+rules[0]	domain_suffix	sccr.ir
+rules[0]	domain_suffix	shora-gc.ir

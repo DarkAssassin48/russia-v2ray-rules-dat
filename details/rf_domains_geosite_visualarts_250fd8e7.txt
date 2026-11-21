@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	abow.jp
+rules[0]	domain_suffix	angelbeats.jp
+rules[0]	domain_suffix	anigema.jp
+rules[0]	domain_suffix	charlotte-anime.jp
+rules[0]	domain_suffix	clannad-movie.jp
+rules[0]	domain_suffix	heaven-burns-red.com
+rules[0]	domain_suffix	kamisama-day.jp
+rules[0]	domain_suffix	kamisama-maeda-lab.com
+rules[0]	domain_suffix	koubaibu.jp
+rules[0]	domain_suffix	litbus-anime.com
+rules[0]	domain_suffix	product.co.jp
+rules[0]	domain_suffix	rewrite-anime.tv
+rules[0]	domain_suffix	visual-arts.jp
+rules[0]	domain_suffix	visualarts.gr.jp

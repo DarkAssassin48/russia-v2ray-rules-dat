@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	widgets.stripst.com
+rules[0]	domain_suffix	collector.xhamster.com
+rules[0]	domain_suffix	freexh.blog
+rules[0]	domain_suffix	freexh.live
+rules[0]	domain_suffix	netxh.blog
+rules[0]	domain_suffix	xhamster.com
+rules[0]	domain_suffix	xhamster.desi
+rules[0]	domain_suffix	xhamster.xxx
+rules[0]	domain_suffix	xhamster18.com
+rules[0]	domain_suffix	xhamster18.desi
+rules[0]	domain_suffix	xhamster19.com
+rules[0]	domain_suffix	xhamster2.com
+rules[0]	domain_suffix	xhamster3.com
+rules[0]	domain_suffix	xhamsterlive.com
+rules[0]	domain_suffix	xhapp.live
+rules[0]	domain_suffix	xhcdn.com
+rules[0]	domain_suffix	xhnews.live
+rules[0]	domain_suffix	xhpingcdn.com
+rules[0]	domain_suffix	xhreal5.com

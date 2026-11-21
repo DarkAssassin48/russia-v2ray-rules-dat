@@ -1,0 +1,26 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	.
+rules[0]	domain	a
+rules[0]	domain	c
+rules[0]	domain	d
+rules[0]	domain	e
+rules[0]	domain	g
+rules[0]	domain	i
+rules[0]	domain	l
+rules[0]	domain	m
+rules[0]	domain	o
+rules[0]	domain	p
+rules[0]	domain	r
+rules[0]	domain	t
+rules[0]	domain	y
+rules[0]	domain_regex	^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)\w{5}\.googlevideo\.com$
+rules[0]	domain_regex	^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)\w{5}\.xn--ngstr-lra8j\.com$
+rules[0]	domain_suffix	googleplay.com
+rules[0]	domain_suffix	play-fe.googleapis.com
+rules[0]	domain_suffix	play-games.googleusercontent.com
+rules[0]	domain_suffix	play-lh.googleusercontent.com
+rules[0]	domain_suffix	play.google.com
+rules[0]	domain_suffix	play.googleapis.com
+rules[0]	domain_suffix	xn--ngstr-lra8j.com

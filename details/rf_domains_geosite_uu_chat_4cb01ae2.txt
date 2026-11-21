@@ -1,0 +1,25 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	uug22.com
+rules[0]	domain_suffix	uug23.com
+rules[0]	domain_suffix	uug25.com
+rules[0]	domain_suffix	uug26.com
+rules[0]	domain_suffix	uug27.com
+rules[0]	domain_suffix	uuk28.com
+rules[0]	domain_suffix	uun78.com
+rules[0]	domain_suffix	uun79.com
+rules[0]	domain_suffix	uun82.com
+rules[0]	domain_suffix	uun83.com
+rules[0]	domain_suffix	uun85.com
+rules[0]	domain_suffix	uun86.com
+rules[0]	domain_suffix	uun87.com
+rules[0]	domain_suffix	uun89.com
+rules[0]	domain_suffix	uun92.com
+rules[0]	domain_suffix	uun93.com
+rules[0]	domain_suffix	uun95.com
+rules[0]	domain_suffix	uun96.com
+rules[0]	domain_suffix	uun97.com
+rules[0]	domain_suffix	uun98.com
+rules[0]	domain_suffix	uun99.com
+rules[0]	domain_suffix	uux68.com

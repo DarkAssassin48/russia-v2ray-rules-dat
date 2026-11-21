@@ -1,0 +1,28 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	114blog.com
+rules[0]	domain_suffix	4thworkshop.cn
+rules[0]	domain_suffix	4thworkshop.com
+rules[0]	domain_suffix	aloys233.top
+rules[0]	domain_suffix	fanmingming.com
+rules[0]	domain_suffix	gmya.net
+rules[0]	domain_suffix	huangyuhui.net
+rules[0]	domain_suffix	lg3000.top
+rules[0]	domain_suffix	lovestu.com
+rules[0]	domain_suffix	misaka-net.top
+rules[0]	domain_suffix	moliranran.com
+rules[0]	domain_suffix	mryys.cn
+rules[0]	domain_suffix	mryys.com
+rules[0]	domain_suffix	mysqil.com
+rules[0]	domain_suffix	mystery0.vip
+rules[0]	domain_suffix	pljzy.top
+rules[0]	domain_suffix	runningcheese.com
+rules[0]	domain_suffix	skywt.cn
+rules[0]	domain_suffix	soulteary.com
+rules[0]	domain_suffix	tai3.cn
+rules[0]	domain_suffix	tianhw.top
+rules[0]	domain_suffix	topwd.top
+rules[0]	domain_suffix	vtdd.vip
+rules[0]	domain_suffix	xrbk.cn
+rules[0]	domain_suffix	zway.top

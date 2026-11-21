@@ -1,0 +1,34 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	aufit-air.com
+rules[0]	domain_suffix	aux-global.com
+rules[0]	domain_suffix	aux-home.com
+rules[0]	domain_suffix	auxair.com
+rules[0]	domain_suffix	auxauto.com.cn
+rules[0]	domain_suffix	auxcac.cn
+rules[0]	domain_suffix	auxcss.com
+rules[0]	domain_suffix	auxgroup.com
+rules[0]	domain_suffix	auxshop.cn
+rules[0]	domain_suffix	auxshop.com
+rules[0]	domain_suffix	auxsmart.com
+rules[0]	domain_suffix	auxsmart.com.cn
+rules[0]	domain_suffix	auxsol.com
+rules[0]	domain_suffix	auxsolar.com.cn
+rules[0]	domain_suffix	auxsolcloud.com
+rules[0]	domain_suffix	auxtelecom.com
+rules[0]	domain_suffix	auxwy.com
+rules[0]	domain_suffix	auxyl.com
+rules[0]	domain_suffix	mzgjbj.com
+rules[0]	domain_suffix	mzyyfck.com
+rules[0]	domain_suffix	mzyygb.com
+rules[0]	domain_suffix	mzyygk.com
+rules[0]	domain_suffix	mzyyzl.com
+rules[0]	domain_suffix	nbmzyl.com
+rules[0]	domain_suffix	nbmzyy.com
+rules[0]	domain_suffix	nbyzfeyy.com
+rules[0]	domain_suffix	sanxing.com
+rules[0]	domain_suffix	sanxingelectric.com
+rules[0]	domain_suffix	shinflow.com
+rules[0]	domain_suffix	shuyifuwu.com.cn
+rules[0]	domain_suffix	solarcloud.top
