@@ -1,0 +1,25 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bxexpress.com.cn
+rules[0]	domain_suffix	cr-cts.com
+rules[0]	domain_suffix	crscm.com
+rules[0]	domain_suffix	jet-ego.com
+rules[0]	domain_suffix	jet-logistics.com
+rules[0]	domain_suffix	jetlogistic.com
+rules[0]	domain_suffix	jnt-express.com.cn
+rules[0]	domain_suffix	jtexpress.cn
+rules[0]	domain_suffix	jtexpress.com
+rules[0]	domain_suffix	jtexpress.com.cn
+rules[0]	domain_suffix	jtexpress.top
+rules[0]	domain_suffix	jtfulfillment.cn
+rules[0]	domain_suffix	jtfulfillment.com
+rules[0]	domain_suffix	jtg2g.com
+rules[0]	domain_suffix	jtjms-ae.com
+rules[0]	domain_suffix	jtjms-br.com
+rules[0]	domain_suffix	jtjms-eg.com
+rules[0]	domain_suffix	jtjms-mx.com
+rules[0]	domain_suffix	jtjms-sa.com
+rules[0]	domain_suffix	upfos.cn
+rules[0]	domain_suffix	upfos.com
+rules[0]	domain_suffix	yl-scm.com

@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	accdn.com.cn
+rules[0]	domain_suffix	akadns88.net
+rules[0]	domain_suffix	akadns99.net
+rules[0]	domain_suffix	akamai.com
+rules[0]	domain_suffix	akcdn.com.cn
+rules[0]	domain_suffix	aptdn.net
+rules[0]	domain_suffix	edgekey88.net
+rules[0]	domain_suffix	janrain.biz
+rules[0]	domain_suffix	janrainservices.com
+rules[0]	domain_suffix	skycdn.com.cn
+rules[0]	domain_suffix	tl88.net

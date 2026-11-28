@@ -1,0 +1,40 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	adcommerce.cn
+rules[0]	domain_suffix	appforebay.cn
+rules[0]	domain_suffix	connectcommerce.cn
+rules[0]	domain_suffix	connectcommerce.com.cn
+rules[0]	domain_suffix	connectedcommerce.cn
+rules[0]	domain_suffix	cyber-bay.cn
+rules[0]	domain_suffix	cyber-bay.com.cn
+rules[0]	domain_suffix	ebay.cn
+rules[0]	domain_suffix	ebay.com.cn
+rules[0]	domain_suffix	ebay.net.cn
+rules[0]	domain_suffix	ebay.org.cn
+rules[0]	domain_suffix	ebay.yn.cn
+rules[0]	domain_suffix	ebay.zj.cn
+rules[0]	domain_suffix	ebayadvertising.cn
+rules[0]	domain_suffix	ebayclassifieds.cn
+rules[0]	domain_suffix	ebayclassifieds.com.cn
+rules[0]	domain_suffix	ebaydesc.cn
+rules[0]	domain_suffix	ebaydesc.com.cn
+rules[0]	domain_suffix	ebaydns.cn
+rules[0]	domain_suffix	ebayenterprise.cn
+rules[0]	domain_suffix	ebayenterprise.com.cn
+rules[0]	domain_suffix	ebaymotors.cn
+rules[0]	domain_suffix	ebaymotors.com.cn
+rules[0]	domain_suffix	ebaypedia.cn
+rules[0]	domain_suffix	ebaypedia.com.cn
+rules[0]	domain_suffix	ebayshopping.cn
+rules[0]	domain_suffix	ebayshopping.com.cn
+rules[0]	domain_suffix	ebaystatic.cn
+rules[0]	domain_suffix	ebaystores.cn
+rules[0]	domain_suffix	half.com.cn
+rules[0]	domain_suffix	kijijidns.cn
+rules[0]	domain_suffix	kijijidns.com.cn
+rules[0]	domain_suffix	mobileinternational.com.cn
+rules[0]	domain_suffix	prostores.cn
+rules[0]	domain_suffix	prostores.com.cn
+rules[0]	domain_suffix	terapeak.cn
+rules[0]	domain_suffix	xn--7hvy28f.cn

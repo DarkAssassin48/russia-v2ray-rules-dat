@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	fontshop-prod-responsive-images.s3.amazonaws.com
+rules[0]	domain_suffix	bitstream.com
+rules[0]	domain_suffix	fontbook.com
+rules[0]	domain_suffix	fontexplorerx.com
+rules[0]	domain_suffix	fonts.com
+rules[0]	domain_suffix	fonts.net
+rules[0]	domain_suffix	fontshop.com
+rules[0]	domain_suffix	fstopimages.com
+rules[0]	domain_suffix	itcfonts.com
+rules[0]	domain_suffix	linotype.com
+rules[0]	domain_suffix	monotype.com
+rules[0]	domain_suffix	monotypeimaging.com
+rules[0]	domain_suffix	myfonts.com
+rules[0]	domain_suffix	myfonts.net

@@ -1,0 +1,31 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	airchina.ae
+rules[0]	domain_suffix	airchina.at
+rules[0]	domain_suffix	airchina.ca
+rules[0]	domain_suffix	airchina.ch
+rules[0]	domain_suffix	airchina.co.id
+rules[0]	domain_suffix	airchina.co.in
+rules[0]	domain_suffix	airchina.co.th
+rules[0]	domain_suffix	airchina.co.uk
+rules[0]	domain_suffix	airchina.com.au
+rules[0]	domain_suffix	airchina.com.br
+rules[0]	domain_suffix	airchina.com.my
+rules[0]	domain_suffix	airchina.com.ph
+rules[0]	domain_suffix	airchina.com.tw
+rules[0]	domain_suffix	airchina.de
+rules[0]	domain_suffix	airchina.dk
+rules[0]	domain_suffix	airchina.es
+rules[0]	domain_suffix	airchina.fr
+rules[0]	domain_suffix	airchina.gr
+rules[0]	domain_suffix	airchina.hk
+rules[0]	domain_suffix	airchina.hu
+rules[0]	domain_suffix	airchina.it
+rules[0]	domain_suffix	airchina.jp
+rules[0]	domain_suffix	airchina.kr
+rules[0]	domain_suffix	airchina.nz
+rules[0]	domain_suffix	airchina.se
+rules[0]	domain_suffix	airchina.sg
+rules[0]	domain_suffix	airchina.us
+rules[0]	domain_suffix	airchina.vn

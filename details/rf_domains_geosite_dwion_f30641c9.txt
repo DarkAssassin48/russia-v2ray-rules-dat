@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	acadn.cn
+rules[0]	domain_suffix	acadn.com
+rules[0]	domain_suffix	bbbcdns.com
+rules[0]	domain_suffix	dlgslb.cn
+rules[0]	domain_suffix	dlgslb.net
+rules[0]	domain_suffix	dwion.com
+rules[0]	domain_suffix	fastcdn.com
+rules[0]	domain_suffix	fastcdn.com.cn
+rules[0]	domain_suffix	flxdns.cn
+rules[0]	domain_suffix	flxdns.com
+rules[0]	domain_suffix	globalcdn.cn
+rules[0]	domain_suffix	mcadn.cn
+rules[0]	domain_suffix	tlgslb.cn
+rules[0]	domain_suffix	tlgslb.com

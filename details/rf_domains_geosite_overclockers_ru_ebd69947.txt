@@ -1,0 +1,15 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ovcl.ru
+rules[0]	domain_suffix	overclock.ru
+rules[0]	domain_suffix	overclocker.ru
+rules[0]	domain_suffix	overclockers.ru
+rules[0]	domain_suffix	overclocking.ru
+rules[0]	domain_suffix	overi.ru
+rules[0]	domain_suffix	xn--80aglfyfk.xn--p1ai
+rules[0]	domain_suffix	xn--80aglzei.xn--p1ai
+rules[0]	domain_suffix	xn--b1agatafrepfl.xn--p1ai
+rules[0]	domain_suffix	xn--b1agpaeoen.xn--p1ai
+rules[0]	domain_suffix	xn--b1agzk.xn--p1ai
+rules[0]	domain_suffix	xn--b1agzk9c.xn--p1ai

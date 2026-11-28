@@ -1,0 +1,12 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	gaytube.com
+rules[0]	domain_suffix	phncdn.com
+rules[0]	domain_suffix	phprcdn.com
+rules[0]	domain_suffix	porngub.com
+rules[0]	domain_suffix	pornhub-deutsch.net
+rules[0]	domain_suffix	pornhub.com
+rules[0]	domain_suffix	pornhub.org
+rules[0]	domain_suffix	pornhubapparel.com
+rules[0]	domain_suffix	pornhubpremium.com

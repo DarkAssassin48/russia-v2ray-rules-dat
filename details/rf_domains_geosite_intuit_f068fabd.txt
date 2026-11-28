@@ -1,0 +1,38 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	.intuit
+rules[0]	domain_suffix	creditkarma.com
+rules[0]	domain_suffix	gopayment.com
+rules[0]	domain_suffix	gopayments.com
+rules[0]	domain_suffix	intuit-gopayment.com
+rules[0]	domain_suffix	intuit.ca
+rules[0]	domain_suffix	intuit.co.uk
+rules[0]	domain_suffix	intuit.com
+rules[0]	domain_suffix	intuit.com.au
+rules[0]	domain_suffix	intuit.fr
+rules[0]	domain_suffix	intuitaffiliate.com
+rules[0]	domain_suffix	intuitbenefits.com
+rules[0]	domain_suffix	intuitcdn.net
+rules[0]	domain_suffix	intuitfullservicepayroll.com
+rules[0]	domain_suffix	intuitinnovationday.com
+rules[0]	domain_suffix	intuitlabs.com
+rules[0]	domain_suffix	intuitpayments.com
+rules[0]	domain_suffix	mailchimp.com
+rules[0]	domain_suffix	myproseries.com
+rules[0]	domain_suffix	payroll.com
+rules[0]	domain_suffix	proseries.com
+rules[0]	domain_suffix	quickbook.com.br
+rules[0]	domain_suffix	quickbooks.co.uk
+rules[0]	domain_suffix	quickbooks.co.za
+rules[0]	domain_suffix	quickbooks.com
+rules[0]	domain_suffix	quickbooks.com.au
+rules[0]	domain_suffix	quickbooks.com.br
+rules[0]	domain_suffix	quickbooks.fr
+rules[0]	domain_suffix	quickbooks.in
+rules[0]	domain_suffix	quickbooks2000.com
+rules[0]	domain_suffix	quickbooksenligne.ca
+rules[0]	domain_suffix	quickbooksgetconnected.co.za
+rules[0]	domain_suffix	quickbooksonline.com
+rules[0]	domain_suffix	turbo.com
+rules[0]	domain_suffix	turbotax.com

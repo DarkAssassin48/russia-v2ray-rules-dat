@@ -1,0 +1,18 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	adblogger.vk.com
+rules[0]	domain	adblogger.vk.ru
+rules[0]	domain	ads.vk.com
+rules[0]	domain	ads.vk.ru
+rules[0]	domain	adv.vk.ru
+rules[0]	domain	advk.vk.ru
+rules[0]	domain	analytics.vk.ru
+rules[0]	domain	stats.vk-portal.net
+rules[0]	domain	target.vk.com
+rules[0]	domain_suffix	adv.vk.com
+rules[0]	domain_suffix	analytics.vk.com
+rules[0]	domain_suffix	ms.vk.com
+rules[0]	domain_suffix	ms.vk.ru
+rules[0]	domain_suffix	target.vk.ru
+rules[0]	domain_suffix	vk-analytics.ru

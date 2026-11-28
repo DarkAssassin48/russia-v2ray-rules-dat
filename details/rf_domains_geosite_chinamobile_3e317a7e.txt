@@ -1,0 +1,42 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	10086.cn
+rules[0]	domain_suffix	139.com
+rules[0]	domain_suffix	5gxcx.net
+rules[0]	domain_suffix	andfx.cn
+rules[0]	domain_suffix	andfx.net
+rules[0]	domain_suffix	chinamobile.com
+rules[0]	domain_suffix	chinamobiledevice.com
+rules[0]	domain_suffix	chinamobileltd.com
+rules[0]	domain_suffix	cmcc-cs.cn
+rules[0]	domain_suffix	cmdcxls.com
+rules[0]	domain_suffix	cmft.com.cn
+rules[0]	domain_suffix	cmicapm.com
+rules[0]	domain_suffix	cmicrwx.cn
+rules[0]	domain_suffix	cmicvip.cn
+rules[0]	domain_suffix	cmpassport.com
+rules[0]	domain_suffix	cmpay.com
+rules[0]	domain_suffix	cmread.com
+rules[0]	domain_suffix	cmvideo.cn
+rules[0]	domain_suffix	cxzx10086.cn
+rules[0]	domain_suffix	cytxl.com.cn
+rules[0]	domain_suffix	fetion-portal.com
+rules[0]	domain_suffix	fetionpic.com
+rules[0]	domain_suffix	fxltsbl.com
+rules[0]	domain_suffix	hfx.net
+rules[0]	domain_suffix	komect.com
+rules[0]	domain_suffix	migu.cn
+rules[0]	domain_suffix	migucloud.com
+rules[0]	domain_suffix	migufun.com
+rules[0]	domain_suffix	miguvideo.com
+rules[0]	domain_suffix	mmarket.com
+rules[0]	domain_suffix	mmarket6.com
+rules[0]	domain_suffix	mnc000.mcc460.pub.3gppnetwork.org
+rules[0]	domain_suffix	mnc002.mcc460.pub.3gppnetwork.org
+rules[0]	domain_suffix	mnc004.mcc460.pub.3gppnetwork.org
+rules[0]	domain_suffix	mnc007.mcc460.pub.3gppnetwork.org
+rules[0]	domain_suffix	online-cmcc.cn
+rules[0]	domain_suffix	speedtest.hk.chinamobile.com
+rules[0]	domain_suffix	speedtestbb.hk.chinamobile.com
+rules[0]	domain_suffix	zdsdp.com

@@ -1,0 +1,13 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	adashx.ut.youku.com
+rules[0]	domain_suffix	e.stat.ykimg.com
+rules[0]	domain_suffix	h-adashx.ut.youku.com
+rules[0]	domain_suffix	lstat.youku.com
+rules[0]	domain_suffix	p-log.ykimg.com
+rules[0]	domain_suffix	passport-log.youku.com
+rules[0]	domain_suffix	s-adashx.ut.youku.com
+rules[0]	domain_suffix	stat.youku.com
+rules[0]	domain_suffix	statis.api.3g.youku.com
+rules[0]	domain_suffix	v6-adashx.ut.youku.com

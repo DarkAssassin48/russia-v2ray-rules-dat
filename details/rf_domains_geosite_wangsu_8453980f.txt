@@ -1,0 +1,32 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	51cdn.com
+rules[0]	domain_suffix	8686c.com
+rules[0]	domain_suffix	cdn20.com
+rules[0]	domain_suffix	cdn30.org
+rules[0]	domain_suffix	cdnmg.com
+rules[0]	domain_suffix	chinanetcenter.com
+rules[0]	domain_suffix	lxdns.cn
+rules[0]	domain_suffix	lxdns.com
+rules[0]	domain_suffix	lxdns.info
+rules[0]	domain_suffix	lxdns.net
+rules[0]	domain_suffix	lxdns.org
+rules[0]	domain_suffix	mwcdns.com
+rules[0]	domain_suffix	mwcloudcdn.com
+rules[0]	domain_suffix	npsv6.com
+rules[0]	domain_suffix	ourdvsss.com
+rules[0]	domain_suffix	qtlcdn.cn
+rules[0]	domain_suffix	qtlcdn.com
+rules[0]	domain_suffix	qtlcdn.net
+rules[0]	domain_suffix	speedws.info
+rules[0]	domain_suffix	speedws.org
+rules[0]	domain_suffix	wangsu.com
+rules[0]	domain_suffix	wscdns.com
+rules[0]	domain_suffix	wscdns.info
+rules[0]	domain_suffix	wscdns.org
+rules[0]	domain_suffix	wsdvs.com
+rules[0]	domain_suffix	wsglb.com
+rules[0]	domain_suffix	wsglb.net
+rules[0]	domain_suffix	wswebcdn.com
+rules[0]	domain_suffix	wswebpic.com

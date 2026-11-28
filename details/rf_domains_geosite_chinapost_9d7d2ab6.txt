@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	11183.com.cn
+rules[0]	domain_suffix	11185.cn
+rules[0]	domain_suffix	chinapost-life.com
+rules[0]	domain_suffix	chinapost.cn
+rules[0]	domain_suffix	chinapost.com.cn
+rules[0]	domain_suffix	chinapostdaily.com.cn
+rules[0]	domain_suffix	chinapostnews.cn
+rules[0]	domain_suffix	chinapostnews.com.cn
+rules[0]	domain_suffix	chnppmuseum.com
+rules[0]	domain_suffix	cnpsec.com
+rules[0]	domain_suffix	cptu.cn
+rules[0]	domain_suffix	cptu.org.cn
+rules[0]	domain_suffix	ctvpost.com
+rules[0]	domain_suffix	ems.com.cn
+rules[0]	domain_suffix	postmail.cn
+rules[0]	domain_suffix	postoa.com.cn
+rules[0]	domain_suffix	psbc.com
+rules[0]	domain_suffix	ule.com
+rules[0]	domain_suffix	ulecdn.com

@@ -1,0 +1,12 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	mdn.mozillademos.org
+rules[0]	domain_suffix	developer.allizom.org
+rules[0]	domain_suffix	developer.mozilla.org
+rules[0]	domain_suffix	mdn.allizom.net
+rules[0]	domain_suffix	mdn.dev
+rules[0]	domain_suffix	mdn.mozilla.net
+rules[0]	domain_suffix	mdn.mozit.cloud
+rules[0]	domain_suffix	mdnplay.dev
+rules[0]	domain_suffix	mdnyalp.dev

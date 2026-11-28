@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	2gis.ae
+rules[0]	domain_suffix	2gis.am
+rules[0]	domain_suffix	2gis.az
+rules[0]	domain_suffix	2gis.by
+rules[0]	domain_suffix	2gis.com
+rules[0]	domain_suffix	2gis.com.cy
+rules[0]	domain_suffix	2gis.cz
+rules[0]	domain_suffix	2gis.ge
+rules[0]	domain_suffix	2gis.kg
+rules[0]	domain_suffix	2gis.kz
+rules[0]	domain_suffix	2gis.ru
+rules[0]	domain_suffix	2gis.tech
+rules[0]	domain_suffix	2gis.tj
+rules[0]	domain_suffix	2gis.uz

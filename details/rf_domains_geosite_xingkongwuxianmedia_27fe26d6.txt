@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	avstar01.me
+rules[0]	domain_suffix	avstar02.me
+rules[0]	domain_suffix	avstar03.me
+rules[0]	domain_suffix	avstar04.com
+rules[0]	domain_suffix	avstar04.me
+rules[0]	domain_suffix	avstar05.me
+rules[0]	domain_suffix	avstar06.me
+rules[0]	domain_suffix	avstar07.com
+rules[0]	domain_suffix	avstar07.me
+rules[0]	domain_suffix	avstar09.com
+rules[0]	domain_suffix	avstar09.me
+rules[0]	domain_suffix	avstar1.com
+rules[0]	domain_suffix	avstar2.com
+rules[0]	domain_suffix	avstar3.com
+rules[0]	domain_suffix	avstar4.com
+rules[0]	domain_suffix	avstar5.com
+rules[0]	domain_suffix	avstar6.com
+rules[0]	domain_suffix	avstar8.com
+rules[0]	domain_suffix	avstar9.com

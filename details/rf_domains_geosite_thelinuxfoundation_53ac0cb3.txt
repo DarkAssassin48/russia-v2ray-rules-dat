@@ -1,0 +1,20 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	amp.akamaized.net
+rules[0]	domain	cdn.ampproject.org
+rules[0]	domain_suffix	amp.dev
+rules[0]	domain_suffix	ampproject.com
+rules[0]	domain_suffix	ampproject.net
+rules[0]	domain_suffix	ampproject.org
+rules[0]	domain_suffix	electronjs.org
+rules[0]	domain_suffix	jquery.com
+rules[0]	domain_suffix	jquerymobile.com
+rules[0]	domain_suffix	jqueryui.com
+rules[0]	domain_suffix	kernel.org
+rules[0]	domain_suffix	lfai.foundation
+rules[0]	domain_suffix	linux.org
+rules[0]	domain_suffix	linuxfoundation.org
+rules[0]	domain_suffix	mochajs.org
+rules[0]	domain_suffix	nodejs.org
+rules[0]	domain_suffix	openjsf.org

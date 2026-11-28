@@ -1,0 +1,26 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	api-eu.carrotquest.app
+rules[0]	domain	api-eu.carrotquest.io
+rules[0]	domain	api-ru.carrotquest.app
+rules[0]	domain	api-ru.carrotquest.io
+rules[0]	domain	api-secure.carrotquest.app
+rules[0]	domain	api-secure.carrottrack.app
+rules[0]	domain	api.carrotquest.app
+rules[0]	domain	api.carrotquest.io
+rules[0]	domain	api.carrottrack.app
+rules[0]	domain	api.dashly.app
+rules[0]	domain	api.dashlytrack.app
+rules[0]	domain_suffix	carrot-mail.io
+rules[0]	domain_suffix	carrotquest-mail.io
+rules[0]	domain_suffix	carrotquest.app
+rules[0]	domain_suffix	carrotquest.io
+rules[0]	domain_suffix	carrottrack.app
+rules[0]	domain_suffix	dashly.app
+rules[0]	domain_suffix	dashly.help
+rules[0]	domain_suffix	dashly.io
+rules[0]	domain_suffix	dashly.me
+rules[0]	domain_suffix	dashlytrack.app
+rules[0]	domain_suffix	mail-carrotquest.io
+rules[0]	domain_suffix	pushgrow.io

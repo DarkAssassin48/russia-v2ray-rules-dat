@@ -1,0 +1,33 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	azadiradio.com
+rules[0]	domain_suffix	azadliq.org
+rules[0]	domain_suffix	azathabar.com
+rules[0]	domain_suffix	azatliq.org
+rules[0]	domain_suffix	azattyk.org
+rules[0]	domain_suffix	azattyq.org
+rules[0]	domain_suffix	azatutyun.am
+rules[0]	domain_suffix	currenttime.tv
+rules[0]	domain_suffix	ekhokavkaza.com
+rules[0]	domain_suffix	europalibera.org
+rules[0]	domain_suffix	evropaelire.org
+rules[0]	domain_suffix	factograph.info
+rules[0]	domain_suffix	idelreal.org
+rules[0]	domain_suffix	kavkazr.com
+rules[0]	domain_suffix	krymr.com
+rules[0]	domain_suffix	mashaalradio.com
+rules[0]	domain_suffix	ozodi.org
+rules[0]	domain_suffix	ozodlik.org
+rules[0]	domain_suffix	radiofarda.com
+rules[0]	domain_suffix	radiomarsho.com
+rules[0]	domain_suffix	radiosvoboda.org
+rules[0]	domain_suffix	radiotavisupleba.ge
+rules[0]	domain_suffix	rferl.org
+rules[0]	domain_suffix	severreal.org
+rules[0]	domain_suffix	sibreal.org
+rules[0]	domain_suffix	slobodnaevropa.mk
+rules[0]	domain_suffix	svaboda.org
+rules[0]	domain_suffix	svoboda.org
+rules[0]	domain_suffix	svobodnaevropa.bg
+rules[0]	domain_suffix	szabadeuropa.hu

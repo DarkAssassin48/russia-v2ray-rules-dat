@@ -1,0 +1,24 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	9anime.cz
+rules[0]	domain_suffix	9anime.id
+rules[0]	domain_suffix	9anime.to
+rules[0]	domain_suffix	9anime.ws
+rules[0]	domain_suffix	age.tv
+rules[0]	domain_suffix	agedm.app
+rules[0]	domain_suffix	agedm.org
+rules[0]	domain_suffix	agedm.tv
+rules[0]	domain_suffix	agefans.com
+rules[0]	domain_suffix	agemys.org
+rules[0]	domain_suffix	animedao-tv.com
+rules[0]	domain_suffix	crunchyroll.com
+rules[0]	domain_suffix	funimation.com
+rules[0]	domain_suffix	gogo-load.com
+rules[0]	domain_suffix	gogoanime.vc
+rules[0]	domain_suffix	gogoanime.wiki
+rules[0]	domain_suffix	gogoanime3.co
+rules[0]	domain_suffix	gogocdn.net
+rules[0]	domain_suffix	gogotaku.info
+rules[0]	domain_suffix	hidive.com
+rules[0]	domain_suffix	vrv.co

@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	charlestonroadregistry.com
+rules[0]	domain_suffix	crr.com
+rules[0]	domain_suffix	get.app
+rules[0]	domain_suffix	get.dev
+rules[0]	domain_suffix	get.how
+rules[0]	domain_suffix	get.new
+rules[0]	domain_suffix	get.page
+rules[0]	domain_suffix	get.rsvp
+rules[0]	domain_suffix	hey.boo
+rules[0]	domain_suffix	iam.soy
+rules[0]	domain_suffix	new.day
+rules[0]	domain_suffix	registry.google
+rules[0]	domain_suffix	xn--p8j9a0d9c9a.xn--q9jyb4c

@@ -1,0 +1,41 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ae-rus.net
+rules[0]	domain_suffix	aedns.ru
+rules[0]	domain_suffix	aeplatform.ru
+rules[0]	domain_suffix	aestatic.net
+rules[0]	domain_suffix	alibabacloud.co.in
+rules[0]	domain_suffix	alibabacloud.com
+rules[0]	domain_suffix	alibabacloud.com.au
+rules[0]	domain_suffix	alibabacloud.com.hk
+rules[0]	domain_suffix	alibabacloud.com.my
+rules[0]	domain_suffix	alibabacloud.com.sg
+rules[0]	domain_suffix	alibabacloud.com.tw
+rules[0]	domain_suffix	alicloud.com
+rules[0]	domain_suffix	aliexpress.ru
+rules[0]	domain_suffix	alihealth.hk
+rules[0]	domain_suffix	alipay.hk
+rules[0]	domain_suffix	alipaymo.com
+rules[0]	domain_suffix	ap-southeast-1.aliyuncs.com
+rules[0]	domain_suffix	cn-hongkong.aliyuncs.com
+rules[0]	domain_suffix	fliggy.hk
+rules[0]	domain_suffix	oss-ap-northeast-1.aliyuncs.com
+rules[0]	domain_suffix	oss-ap-northeast-2.aliyuncs.com
+rules[0]	domain_suffix	oss-ap-south-1.aliyuncs.com
+rules[0]	domain_suffix	oss-ap-southeast-1.aliyuncs.com
+rules[0]	domain_suffix	oss-ap-southeast-2.aliyuncs.com
+rules[0]	domain_suffix	oss-ap-southeast-3.aliyuncs.com
+rules[0]	domain_suffix	oss-ap-southeast-5.aliyuncs.com
+rules[0]	domain_suffix	oss-ap-southeast-6.aliyuncs.com
+rules[0]	domain_suffix	oss-ap-southeast-7.aliyuncs.com
+rules[0]	domain_suffix	oss-cn-hongkong.aliyuncs.com
+rules[0]	domain_suffix	oss-eu-central-1.aliyuncs.com
+rules[0]	domain_suffix	oss-eu-west-1.aliyuncs.com
+rules[0]	domain_suffix	oss-me-east-1.aliyuncs.com
+rules[0]	domain_suffix	oss-us-east-1.aliyuncs.com
+rules[0]	domain_suffix	oss-us-west-1.aliyuncs.com
+rules[0]	domain_suffix	tmall.hk
+rules[0]	domain_suffix	tmall.ru
+rules[0]	domain_suffix	youku.tv
+rules[0]	domain_suffix	youkuplay.com

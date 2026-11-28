@@ -1,0 +1,26 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	crashlyticsreports-pa.googleapis.com
+rules[0]	domain	firebase-settings.crashlytics.com
+rules[0]	domain	firebase.googleapis.com
+rules[0]	domain	firebaseappcheck.googleapis.com
+rules[0]	domain	firebaseappdistribution.googleapis.com
+rules[0]	domain	firebaseapptesters.googleapis.com
+rules[0]	domain	firebasedynamiclinks-ipv4.googleapis.com
+rules[0]	domain	firebasedynamiclinks-ipv6.googleapis.com
+rules[0]	domain	firebasedynamiclinks.googleapis.com
+rules[0]	domain	firebaseinappmessaging.googleapis.com
+rules[0]	domain	firebaseinstallations.googleapis.com
+rules[0]	domain	firebaselogging-pa.googleapis.com
+rules[0]	domain	firebaselogging.googleapis.com
+rules[0]	domain	firebaseperusertopics-pa.googleapis.com
+rules[0]	domain	firebaseremoteconfig.googleapis.com
+rules[0]	domain	update.crashlytics.com
+rules[0]	domain_suffix	crashlytics.com
+rules[0]	domain_suffix	firebase.com
+rules[0]	domain_suffix	firebase.dev
+rules[0]	domain_suffix	firebase.google.com
+rules[0]	domain_suffix	firebase.io
+rules[0]	domain_suffix	firebaseapp.com
+rules[0]	domain_suffix	firebaseio.com

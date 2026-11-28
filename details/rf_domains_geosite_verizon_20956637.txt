@@ -1,0 +1,18 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	oath.cloud
+rules[0]	domain_suffix	oath.com
+rules[0]	domain_suffix	ouroath.com
+rules[0]	domain_suffix	static-verizon.com
+rules[0]	domain_suffix	uplynk.com
+rules[0]	domain_suffix	verizon.com
+rules[0]	domain_suffix	verizon.net
+rules[0]	domain_suffix	verizonbusinessfios.com
+rules[0]	domain_suffix	verizondigitalmedia.com
+rules[0]	domain_suffix	verizonenterprise.com
+rules[0]	domain_suffix	verizonfios.com
+rules[0]	domain_suffix	verizonmedia.com
+rules[0]	domain_suffix	verizonwireless.com
+rules[0]	domain_suffix	vzw.com
+rules[0]	domain_suffix	xo.com

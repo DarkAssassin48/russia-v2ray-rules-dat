@@ -1,0 +1,43 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	apilog-web.acfun.cn
+rules[0]	domain	log-sdk.gifshow.com
+rules[0]	domain	wlog.kuaishou.com
+rules[0]	domain_suffix	ac.fun
+rules[0]	domain_suffix	acfun.cn
+rules[0]	domain_suffix	acfun.net
+rules[0]	domain_suffix	acfunchina.cn
+rules[0]	domain_suffix	acfunchina.com
+rules[0]	domain_suffix	acfunchina.net
+rules[0]	domain_suffix	adbkwai.com
+rules[0]	domain_suffix	adkwai.com
+rules[0]	domain_suffix	adukwai.com
+rules[0]	domain_suffix	aixifan.com
+rules[0]	domain_suffix	e.kuaishou.cn
+rules[0]	domain_suffix	e.kuaishou.com
+rules[0]	domain_suffix	eckwai.com
+rules[0]	domain_suffix	ecukwai.com
+rules[0]	domain_suffix	gifshow.com
+rules[0]	domain_suffix	inkuai.com
+rules[0]	domain_suffix	inkwai.com
+rules[0]	domain_suffix	ksapisrv.com
+rules[0]	domain_suffix	kskwai.com
+rules[0]	domain_suffix	kspkg.com
+rules[0]	domain_suffix	kuaishou.cn
+rules[0]	domain_suffix	kuaishou.com
+rules[0]	domain_suffix	kuaishouapps.com
+rules[0]	domain_suffix	kuaishoupay.com
+rules[0]	domain_suffix	kuaishouzt.com
+rules[0]	domain_suffix	kwaicdn.com
+rules[0]	domain_suffix	kwaishop.com
+rules[0]	domain_suffix	kwaixiaodian.com
+rules[0]	domain_suffix	kwaiying.com
+rules[0]	domain_suffix	kwaizt.com
+rules[0]	domain_suffix	kwimgs.com
+rules[0]	domain_suffix	mojidoc.com
+rules[0]	domain_suffix	qingque.cn
+rules[0]	domain_suffix	viviv.com
+rules[0]	domain_suffix	wskwai.com
+rules[0]	domain_suffix	wsukwai.com
+rules[0]	domain_suffix	yximgs.com

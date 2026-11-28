@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ad.tencentmusic.com
+rules[0]	domain_suffix	adbehavior.ximalaya.com
+rules[0]	domain_suffix	ads.service.kugou.com
+rules[0]	domain_suffix	adse.wsa.ximalaya.com
+rules[0]	domain_suffix	adse.ximalaya.com
+rules[0]	domain_suffix	adserviceretry.kglink.cn
+rules[0]	domain_suffix	adserviceretry.kugou.com
+rules[0]	domain_suffix	adstats.tencentmusic.com
+rules[0]	domain_suffix	monitor.music.qq.com
+rules[0]	domain_suffix	report.tencentmusic.com
+rules[0]	domain_suffix	stat.y.qq.com
+rules[0]	domain_suffix	tmead.y.qq.com
+rules[0]	domain_suffix	tmeadcomm.y.qq.com

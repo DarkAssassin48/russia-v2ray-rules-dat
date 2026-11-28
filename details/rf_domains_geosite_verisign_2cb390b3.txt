@@ -1,0 +1,36 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	verisign.asia
+rules[0]	domain_suffix	verisign.biz
+rules[0]	domain_suffix	verisign.ch
+rules[0]	domain_suffix	verisign.co.in
+rules[0]	domain_suffix	verisign.co.uk
+rules[0]	domain_suffix	verisign.com
+rules[0]	domain_suffix	verisign.com.au
+rules[0]	domain_suffix	verisign.com.br
+rules[0]	domain_suffix	verisign.com.cn
+rules[0]	domain_suffix	verisign.com.es
+rules[0]	domain_suffix	verisign.com.hk
+rules[0]	domain_suffix	verisign.com.sg
+rules[0]	domain_suffix	verisign.com.tw
+rules[0]	domain_suffix	verisign.com.vn
+rules[0]	domain_suffix	verisign.de
+rules[0]	domain_suffix	verisign.dk
+rules[0]	domain_suffix	verisign.es
+rules[0]	domain_suffix	verisign.fr
+rules[0]	domain_suffix	verisign.hk
+rules[0]	domain_suffix	verisign.in
+rules[0]	domain_suffix	verisign.info
+rules[0]	domain_suffix	verisign.jobs
+rules[0]	domain_suffix	verisign.mobi
+rules[0]	domain_suffix	verisign.name
+rules[0]	domain_suffix	verisign.net
+rules[0]	domain_suffix	verisign.org
+rules[0]	domain_suffix	verisign.pro
+rules[0]	domain_suffix	verisign.se
+rules[0]	domain_suffix	verisign.sg
+rules[0]	domain_suffix	verisign.tw
+rules[0]	domain_suffix	verisign.us
+rules[0]	domain_suffix	verisign.vn
+rules[0]	domain_suffix	verisigninc.com

@@ -1,0 +1,8 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	kp-config-smart-tv.akamaized.net
+rules[0]	domain	kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
+rules[0]	domain_suffix	kinopoisk-ru.clstorage.net
+rules[0]	domain_suffix	kinopoisk.ru
+rules[0]	domain_suffix	kp.yandex.net

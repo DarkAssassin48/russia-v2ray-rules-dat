@@ -1,0 +1,44 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	bj1.api.bing.com
+rules[0]	domain	location.microsoft.com
+rules[0]	domain_suffix	.bing
+rules[0]	domain_suffix	bing.com
+rules[0]	domain_suffix	bing.com.cn
+rules[0]	domain_suffix	bing.net
+rules[0]	domain_suffix	bing123.com
+rules[0]	domain_suffix	bingads.com
+rules[0]	domain_suffix	bingagencyawards.com
+rules[0]	domain_suffix	bingapis.com
+rules[0]	domain_suffix	bingapistatistics.com
+rules[0]	domain_suffix	bingparachute.com
+rules[0]	domain_suffix	bingsandbox.com
+rules[0]	domain_suffix	bingstatic.com
+rules[0]	domain_suffix	bingvisualsearch.com
+rules[0]	domain_suffix	bingworld.com
+rules[0]	domain_suffix	bluehatnights.com
+rules[0]	domain_suffix	cn.bing.com
+rules[0]	domain_suffix	cn.bing.net
+rules[0]	domain_suffix	cn.mm.bing.net
+rules[0]	domain_suffix	copilot-stg.com
+rules[0]	domain_suffix	copilot.cloud.microsoft
+rules[0]	domain_suffix	copilot.com
+rules[0]	domain_suffix	copilot.microsoft.com
+rules[0]	domain_suffix	dictate.ms
+rules[0]	domain_suffix	ditu.live.com
+rules[0]	domain_suffix	flipwithsurface.com
+rules[0]	domain_suffix	masalladeloslimites.com
+rules[0]	domain_suffix	microsoft-give.com
+rules[0]	domain_suffix	microsoftcloudsummit.com
+rules[0]	domain_suffix	microsoftdiplomados.com
+rules[0]	domain_suffix	microsoftlatamholiday.com
+rules[0]	domain_suffix	microsoftmxfilantropia.com
+rules[0]	domain_suffix	microsoftpartnersolutions.com
+rules[0]	domain_suffix	msunlimitedcloudsummit.com
+rules[0]	domain_suffix	office365love.com
+rules[0]	domain_suffix	office365tw.com
+rules[0]	domain_suffix	r.bing.com
+rules[0]	domain_suffix	renovacionoffice.com
+rules[0]	domain_suffix	sprinklesapp.com
+rules[0]	domain_suffix	th.bing.com

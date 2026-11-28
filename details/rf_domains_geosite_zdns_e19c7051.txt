@@ -1,0 +1,15 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	zcmbc.com.cn
+rules[0]	domain_suffix	zdns.cn
+rules[0]	domain_suffix	zdns.net.cn
+rules[0]	domain_suffix	zdns.org.cn
+rules[0]	domain_suffix	zdnscloud.biz
+rules[0]	domain_suffix	zdnscloud.cn
+rules[0]	domain_suffix	zdnscloud.com
+rules[0]	domain_suffix	zdnscloud.com.cn
+rules[0]	domain_suffix	zdnscloud.info
+rules[0]	domain_suffix	zdnscloud.net
+rules[0]	domain_suffix	zdnscloud.net.cn
+rules[0]	domain_suffix	zdnscloud.org.cn

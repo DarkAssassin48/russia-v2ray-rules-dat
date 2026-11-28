@@ -1,0 +1,17 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	imageworks.com
+rules[0]	domain_suffix	motionpictureser.com
+rules[0]	domain_suffix	playshow.io
+rules[0]	domain_suffix	playshowtv.com
+rules[0]	domain_suffix	sonyclassics.com
+rules[0]	domain_suffix	sonypictures.com
+rules[0]	domain_suffix	sonypicturesanimation.com
+rules[0]	domain_suffix	sonypicturesmuseum.com
+rules[0]	domain_suffix	sonypicturesstudios.com
+rules[0]	domain_suffix	sonypicturestelevision.com
+rules[0]	domain_suffix	sonypicturestelevisiongames.com
+rules[0]	domain_suffix	wheelpop.com
+rules[0]	domain_suffix	wwtbam.com
+rules[0]	domain_suffix	yourfantasybeginsnow.com

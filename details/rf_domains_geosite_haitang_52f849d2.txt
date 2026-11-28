@@ -1,0 +1,20 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	haitangbook.com
+rules[0]	domain_suffix	haitbook.com
+rules[0]	domain_suffix	htlvbooks.com
+rules[0]	domain_suffix	htnewbooks.com
+rules[0]	domain_suffix	htwhbook.com
+rules[0]	domain_suffix	lmbooks.com
+rules[0]	domain_suffix	lmebooks.com
+rules[0]	domain_suffix	longmabook.com
+rules[0]	domain_suffix	longmabookcn.com
+rules[0]	domain_suffix	lovehtbooks.com
+rules[0]	domain_suffix	lvhtebook.com
+rules[0]	domain_suffix	mybookinlm.com
+rules[0]	domain_suffix	myhtebook.com
+rules[0]	domain_suffix	myhtebooks.com
+rules[0]	domain_suffix	myhtlmebook.com
+rules[0]	domain_suffix	newhtbook.com
+rules[0]	domain_suffix	urhtbooks.com

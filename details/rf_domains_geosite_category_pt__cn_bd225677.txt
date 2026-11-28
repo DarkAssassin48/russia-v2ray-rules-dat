@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	dmhy.best
+rules[0]	domain_suffix	dmhy.org
+rules[0]	domain_suffix	m-team.cc
+rules[0]	domain_suffix	m-team.io
+rules[0]	domain_suffix	mt.cc
+rules[0]	domain_suffix	myanonamouse.net
+rules[0]	domain_suffix	nebulance.io
+rules[0]	domain_suffix	skyey2.com
+rules[0]	domain_suffix	skyeysnow.com
+rules[0]	domain_suffix	torrentleech.cc
+rules[0]	domain_suffix	torrentleech.org

@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	moocs.unipus.cn
+rules[0]	domain	opencourse.pku.edu.cn
+rules[0]	domain	study.163.com
+rules[0]	domain_suffix	chinesemooc.org
+rules[0]	domain_suffix	cnmooc.org
+rules[0]	domain_suffix	icourse163.org
+rules[0]	domain_suffix	icourses.cn
+rules[0]	domain_suffix	icve.com.cn
+rules[0]	domain_suffix	mooc.cn
+rules[0]	domain_suffix	openlearning.com
+rules[0]	domain_suffix	pmphmooc.com

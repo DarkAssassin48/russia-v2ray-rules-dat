@@ -1,0 +1,19 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	cstatic.net
+rules[0]	domain_suffix	curbed.com
+rules[0]	domain_suffix	eater.com
+rules[0]	domain_suffix	funnyordie.com
+rules[0]	domain_suffix	meridian.net
+rules[0]	domain_suffix	polygon.com
+rules[0]	domain_suffix	racked.com
+rules[0]	domain_suffix	recode.net
+rules[0]	domain_suffix	sbnation.com
+rules[0]	domain_suffix	theverge.com
+rules[0]	domain_suffix	vox-cdn.com
+rules[0]	domain_suffix	vox.com
+rules[0]	domain_suffix	voxcreative.com
+rules[0]	domain_suffix	voxfieldguide.com
+rules[0]	domain_suffix	voxmedia.com
+rules[0]	domain_suffix	voxops.net

@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	logi.com
+rules[0]	domain_suffix	logicool.co.jp
+rules[0]	domain_suffix	logicoolg.com
+rules[0]	domain_suffix	logitech.biz
+rules[0]	domain_suffix	logitech.com
+rules[0]	domain_suffix	logitech.com.cn
+rules[0]	domain_suffix	logitech.fr
+rules[0]	domain_suffix	logitech.io
+rules[0]	domain_suffix	logitechg.com
+rules[0]	domain_suffix	logitechg.com.cn
+rules[0]	domain_suffix	logitechg.fr
+rules[0]	domain_suffix	logitechio.com.cn
+rules[0]	domain_suffix	worldsfastestgamer.net

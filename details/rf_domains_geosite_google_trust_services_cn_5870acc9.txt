@@ -1,0 +1,10 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	c.pki.goog
+rules[0]	domain	crl.pki.goog
+rules[0]	domain	crls.pki.goog
+rules[0]	domain	i.pki.goog
+rules[0]	domain	o.pki.goog
+rules[0]	domain	ocsp.pki.goog
+rules[0]	domain	pki-goog.l.google.com

@@ -1,0 +1,24 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	1cooldns.com
+rules[0]	domain_suffix	4cloud.click
+rules[0]	domain_suffix	accesscam.org
+rules[0]	domain_suffix	bumbleshrimp.com
+rules[0]	domain_suffix	camdvr.org
+rules[0]	domain_suffix	casacam.net
+rules[0]	domain_suffix	ddnsfree.com
+rules[0]	domain_suffix	ddnsgeek.com
+rules[0]	domain_suffix	ddnsguru.com
+rules[0]	domain_suffix	dynuddns.com
+rules[0]	domain_suffix	dynuddns.net
+rules[0]	domain_suffix	freeddns.org
+rules[0]	domain_suffix	giize.com
+rules[0]	domain_suffix	gleeze.com
+rules[0]	domain_suffix	kozow.com
+rules[0]	domain_suffix	loseyourip.com
+rules[0]	domain_suffix	mysynology.net
+rules[0]	domain_suffix	mywire.org
+rules[0]	domain_suffix	ooguy.com
+rules[0]	domain_suffix	theworkpc.com
+rules[0]	domain_suffix	webredirect.org

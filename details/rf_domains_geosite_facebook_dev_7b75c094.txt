@@ -1,0 +1,47 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	developers.facebook.com
+rules[0]	domain_suffix	accountkit.com
+rules[0]	domain_suffix	atscaleconference.com
+rules[0]	domain_suffix	botorch.org
+rules[0]	domain_suffix	buck.build
+rules[0]	domain_suffix	buckbuild.com
+rules[0]	domain_suffix	componentkit.org
+rules[0]	domain_suffix	draftjs.org
+rules[0]	domain_suffix	f8.com
+rules[0]	domain_suffix	facebookappcenter.info
+rules[0]	domain_suffix	facebookappcenter.net
+rules[0]	domain_suffix	facebookappcenter.org
+rules[0]	domain_suffix	facebookconnect.com
+rules[0]	domain_suffix	facebookdevelopergarage.com
+rules[0]	domain_suffix	faciometrics.com
+rules[0]	domain_suffix	fasttext.cc
+rules[0]	domain_suffix	fbf8.com
+rules[0]	domain_suffix	fbinfer.com
+rules[0]	domain_suffix	fblitho.com
+rules[0]	domain_suffix	fbredex.com
+rules[0]	domain_suffix	fbrell.com
+rules[0]	domain_suffix	flow.dev
+rules[0]	domain_suffix	flow.org
+rules[0]	domain_suffix	flowtype.org
+rules[0]	domain_suffix	frescolib.org
+rules[0]	domain_suffix	hacklang.org
+rules[0]	domain_suffix	hhvm.com
+rules[0]	domain_suffix	makeitopen.com
+rules[0]	domain_suffix	mcrouter.net
+rules[0]	domain_suffix	mcrouter.org
+rules[0]	domain_suffix	messengerdevelopers.com
+rules[0]	domain_suffix	ogp.me
+rules[0]	domain_suffix	opengraphprotocol.com
+rules[0]	domain_suffix	opengraphprotocol.org
+rules[0]	domain_suffix	parse.com
+rules[0]	domain_suffix	pyrobot.org
+rules[0]	domain_suffix	react.com
+rules[0]	domain_suffix	reactjs.com
+rules[0]	domain_suffix	reactjs.org
+rules[0]	domain_suffix	recoiljs.org
+rules[0]	domain_suffix	rocksdb.com
+rules[0]	domain_suffix	rocksdb.net
+rules[0]	domain_suffix	rocksdb.org
+rules[0]	domain_suffix	yogalayout.com

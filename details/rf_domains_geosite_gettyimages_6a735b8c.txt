@@ -1,0 +1,28 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	gettyimages.ae
+rules[0]	domain_suffix	gettyimages.at
+rules[0]	domain_suffix	gettyimages.be
+rules[0]	domain_suffix	gettyimages.ca
+rules[0]	domain_suffix	gettyimages.ch
+rules[0]	domain_suffix	gettyimages.co.jp
+rules[0]	domain_suffix	gettyimages.co.nz
+rules[0]	domain_suffix	gettyimages.co.uk
+rules[0]	domain_suffix	gettyimages.com
+rules[0]	domain_suffix	gettyimages.com.au
+rules[0]	domain_suffix	gettyimages.com.br
+rules[0]	domain_suffix	gettyimages.com.mx
+rules[0]	domain_suffix	gettyimages.de
+rules[0]	domain_suffix	gettyimages.dk
+rules[0]	domain_suffix	gettyimages.es
+rules[0]	domain_suffix	gettyimages.fi
+rules[0]	domain_suffix	gettyimages.fr
+rules[0]	domain_suffix	gettyimages.hk
+rules[0]	domain_suffix	gettyimages.ie
+rules[0]	domain_suffix	gettyimages.in
+rules[0]	domain_suffix	gettyimages.it
+rules[0]	domain_suffix	gettyimages.nl
+rules[0]	domain_suffix	gettyimages.no
+rules[0]	domain_suffix	gettyimages.pt
+rules[0]	domain_suffix	gettyimages.se

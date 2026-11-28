@@ -1,0 +1,12 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com
+rules[0]	domain	eset-prod-ca48648d0ce7cadf.elb.eu-central-1.amazonaws.com
+rules[0]	domain_suffix	cn.eset.com
+rules[0]	domain_suffix	e5.sk
+rules[0]	domain_suffix	eset.com
+rules[0]	domain_suffix	eset.eu
+rules[0]	domain_suffix	eset.sk
+rules[0]	domain_suffix	eset.systems
+rules[0]	domain_suffix	esetsoftware.com

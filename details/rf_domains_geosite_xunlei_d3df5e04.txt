@@ -1,0 +1,16 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	00cdn.com
+rules[0]	domain_suffix	88cdn.com
+rules[0]	domain_suffix	8uri.cn
+rules[0]	domain_suffix	guangyacdn.com
+rules[0]	domain_suffix	guangyapan.com
+rules[0]	domain_suffix	kanimg.com
+rules[0]	domain_suffix	p2cdn.com
+rules[0]	domain_suffix	sandai.net
+rules[0]	domain_suffix	thundercdn.com
+rules[0]	domain_suffix	thunderurl.com
+rules[0]	domain_suffix	xunlei.com
+rules[0]	domain_suffix	xycdn.com
+rules[0]	domain_suffix	xycloud.com

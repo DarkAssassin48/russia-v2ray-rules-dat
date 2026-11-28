@@ -1,0 +1,10 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ebi.ac.uk
+rules[0]	domain_suffix	embl-hamburg.de
+rules[0]	domain_suffix	embl.de
+rules[0]	domain_suffix	embl.fr
+rules[0]	domain_suffix	embl.it
+rules[0]	domain_suffix	embl.org
+rules[0]	domain_suffix	emblstatic.net

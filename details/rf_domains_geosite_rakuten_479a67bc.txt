@@ -1,0 +1,33 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bfads.net
+rules[0]	domain_suffix	buyservices.com
+rules[0]	domain_suffix	ebates.ca
+rules[0]	domain_suffix	ebates.kr
+rules[0]	domain_suffix	ebates.sg
+rules[0]	domain_suffix	ebatescanada.com
+rules[0]	domain_suffix	ecbsn.com
+rules[0]	domain_suffix	fatwallet.com
+rules[0]	domain_suffix	kobo.com
+rules[0]	domain_suffix	r10s.com
+rules[0]	domain_suffix	r10s.jp
+rules[0]	domain_suffix	rakuten-static.com
+rules[0]	domain_suffix	rakuten.ca
+rules[0]	domain_suffix	rakuten.co.jp
+rules[0]	domain_suffix	rakuten.com
+rules[0]	domain_suffix	rakuten.com.tw
+rules[0]	domain_suffix	rakuten.ne.jp
+rules[0]	domain_suffix	rakuten.tv
+rules[0]	domain_suffix	rakuten.tw
+rules[0]	domain_suffix	rakutenadvertising.com
+rules[0]	domain_suffix	rakutengiftcards.ca
+rules[0]	domain_suffix	rclon.com
+rules[0]	domain_suffix	rebates.jp
+rules[0]	domain_suffix	rrcbsn.com
+rules[0]	domain_suffix	vbcdn.com
+rules[0]	domain_suffix	vbcdn.net
+rules[0]	domain_suffix	viber.co
+rules[0]	domain_suffix	viber.com
+rules[0]	domain_suffix	viber.me
+rules[0]	domain_suffix	viki.com

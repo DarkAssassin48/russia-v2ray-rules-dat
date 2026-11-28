@@ -1,0 +1,13 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	c.sayhi.360.cn
+rules[0]	domain_suffix	fenxi.360.cn
+rules[0]	domain_suffix	fenxi.com
+rules[0]	domain_suffix	lianmeng.360.cn
+rules[0]	domain_suffix	mediav.com
+rules[0]	domain_suffix	mvad.com
+rules[0]	domain_suffix	qhupdate.com
+rules[0]	domain_suffix	s.360.cn
+rules[0]	domain_suffix	s.so.360.cn
+rules[0]	domain_suffix	s.union.360.cn

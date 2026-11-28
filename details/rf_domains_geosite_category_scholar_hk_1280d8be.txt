@@ -1,0 +1,25 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	cityu.hk
+rules[0]	domain_suffix	cuhk.hk
+rules[0]	domain_suffix	edu.hk
+rules[0]	domain_suffix	eduhk.hk
+rules[0]	domain_suffix	hkbu.hk
+rules[0]	domain_suffix	hku.hk
+rules[0]	domain_suffix	hkust.hk
+rules[0]	domain_suffix	polyu.hk
+rules[0]	domain_suffix	xn--fiq80y.hk
+rules[0]	domain_suffix	xn--fiq80y.xn--j6w193g
+rules[0]	domain_suffix	xn--fiq80y3xbiwr.hk
+rules[0]	domain_suffix	xn--fiq80y3xbiwr.xn--j6w193g
+rules[0]	domain_suffix	xn--fiq80y3xbiwrs0kiu9d.hk
+rules[0]	domain_suffix	xn--fiq80y3xbiwrs0kiu9d.xn--j6w193g
+rules[0]	domain_suffix	xn--pssu7ci2j23mp9ny48b.hk
+rules[0]	domain_suffix	xn--pssu7ci2j23mp9ny48b.xn--j6w193g
+rules[0]	domain_suffix	xn--pssu7ci3q5oge0ai91q.xn--j6w193g
+rules[0]	domain_suffix	xn--pssu7cv61af44b.hk
+rules[0]	domain_suffix	xn--pssu7cv61af44b.xn--j6w193g
+rules[0]	domain_suffix	xn--pssu7cz8nr8ibkx1e8a.xn--j6w193g
+rules[0]	domain_suffix	xn--uis44a.xn--j6w193g
+rules[0]	domain_suffix	xn--wcvs22d.xn--j6w193g

@@ -1,0 +1,31 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	ip_cidr	0.0.0.0/8
+rules[0]	ip_cidr	10.0.0.0/8
+rules[0]	ip_cidr	100.64.0.0/10
+rules[0]	ip_cidr	127.0.0.0/8
+rules[0]	ip_cidr	169.254.0.0/16
+rules[0]	ip_cidr	172.16.0.0/12
+rules[0]	ip_cidr	192.0.0.0/24
+rules[0]	ip_cidr	192.0.2.0/24
+rules[0]	ip_cidr	192.31.196.0/24
+rules[0]	ip_cidr	192.52.193.0/24
+rules[0]	ip_cidr	192.88.99.0/24
+rules[0]	ip_cidr	192.168.0.0/16
+rules[0]	ip_cidr	198.18.0.0/15
+rules[0]	ip_cidr	198.51.100.0/24
+rules[0]	ip_cidr	203.0.113.0/24
+rules[0]	ip_cidr	224.0.0.0/3
+rules[0]	ip_cidr	::/127
+rules[0]	ip_cidr	64:ff9b::/96
+rules[0]	ip_cidr	64:ff9b:1::/48
+rules[0]	ip_cidr	100::/64
+rules[0]	ip_cidr	2001::/23
+rules[0]	ip_cidr	2001:db8::/32
+rules[0]	ip_cidr	2620:4f:8000::/48
+rules[0]	ip_cidr	3fff::/20
+rules[0]	ip_cidr	5f00::/16
+rules[0]	ip_cidr	fc00::/7
+rules[0]	ip_cidr	fe80::/10
+rules[0]	ip_cidr	ff00::/8

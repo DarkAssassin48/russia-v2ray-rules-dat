@@ -1,0 +1,10 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bbtv.cn
+rules[0]	domain_suffix	bestv.com.cn
+rules[0]	domain_suffix	bestvcdn.cn
+rules[0]	domain_suffix	bestvcdn.com
+rules[0]	domain_suffix	bestvcdn.com.cn
+rules[0]	domain_suffix	bestvcdn.net
+rules[0]	domain_suffix	smgbb.cn

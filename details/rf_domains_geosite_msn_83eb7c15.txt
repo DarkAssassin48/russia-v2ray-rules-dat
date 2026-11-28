@@ -1,0 +1,24 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	browser.events.data.msn.cn
+rules[0]	domain_suffix	browser.events.data.msn.com
+rules[0]	domain_suffix	microsoftnews.cc
+rules[0]	domain_suffix	microsoftnews.cn
+rules[0]	domain_suffix	microsoftnews.com
+rules[0]	domain_suffix	microsoftnews.net
+rules[0]	domain_suffix	microsoftnews.org
+rules[0]	domain_suffix	microsoftnewsforkids.com
+rules[0]	domain_suffix	microsoftnewsforkids.net
+rules[0]	domain_suffix	microsoftnewsforkids.org
+rules[0]	domain_suffix	microsoftnewskids.com
+rules[0]	domain_suffix	microsoftnewskids.net
+rules[0]	domain_suffix	microsoftnewskids.org
+rules[0]	domain_suffix	microsoftstart.com
+rules[0]	domain_suffix	msn.cn
+rules[0]	domain_suffix	msn.com
+rules[0]	domain_suffix	msnewskids.com
+rules[0]	domain_suffix	msnewskids.net
+rules[0]	domain_suffix	msnewskids.org
+rules[0]	domain_suffix	msnkids.com
+rules[0]	domain_suffix	start.com

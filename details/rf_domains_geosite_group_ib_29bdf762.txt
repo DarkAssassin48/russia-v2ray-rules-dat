@@ -1,0 +1,33 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	antiphishing.nl
+rules[0]	domain_suffix	antiphishing.ru
+rules[0]	domain_suffix	cert-gib.com
+rules[0]	domain_suffix	cert-gib.ru
+rules[0]	domain_suffix	cybercrimecon.com
+rules[0]	domain_suffix	f6.dev
+rules[0]	domain_suffix	f6.ru
+rules[0]	domain_suffix	f6.security
+rules[0]	domain_suffix	facct.email
+rules[0]	domain_suffix	facct.ru
+rules[0]	domain_suffix	future-cs.ru
+rules[0]	domain_suffix	g-ib.ae
+rules[0]	domain_suffix	g-ib.ru
+rules[0]	domain_suffix	g-ib.sg
+rules[0]	domain_suffix	g-ib.us
+rules[0]	domain_suffix	gib-global.com
+rules[0]	domain_suffix	gib.sg
+rules[0]	domain_suffix	gibdev.net
+rules[0]	domain_suffix	gibtds.ru
+rules[0]	domain_suffix	group-ib.ae
+rules[0]	domain_suffix	group-ib.co.uk
+rules[0]	domain_suffix	group-ib.com
+rules[0]	domain_suffix	group-ib.de
+rules[0]	domain_suffix	group-ib.eu
+rules[0]	domain_suffix	group-ib.ru
+rules[0]	domain_suffix	group-ib.sg
+rules[0]	domain_suffix	group-ib.us
+rules[0]	domain_suffix	groupib.ae
+rules[0]	domain_suffix	groupib.sg
+rules[0]	domain_suffix	groupib.us

@@ -1,0 +1,28 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	browser-intake-datadoghq.com
+rules[0]	domain	o33249.ingest.sentry.io
+rules[0]	domain	o33249.ingest.us.sentry.io
+rules[0]	domain	openai.qualtrics.com
+rules[0]	domain	openaiapi-site.azureedge.net
+rules[0]	domain	openaiassets.blob.core.windows.net
+rules[0]	domain	openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+rules[0]	domain	openaicom.imgix.net
+rules[0]	domain	openaicomproductionae4b.blob.core.windows.net
+rules[0]	domain	production-openaicom-storage.azureedge.net
+rules[0]	domain_suffix	chat.com
+rules[0]	domain_suffix	chatgpt.com
+rules[0]	domain_suffix	chatgpt.livekit.cloud
+rules[0]	domain_suffix	chatgpt.site
+rules[0]	domain_suffix	crixet.com
+rules[0]	domain_suffix	host.livekit.cloud
+rules[0]	domain_suffix	oaistatic.com
+rules[0]	domain_suffix	oaistatsig.com
+rules[0]	domain_suffix	oaiusercontent.com
+rules[0]	domain_suffix	openai.com
+rules[0]	domain_suffix	openai.com.cdn.cloudflare.net
+rules[0]	domain_suffix	openai.org
+rules[0]	domain_suffix	sora.com
+rules[0]	domain_suffix	turn.livekit.cloud
+rules[0]	domain_regex	^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$

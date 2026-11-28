@@ -1,0 +1,15 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	p1-juejin.byteimg.com
+rules[0]	domain	p2-juejin.byteimg.com
+rules[0]	domain	p3-juejin.byteimg.com
+rules[0]	domain	p4-juejin.byteimg.com
+rules[0]	domain	p5-juejin.byteimg.com
+rules[0]	domain	p6-juejin.byteimg.com
+rules[0]	domain	p7-juejin.byteimg.com
+rules[0]	domain	p8-juejin.byteimg.com
+rules[0]	domain	p9-juejin.byteimg.com
+rules[0]	domain_suffix	juejin.cn
+rules[0]	domain_suffix	juejin.im
+rules[0]	domain_suffix	xitu.io

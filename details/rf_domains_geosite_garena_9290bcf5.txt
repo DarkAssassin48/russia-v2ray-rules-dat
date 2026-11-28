@@ -1,0 +1,19 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	avatargarenanow-a.akamaihd.net
+rules[0]	domain	cdngarenanow-a.akamaihd.net
+rules[0]	domain	dlgarenanow-a.akamaihd.net
+rules[0]	domain	dlmobilegarena-a.akamaihd.net
+rules[0]	domain_suffix	garena.co.id
+rules[0]	domain_suffix	garena.co.th
+rules[0]	domain_suffix	garena.com
+rules[0]	domain_suffix	garena.live
+rules[0]	domain_suffix	garena.my
+rules[0]	domain_suffix	garena.ph
+rules[0]	domain_suffix	garena.sg
+rules[0]	domain_suffix	garena.tv
+rules[0]	domain_suffix	garena.tw
+rules[0]	domain_suffix	garena.vn
+rules[0]	domain_suffix	garenanow.com
+rules[0]	domain_suffix	seagroup.com

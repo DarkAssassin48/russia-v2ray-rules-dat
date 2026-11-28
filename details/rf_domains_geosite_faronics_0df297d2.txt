@@ -1,0 +1,21 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	faronics.kayako.com
+rules[0]	domain_suffix	clickedu.co.uk
+rules[0]	domain_suffix	deepfreeze.co.uk
+rules[0]	domain_suffix	deepfreeze.com
+rules[0]	domain_suffix	deepfreeze.com.br
+rules[0]	domain_suffix	deepfreeze.eu
+rules[0]	domain_suffix	deepfreeze.net
+rules[0]	domain_suffix	deepfreeze.tech
+rules[0]	domain_suffix	faronics.ca
+rules[0]	domain_suffix	faronics.co.uk
+rules[0]	domain_suffix	faronics.com
+rules[0]	domain_suffix	faronics.com.au
+rules[0]	domain_suffix	faronics.com.sg
+rules[0]	domain_suffix	faronics.eu
+rules[0]	domain_suffix	faronics.tech
+rules[0]	domain_suffix	faronicslabs.com
+rules[0]	domain_suffix	faronicswise.co.uk
+rules[0]	domain_suffix	faronicswise.com

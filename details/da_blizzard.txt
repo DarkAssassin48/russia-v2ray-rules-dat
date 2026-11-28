@@ -1,0 +1,28 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	blizzard.nefficient.co.kr
+rules[0]	domain	blizzcon-a.akamaihd.net
+rules[0]	domain	blzddist1-a.akamaihd.net
+rules[0]	domain	blzddistkr1-a.akamaihd.net
+rules[0]	domain	blzmedia-a.akamaihd.net
+rules[0]	domain	blznav.akamaized.net
+rules[0]	domain	bnetcmsus-a.akamaihd.net
+rules[0]	domain	bnetproduct-a.akamaihd.net
+rules[0]	domain	bnetshopus.akamaized.net
+rules[0]	domain_suffix	battle.net
+rules[0]	domain_suffix	blizzard.com
+rules[0]	domain_suffix	blizzardgearstore.com
+rules[0]	domain_suffix	blz-contentstack.com
+rules[0]	domain_suffix	diablo.com
+rules[0]	domain_suffix	diablo3.com
+rules[0]	domain_suffix	diablo4.com
+rules[0]	domain_suffix	diabloimmortal.com
+rules[0]	domain_suffix	firesidegatherings.com
+rules[0]	domain_suffix	heroesofthestorm.com
+rules[0]	domain_suffix	playhearthstone.com
+rules[0]	domain_suffix	playoverwatch.com
+rules[0]	domain_suffix	playwarcraft3.com
+rules[0]	domain_suffix	starcraft.com
+rules[0]	domain_suffix	starcraft2.com
+rules[0]	domain_suffix	worldofwarcraft.com

@@ -1,0 +1,15 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	adashx.ut.ele.me
+rules[0]	domain_suffix	doservice.com
+rules[0]	domain_suffix	ele.me
+rules[0]	domain_suffix	ele.to
+rules[0]	domain_suffix	eleme.cn
+rules[0]	domain_suffix	eleme.io
+rules[0]	domain_suffix	elemecdn.cn
+rules[0]	domain_suffix	elemecdn.com
+rules[0]	domain_suffix	elenet.me
+rules[0]	domain_suffix	fengniaojipei.net
+rules[0]	domain_suffix	h-adashx.ut.ele.me
+rules[0]	domain_suffix	v6-adashx.ut.ele.me

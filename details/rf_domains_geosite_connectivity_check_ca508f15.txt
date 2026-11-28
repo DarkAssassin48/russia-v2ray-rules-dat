@@ -1,0 +1,31 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	conn1.oppomobile.com
+rules[0]	domain	conn2.oppomobile.com
+rules[0]	domain	connect.rom.miui.com
+rules[0]	domain	connectivity-check.ubuntu.com
+rules[0]	domain	connectivity.samsung.com.cn
+rules[0]	domain	connectivitycheck.gstatic.com
+rules[0]	domain	connectivitycheck.platform.hicloud.com
+rules[0]	domain	connectivitycheck.platform.hihonorcloud.com
+rules[0]	domain	edge-http.microsoft.com
+rules[0]	domain	networkcheck.kde.org
+rules[0]	domain	nmcheck.gnome.org
+rules[0]	domain	ping.archlinux.org
+rules[0]	domain	redirect.archlinux.org
+rules[0]	domain	wifi.vivo.com.cn
+rules[0]	domain	www.gstatic.com
+rules[0]	domain	www.qualcomm.cn
+rules[0]	domain	www.qualcomm.com
+rules[0]	domain_suffix	captive.apple.com
+rules[0]	domain_suffix	cp.cloudflare.com
+rules[0]	domain_suffix	detectportal.firefox.com
+rules[0]	domain_suffix	firefox-portal-detection.com
+rules[0]	domain_suffix	ipv6check-http.steamserver.net
+rules[0]	domain_suffix	ipv6check-udp.steamserver.net
+rules[0]	domain_suffix	kuketz.de
+rules[0]	domain_suffix	msftconnecttest.com
+rules[0]	domain_suffix	msftncsi.com
+rules[0]	domain_suffix	network-test.debian.org
+rules[0]	domain_suffix	test.steampowered.com

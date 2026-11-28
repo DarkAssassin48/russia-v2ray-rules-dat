@@ -1,0 +1,8 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	gitlab-assets.oss-cn-hongkong.aliyuncs.com
+rules[0]	domain_suffix	gitlab-static.net
+rules[0]	domain_suffix	gitlab.com
+rules[0]	domain_suffix	gitlab.io
+rules[0]	domain_suffix	gitlab.net

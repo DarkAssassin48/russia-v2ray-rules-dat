@@ -1,0 +1,19 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ak-p.tripcdn.com
+rules[0]	domain_suffix	ak-s-cw.tripcdn.com
+rules[0]	domain_suffix	ak-s.tripcdn.com
+rules[0]	domain_suffix	akatest.tripcdn.com
+rules[0]	domain_suffix	aw-d.tripcdn.com
+rules[0]	domain_suffix	aw-p.tripcdn.com
+rules[0]	domain_suffix	aw-s.tripcdn.com
+rules[0]	domain_suffix	ctrip.co.id
+rules[0]	domain_suffix	ctrip.co.kr
+rules[0]	domain_suffix	ctrip.co.th
+rules[0]	domain_suffix	ctrip.com.hk
+rules[0]	domain_suffix	ctrip.my
+rules[0]	domain_suffix	ctrip.sg
+rules[0]	domain_suffix	ctripbuy.hk
+rules[0]	domain_suffix	hhtravel.com.tw
+rules[0]	domain_suffix	trip.com

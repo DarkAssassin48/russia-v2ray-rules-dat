@@ -1,0 +1,24 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	activision.com
+rules[0]	domain_suffix	callofduty.com
+rules[0]	domain_suffix	callofdutyendowment.com
+rules[0]	domain_suffix	callofdutyendowment.org
+rules[0]	domain_suffix	callofdutyleague.com
+rules[0]	domain_suffix	callofdutymobile.com
+rules[0]	domain_suffix	crashbandicoot.com
+rules[0]	domain_suffix	demonware.net
+rules[0]	domain_suffix	highmoonstudios.com
+rules[0]	domain_suffix	infinityward.com
+rules[0]	domain_suffix	ravensoftware.com
+rules[0]	domain_suffix	sekirothegame.com
+rules[0]	domain_suffix	sierragames.com
+rules[0]	domain_suffix	skylanders.com
+rules[0]	domain_suffix	sledgehammergames.com
+rules[0]	domain_suffix	solidstate.com
+rules[0]	domain_suffix	spyrothedragon.com
+rules[0]	domain_suffix	tonyhawk.com
+rules[0]	domain_suffix	tonyhawkthegame.com
+rules[0]	domain_suffix	treyarch.com
+rules[0]	domain_suffix	worldseriesofwarzone.com

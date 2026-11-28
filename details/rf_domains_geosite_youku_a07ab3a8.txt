@@ -1,0 +1,34 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	ykimg.alicdn.com
+rules[0]	domain_suffix	9xsecndns.cn
+rules[0]	domain_suffix	ad.api.3g.youku.com
+rules[0]	domain_suffix	ad.api.mobile.youku.com
+rules[0]	domain_suffix	ad.mobile.youku.com
+rules[0]	domain_suffix	adashx.ut.youku.com
+rules[0]	domain_suffix	atm.youku.com
+rules[0]	domain_suffix	e.stat.ykimg.com
+rules[0]	domain_suffix	ems.youku.com
+rules[0]	domain_suffix	guanggaoad.youku.com
+rules[0]	domain_suffix	h-adashx.ut.youku.com
+rules[0]	domain_suffix	kumiao.com
+rules[0]	domain_suffix	lstat.youku.com
+rules[0]	domain_suffix	mobilemsg.youku.com
+rules[0]	domain_suffix	msg.youku.com
+rules[0]	domain_suffix	p-log.ykimg.com
+rules[0]	domain_suffix	passport-log.youku.com
+rules[0]	domain_suffix	pl.youku.com
+rules[0]	domain_suffix	s-adashx.ut.youku.com
+rules[0]	domain_suffix	soku.com
+rules[0]	domain_suffix	stat.youku.com
+rules[0]	domain_suffix	statis.api.3g.youku.com
+rules[0]	domain_suffix	tudou.com
+rules[0]	domain_suffix	v6-adashx.ut.youku.com
+rules[0]	domain_suffix	yk-ssp.ad.youku.com
+rules[0]	domain_suffix	ykad-data.youku.com
+rules[0]	domain_suffix	ykimg.com
+rules[0]	domain_suffix	youku.com
+rules[0]	domain_suffix	youku.tv
+rules[0]	domain_suffix	youkuhonor.com
+rules[0]	domain_suffix	youkuplay.com

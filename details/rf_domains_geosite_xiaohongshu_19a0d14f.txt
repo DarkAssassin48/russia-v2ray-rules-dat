@@ -1,0 +1,15 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	askdiandian.com
+rules[0]	domain_suffix	diandianlife.top
+rules[0]	domain_suffix	redelight.cn
+rules[0]	domain_suffix	rednote.com
+rules[0]	domain_suffix	rednote.com.my
+rules[0]	domain_suffix	rednotecdn.com
+rules[0]	domain_suffix	rnote.com
+rules[0]	domain_suffix	xhscdn.com
+rules[0]	domain_suffix	xhscdn.net
+rules[0]	domain_suffix	xhslink.com
+rules[0]	domain_suffix	xhsrcdn.com
+rules[0]	domain_suffix	xiaohongshu.com

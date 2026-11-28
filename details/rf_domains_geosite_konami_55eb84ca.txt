@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	573.jp
+rules[0]	domain_suffix	kgisystems.com
+rules[0]	domain_suffix	kiwi.jp
+rules[0]	domain_suffix	konami-igaming.online
+rules[0]	domain_suffix	konami.co.jp
+rules[0]	domain_suffix	konami.com
+rules[0]	domain_suffix	konami.net
+rules[0]	domain_suffix	konami.org
+rules[0]	domain_suffix	konamicrossmedia.com
+rules[0]	domain_suffix	konamigaming.com
+rules[0]	domain_suffix	konamigaming.net
+rules[0]	domain_suffix	konamigaming.online
+rules[0]	domain_suffix	konamionline.com
+rules[0]	domain_suffix	konamiopen.jp
+rules[0]	domain_suffix	konamisportsclub.jp
+rules[0]	domain_suffix	konamistyle.jp
+rules[0]	domain_suffix	resella.jp
+rules[0]	domain_suffix	resellablue.com
+rules[0]	domain_suffix	yugioh-card.com

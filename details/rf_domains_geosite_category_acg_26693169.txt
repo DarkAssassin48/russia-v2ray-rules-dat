@@ -1,0 +1,12 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	bestdori.com
+rules[0]	domain_suffix	bowlroll.net
+rules[0]	domain_suffix	colorfulstage.com
+rules[0]	domain_suffix	crypton.co.jp
+rules[0]	domain_suffix	lapriere.jp
+rules[0]	domain_suffix	magicalmirai.com
+rules[0]	domain_suffix	mikuexpo.com
+rules[0]	domain_suffix	piapro.net
+rules[0]	domain_suffix	snowmiku.com

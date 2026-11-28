@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	172.com
+rules[0]	domain_suffix	1qianbao.com
+rules[0]	domain_suffix	4008000000.com
+rules[0]	domain_suffix	lu.com
+rules[0]	domain_suffix	lufax.com
+rules[0]	domain_suffix	lufaxcdn.com
+rules[0]	domain_suffix	lujincaifu.com
+rules[0]	domain_suffix	mingyuanfund.com
+rules[0]	domain_suffix	pacfc.com
+rules[0]	domain_suffix	pafoundation.org.cn
+rules[0]	domain_suffix	ph.com.cn
+rules[0]	domain_suffix	pingan.cn
+rules[0]	domain_suffix	pingan.com
+rules[0]	domain_suffix	pingan.com.cn
+rules[0]	domain_suffix	pingan.com.hk
+rules[0]	domain_suffix	yiqianbao.com
+rules[0]	domain_suffix	yqb.com
+rules[0]	domain_suffix	yqbimg.net
+rules[0]	domain_suffix	yqbmall.com

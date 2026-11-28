@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	gog-cdn-lumen.secure2.footprint.net
+rules[0]	domain	gog-cdn.akamaized.net
+rules[0]	domain	gog.qtlglb.com
+rules[0]	domain_suffix	gog-services.com
+rules[0]	domain_suffix	gog-statics.com
+rules[0]	domain_suffix	gog.com
+rules[0]	domain_suffix	gogalaxy.com
+rules[0]	domain_suffix	insights-collector.gog.com

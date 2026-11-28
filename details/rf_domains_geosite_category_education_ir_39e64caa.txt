@@ -1,0 +1,13 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	done.ir
+rules[0]	domain_suffix	faradars.org
+rules[0]	domain_suffix	git.ir
+rules[0]	domain_suffix	iranlms.org
+rules[0]	domain_suffix	learnby.ir
+rules[0]	domain_suffix	maktabkhooneh.org
+rules[0]	domain_suffix	melotar.com
+rules[0]	domain_suffix	newdars.com
+rules[0]	domain_suffix	toplearn.com
+rules[0]	domain_suffix	webinarplus.online

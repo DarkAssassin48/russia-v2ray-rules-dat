@@ -1,0 +1,22 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ahc.ovh
+rules[0]	domain_suffix	api.alador.space
+rules[0]	domain_suffix	cdn-service.space
+rules[0]	domain_suffix	cdn2cdn.com
+rules[0]	domain_suffix	cdn2site.com
+rules[0]	domain_suffix	gfw.ovh
+rules[0]	domain_suffix	kino.pub
+rules[0]	domain_suffix	kino.watch
+rules[0]	domain_suffix	kinopub.online
+rules[0]	domain_suffix	kpdl.link
+rules[0]	domain_suffix	m.alador.space
+rules[0]	domain_suffix	mos-gorsud.co
+rules[0]	domain_suffix	pushbr.com
+rules[0]	domain_suffix	smarttvcdn.online
+rules[0]	domain_suffix	srvkp.com
+rules[0]	domain_suffix	support-kp.com
+rules[0]	domain_suffix	teleos.club
+rules[0]	domain_suffix	tsx.ovh
+rules[0]	domain_regex	(\w+)-static-[0-9]+\.cdntogo\.net$

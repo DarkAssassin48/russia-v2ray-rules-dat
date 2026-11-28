@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	ddurl.to
+rules[0]	domain_suffix	dingding.xin
+rules[0]	domain_suffix	dingstore.cn
+rules[0]	domain_suffix	dingtalk.cn
+rules[0]	domain_suffix	dingtalk.com
+rules[0]	domain_suffix	dingtalk.net
+rules[0]	domain_suffix	dingtalkapps.com
+rules[0]	domain_suffix	dingtalkcloud.com
+rules[0]	domain_suffix	laiwang.com
+rules[0]	domain_suffix	lwurl.to
+rules[0]	domain_suffix	ztna-dingtalk.com

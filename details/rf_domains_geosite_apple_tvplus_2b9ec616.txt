@@ -1,0 +1,11 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	apple-tv-plus-press.apple.com
+rules[0]	domain	hls-amt.itunes.apple.com
+rules[0]	domain	hls.itunes.apple.com
+rules[0]	domain	np-edge.itunes.apple.com
+rules[0]	domain	play-edge.itunes.apple.com
+rules[0]	domain	tv.applemusic.com
+rules[0]	domain	uts-api.itunes.apple.com
+rules[0]	domain_suffix	tv.apple.com

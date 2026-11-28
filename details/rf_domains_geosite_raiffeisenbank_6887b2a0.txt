@@ -1,0 +1,19 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	aval.ua
+rules[0]	domain_suffix	priorbank.by
+rules[0]	domain_suffix	raiffeisen-kosovo.com
+rules[0]	domain_suffix	raiffeisen-media.ru
+rules[0]	domain_suffix	raiffeisen.al
+rules[0]	domain_suffix	raiffeisen.hu
+rules[0]	domain_suffix	raiffeisen.ro
+rules[0]	domain_suffix	raiffeisen.ru
+rules[0]	domain_suffix	raiffeisen.ua
+rules[0]	domain_suffix	raiffeisenbank.ba
+rules[0]	domain_suffix	raiffeisenbank.rs
+rules[0]	domain_suffix	rb.cz
+rules[0]	domain_suffix	rba.hr
+rules[0]	domain_suffix	rbinternational.com
+rules[0]	domain_suffix	rzb.at
+rules[0]	domain_suffix	tatrabanka.sk

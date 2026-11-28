@@ -1,0 +1,35 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	flatmates.com.au
+rules[0]	domain_suffix	hackday.com.au
+rules[0]	domain_suffix	hometrack.com.au
+rules[0]	domain_suffix	housing.com
+rules[0]	domain_suffix	housingcdn.com
+rules[0]	domain_suffix	inventorship.com.au
+rules[0]	domain_suffix	ippstatic.com
+rules[0]	domain_suffix	iproperty.com
+rules[0]	domain_suffix	iproperty.com.my
+rules[0]	domain_suffix	iproperty.com.sg
+rules[0]	domain_suffix	makaan.com
+rules[0]	domain_suffix	move.com
+rules[0]	domain_suffix	moveaws.com
+rules[0]	domain_suffix	myfun.com
+rules[0]	domain_suffix	property.com.au
+rules[0]	domain_suffix	proptiger.com
+rules[0]	domain_suffix	rea-asia.com
+rules[0]	domain_suffix	rea-group.com
+rules[0]	domain_suffix	rea.design
+rules[0]	domain_suffix	rea.global
+rules[0]	domain_suffix	rea.io
+rules[0]	domain_suffix	rea.tech
+rules[0]	domain_suffix	realcommercial.com.au
+rules[0]	domain_suffix	realestate.com.au
+rules[0]	domain_suffix	realtor.com
+rules[0]	domain_suffix	reastatic.net
+rules[0]	domain_suffix	rumah123.com
+rules[0]	domain_suffix	smartexpos.com
+rules[0]	domain_suffix	smartline.com.au
+rules[0]	domain_suffix	spacely.com.au
+rules[0]	domain_suffix	squarefoot.com.hk
+rules[0]	domain_suffix	thinkofliving.com

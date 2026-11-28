@@ -1,0 +1,14 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	slack-core.com
+rules[0]	domain_suffix	slack-edge.com
+rules[0]	domain_suffix	slack-files.com
+rules[0]	domain_suffix	slack-imgs.com
+rules[0]	domain_suffix	slack-msgs.com
+rules[0]	domain_suffix	slack-redir.net
+rules[0]	domain_suffix	slack.com
+rules[0]	domain_suffix	slackb.com
+rules[0]	domain_suffix	slackcertified.com
+rules[0]	domain_suffix	slackdemo.com
+rules[0]	domain_suffix	slackhq.com

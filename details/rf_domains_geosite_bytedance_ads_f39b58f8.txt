@@ -1,0 +1,47 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain	ads3-normal-hl.zijieapi.com
+rules[0]	domain	ads3-normal.zijieapi.com
+rules[0]	domain	ads5-normal-hl.zijieapi.com
+rules[0]	domain	ads5-normal.zijieapi.com
+rules[0]	domain	log3-applog-hl.fqnovel.com
+rules[0]	domain	log3-applog.fqnovel.com
+rules[0]	domain	log5-applog-hl.fqnovel.com
+rules[0]	domain	log5-applog.fqnovel.com
+rules[0]	domain	p3-ad-sign.byteimg.com
+rules[0]	domain	p6-ad-sign.byteimg.com
+rules[0]	domain	p9-ad-sign.byteimg.com
+rules[0]	domain	rtlog3-applog-hl.fqnovel.com
+rules[0]	domain	rtlog3-applog.fqnovel.com
+rules[0]	domain	rtlog5-applog-hl.fqnovel.com
+rules[0]	domain	rtlog5-applog.fqnovel.com
+rules[0]	domain_suffix	ad.toutiao.com
+rules[0]	domain_suffix	analytics.tiktok.com
+rules[0]	domain_suffix	bds.snssdk.com
+rules[0]	domain_suffix	byteadverts.com
+rules[0]	domain_suffix	csjplatform.com
+rules[0]	domain_suffix	ctobsnssdk.com
+rules[0]	domain_suffix	dig.bdurl.net
+rules[0]	domain_suffix	extlog.snssdk.com
+rules[0]	domain_suffix	i.snssdk.com
+rules[0]	domain_suffix	log.zijieapi.com
+rules[0]	domain_suffix	mcs.snssdk.com
+rules[0]	domain_suffix	pangle.cn
+rules[0]	domain_suffix	pangolin-dsp-toutiao-b.com
+rules[0]	domain_suffix	pangolin-dsp-toutiao.com
+rules[0]	domain_suffix	pangolin-hl.snssdk.com
+rules[0]	domain_suffix	pangolin-lf.snssdk.com
+rules[0]	domain_suffix	pangolin-lq.snssdk.com
+rules[0]	domain_suffix	pangolin-sdk-toutiao-b.com
+rules[0]	domain_suffix	pangolin-sdk-toutiao.com
+rules[0]	domain_suffix	pangolin-sdk-toutiao1.com
+rules[0]	domain_suffix	pangolin.snssdk.com
+rules[0]	domain_suffix	panplayable-toutiao-b.com
+rules[0]	domain_suffix	panplayable-toutiao.com
+rules[0]	domain_suffix	pglstatp-sdk-toutiao.com
+rules[0]	domain_suffix	pglstatp-snssdk-toutiao.com
+rules[0]	domain_suffix	pglstatp-toutiao-b.com
+rules[0]	domain_suffix	pglstatp-toutiao.com
+rules[0]	domain_suffix	sf3-ttcdn-tos.pstatp.com
+rules[0]	domain_suffix	shoppingads.cn

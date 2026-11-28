@@ -1,0 +1,12 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	chinanews.com
+rules[0]	domain_suffix	chinanews.com.cn
+rules[0]	domain_suffix	chinaqw.com
+rules[0]	domain_suffix	cns.com.cn
+rules[0]	domain_suffix	cnsimg.net
+rules[0]	domain_suffix	ecns.cn
+rules[0]	domain_suffix	inewsweek.cn
+rules[0]	domain_suffix	jwview.com
+rules[0]	domain_suffix	xinmeng.info

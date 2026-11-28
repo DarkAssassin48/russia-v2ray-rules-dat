@@ -1,0 +1,39 @@
+# Точный состав правил. domain_suffix включает домен и все его поддомены.
+# domain — только точное имя; domain_keyword — фрагмент; domain_regex — регулярное выражение; ip_cidr — сеть.
+# Для логических комбинаций и исключений используйте полный JSON: он сохраняет исходную структуру.
+rules[0]	domain_suffix	loveminiso.com.br
+rules[0]	domain_suffix	miniso-au.com
+rules[0]	domain_suffix	miniso-bh.com
+rules[0]	domain_suffix	miniso-np.com
+rules[0]	domain_suffix	miniso-nz.com
+rules[0]	domain_suffix	miniso.by
+rules[0]	domain_suffix	miniso.ca
+rules[0]	domain_suffix	miniso.cn
+rules[0]	domain_suffix	miniso.co
+rules[0]	domain_suffix	miniso.co.id
+rules[0]	domain_suffix	miniso.co.tz
+rules[0]	domain_suffix	miniso.com
+rules[0]	domain_suffix	miniso.com.es
+rules[0]	domain_suffix	miniso.com.gr
+rules[0]	domain_suffix	miniso.com.mx
+rules[0]	domain_suffix	miniso.com.pl
+rules[0]	domain_suffix	miniso.com.py
+rules[0]	domain_suffix	miniso.com.tr
+rules[0]	domain_suffix	miniso.ge
+rules[0]	domain_suffix	miniso.ie
+rules[0]	domain_suffix	miniso.jp
+rules[0]	domain_suffix	miniso.ma
+rules[0]	domain_suffix	miniso.my
+rules[0]	domain_suffix	miniso.pe
+rules[0]	domain_suffix	miniso.pk
+rules[0]	domain_suffix	miniso.ua
+rules[0]	domain_suffix	miniso.uz
+rules[0]	domain_suffix	minisohome.cn
+rules[0]	domain_suffix	minisoindia.com
+rules[0]	domain_suffix	minisojordan.com
+rules[0]	domain_suffix	minisokorea.com
+rules[0]	domain_suffix	minisolife.co.za
+rules[0]	domain_suffix	minisothailand.com
+rules[0]	domain_suffix	minisovietam.vn
+rules[0]	domain_suffix	minsio.cn
+rules[0]	domain_suffix	myminiso.com
